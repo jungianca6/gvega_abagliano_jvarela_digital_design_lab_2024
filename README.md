@@ -1,1 +1,1 @@
-# jungianca6_digital_design_lab_2024
+# Taller de Diseño Digital - II-2024
