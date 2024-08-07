@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sum_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Cin",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

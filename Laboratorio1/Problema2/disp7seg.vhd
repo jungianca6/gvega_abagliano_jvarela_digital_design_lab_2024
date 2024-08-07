@@ -35,7 +35,7 @@ BEGIN
         when "1101"=> seg <="1000010";  -- d (minúcula por el 0)
         when "1110"=> seg <="0110000";  -- E
         when "1111"=> seg <="0111000";  -- F
-        when others =>  NULL;             -- En caso de una entrada no válida, se deja la salida en NULL
+        when others =>  seg <= "1111111";  -- Apagar todos los segmentos;             -- En caso de una entrada no válida, se deja la salida en NULL
     end case;
 	 
 end process;
