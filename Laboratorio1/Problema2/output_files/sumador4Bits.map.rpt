@@ -1,5 +1,5 @@
 Analysis & Elaboration report for sumador4Bits
-Tue Aug  6 12:00:41 2024
+Tue Aug  6 22:31:43 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -10,7 +10,8 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  5. Port Connectivity Checks: "disp7seg:carry_disp"
+  6. Analysis & Elaboration Messages
 
 
 
@@ -37,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Tue Aug  6 12:00:41 2024              ;
+; Analysis & Elaboration Status ; Successful - Tue Aug  6 22:31:43 2024          ;
 ; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                 ; sumador4Bits                                   ;
 ; Top-level Entity Name         ; sumador4Bits                                   ;
@@ -57,8 +58,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -155,41 +156,44 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++-------------------------------------------------+
+; Port Connectivity Checks: "disp7seg:carry_disp" ;
++-------------+-------+----------+----------------+
+; Port        ; Type  ; Severity ; Details        ;
++-------------+-------+----------+----------------+
+; b_num[3..1] ; Input ; Info     ; Stuck at GND   ;
++-------------+-------+----------+----------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Tue Aug  6 12:00:28 2024
+    Info: Processing started: Tue Aug  6 22:31:31 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sumador4Bits -c sumador4Bits --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file sumador1bit.vhd
-    Info (12022): Found design unit 1: sumador1Bit-oneBitModule File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd Line: 12
-    Info (12023): Found entity 1: sumador1Bit File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd Line: 3
+    Info (12022): Found design unit 1: sumador1Bit-oneBitModule File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd Line: 12
+    Info (12023): Found entity 1: sumador1Bit File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file sumador4bits.vhd
-    Info (12022): Found design unit 1: sumador4Bits-sumadorCompleto4Bits File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 16
-    Info (12023): Found entity 1: sumador4Bits File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 4
+    Info (12022): Found design unit 1: sumador4Bits-sumadorCompleto4Bits File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 16
+    Info (12023): Found entity 1: sumador4Bits File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file disp7seg.vhd
-    Info (12022): Found design unit 1: disp7seg-Behavioral File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd Line: 13
-    Info (12023): Found entity 1: disp7seg File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd Line: 4
+    Info (12022): Found design unit 1: disp7seg-Behavioral File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd Line: 13
+    Info (12023): Found entity 1: disp7seg File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file sumador4bits_tb.vhd
-    Info (12022): Found design unit 1: sumador4Bits_tb-Prueba File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd Line: 7
-    Info (12023): Found entity 1: sumador4Bits_tb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd Line: 4
+    Info (12022): Found design unit 1: sumador4Bits_tb-Prueba File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd Line: 7
+    Info (12023): Found entity 1: sumador4Bits_tb File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd Line: 4
 Info (12127): Elaborating entity "sumador4Bits" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at sumador4Bits.vhd(38): used implicit default value for signal "result" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 38
-Warning (10873): Using initial value X (don't care) for net "f_carry[3]" at sumador4Bits.vhd(37) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 37
-Error (10028): Can't resolve multiple constant drivers for net "S[3]" at sumador4Bits.vhd(46) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 46
-Error (10029): Constant driver at sumador4Bits.vhd(48) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 48
-Error (10028): Can't resolve multiple constant drivers for net "S[2]" at sumador4Bits.vhd(45) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 45
-Error (10028): Can't resolve multiple constant drivers for net "S[1]" at sumador4Bits.vhd(44) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 44
-Error (10028): Can't resolve multiple constant drivers for net "S[0]" at sumador4Bits.vhd(43) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 43
-Error (12153): Can't elaborate top-level user hierarchy
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 6 errors, 3 warnings
-    Error: Peak virtual memory: 4846 megabytes
-    Error: Processing ended: Tue Aug  6 12:00:41 2024
-    Error: Elapsed time: 00:00:13
-    Error: Total CPU time (on all processors): 00:00:31
+Info (12128): Elaborating entity "sumador1Bit" for hierarchy "sumador1Bit:FA0" File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 43
+Info (12128): Elaborating entity "disp7seg" for hierarchy "disp7seg:sum_disp" File: C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd Line: 51
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4846 megabytes
+    Info: Processing ended: Tue Aug  6 22:31:43 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:26
 
 
