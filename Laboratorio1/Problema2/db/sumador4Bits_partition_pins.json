@@ -52,11 +52,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "carry_seg[1]",
-					"strict" : false
-				},
-				{
-					"name" : "carry_seg[2]",
+					"name" : "carry_seg[0]",
 					"strict" : false
 				},
 				{
@@ -64,7 +60,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "carry_seg[6]",
+					"name" : "carry_seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "carry_seg[5]",
 					"strict" : false
 				},
 				{
