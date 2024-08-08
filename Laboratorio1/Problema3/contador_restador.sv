@@ -19,3 +19,22 @@ always @(posedge clk or posedge reset) begin
 end
 
 endmodule
+
+
+
+/*
+Implementación para la FPGA
+*/
+/*
+
+module counter #(
+    parameter N = 6
+)(
+    input logic reset,
+    input logic clk,
+    input logic run,
+    input reg [N-1:0] a,
+	 output logic[N-1:0] z,
+    output reg [6:0] digit0,
+    output reg [6:0] digit1
+);
