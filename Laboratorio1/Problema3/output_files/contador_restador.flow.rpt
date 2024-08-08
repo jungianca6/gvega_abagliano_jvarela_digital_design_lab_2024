@@ -1,5 +1,5 @@
 Flow report for contador_restador
-Wed Aug 07 22:20:18 2024
+Thu Aug 08 01:29:15 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Wed Aug 07 22:20:18 2024       ;
+; Flow Status                 ; Successful - Thu Aug 08 01:29:15 2024       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; contador_restador                           ;
 ; Top-level Entity Name       ; contador_restador                           ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/07/2024 22:20:11 ;
+; Start date & time ; 08/08/2024 01:29:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; contador_restador   ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 5334173909652.172309081106888          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 5334173909652.172310214708728          ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; contador_restador_tb              ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -104,8 +104,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4757 MB             ; 00:00:15                           ;
-; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4765 MB             ; 00:00:16                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:16                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -12,29 +12,31 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:20:37 on Aug 07,2024
+# Start time: 01:29:24 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv 
 # -- Compiling module contador_restador
+# -- Compiling module counter
 # 
 # Top level modules:
 # 	contador_restador
-# End time: 22:20:37 on Aug 07,2024, Elapsed time: 0:00:00
+# 	counter
+# End time: 01:29:24 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:20:38 on Aug 07,2024
+# Start time: 01:29:24 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv 
 # -- Compiling module contador_restador_tb
 # 
 # Top level modules:
 # 	contador_restador_tb
-# End time: 22:20:38 on Aug 07,2024, Elapsed time: 0:00:00
+# End time: 01:29:24 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_restador_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" contador_restador_tb 
-# Start time: 22:20:38 on Aug 07,2024
+# Start time: 01:29:25 on Aug 08,2024
 # Loading sv_std.std
 # Loading work.contador_restador_tb
 # Loading work.contador_restador
@@ -95,5 +97,5 @@
 #    Time: 420 ps  Iteration: 0  Instance: /contador_restador_tb
 # 1
 # Break in Module contador_restador_tb at C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 59
-# End time: 22:21:17 on Aug 07,2024, Elapsed time: 0:00:39
+# End time: 01:30:36 on Aug 08,2024, Elapsed time: 0:01:11
 # Errors: 0, Warnings: 0

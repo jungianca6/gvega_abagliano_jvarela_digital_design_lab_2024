@@ -25,7 +25,7 @@ endmodule
 /*
 Implementación para la FPGA
 */
-/*
+
 
 module counter #(
     parameter N = 6
@@ -92,4 +92,3 @@ module counter #(
     end
 
 endmodule
-*/
