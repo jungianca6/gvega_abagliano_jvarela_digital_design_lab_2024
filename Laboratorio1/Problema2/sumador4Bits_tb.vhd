@@ -10,7 +10,9 @@ architecture Prueba of sumador4Bits_tb is
             A, B : in std_logic_vector(3 downto 0);  -- Entradas de dos números de 4 bits
             Cin  : in std_logic;                      -- Entrada del acarreo de entrada
             S  : out std_logic_vector(3 downto 0);    -- Salida de la suma de 4 bits
-            Cout : out std_logic      -- Salida del acarreo de salida
+            Cout : out std_logic;      -- Salida del acarreo de salida
+				sum_seg : out std_logic_vector(6 downto 0);
+            carry_seg : out std_logic_vector(6 downto 0)
         );
     end component;
 	 
@@ -22,6 +24,8 @@ architecture Prueba of sumador4Bits_tb is
 	--Outputs
 	 signal S : std_logic_vector(3 downto 0);
 	 signal Cout : std_logic;
+	 signal sum_seg : std_logic_vector(6 downto 0);
+    signal carry_seg : std_logic_vector(6 downto 0);
 	 
 begin
     -- Instancia del diseño bajo prueba (DUT)
@@ -30,7 +34,9 @@ begin
 	 B => B, 
 	 Cin => Cin, 
 	 S  => S, 
-	 Cout => Cout
+	 Cout => Cout,
+	 sum_seg => sum_seg,
+    carry_seg => carry_seg
 	 );
 
     -- Proceso para generar estímulos de entrada
@@ -48,6 +54,8 @@ begin
 
         -- Cuarto conjunto de valores de entrada
         a <= "1010"; b <= "0110";  wait for 10 ns;
+		  
+		  a <= "1111"; b <= "1111";  wait for 10 ns;
 
         wait;  -- Espera indefinida
     end process stimulus;
