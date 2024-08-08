@@ -6,8 +6,8 @@ entity sumador4Bits is
         A: in std_logic_vector(3 downto 0); 			-- Entrada del primer número de 4 bits
 		  B: in std_logic_vector(3 downto 0); 			-- Entrada del segundo número de 4 bits
         Cin  : in std_logic;                   		-- Acarreo de entrada
-        S : out std_logic_vector(3 downto 0); 	-- Salida de la suma de 4 bits
-        Cout : out std_logic;							-- Salida del acarreo de salida
+        S : buffer std_logic_vector(3 downto 0); 	-- Salida de la suma de 4 bits
+        Cout : buffer std_logic;							-- Salida del acarreo de salida
 		  sum_seg: out std_logic_vector(6 downto 0);
         carry_seg: out std_logic_vector(6 downto 0)
 		  );  
@@ -22,8 +22,8 @@ architecture sumadorCompleto4Bits of sumador4Bits is
             A : in std_logic; 
 				B : in std_logic;
 				Cin : in std_logic;
-            S : out std_logic;
-				Cout: out std_logic );
+            S : buffer std_logic;
+				Cout: buffer std_logic );
         
     end component;
 	 
@@ -35,7 +35,7 @@ architecture sumadorCompleto4Bits of sumador4Bits is
 	 end component;
 	 
 	 signal f_carry : std_logic_vector(3 downto 0); 	-- Señal para almacenar el carry de salida
-	 signal result: std_logic_vector(3 downto 0);
+	 signal carryOut: std_logic_vector(3 downto 0) := "0000";
 	 
 	 
 begin
@@ -45,12 +45,12 @@ begin
     FA2: sumador1Bit port map (A(2), B(2), f_carry(1), S(2), f_carry(2)); -- Suma el tercer bit con el acarreo anterior
     FA3: sumador1Bit port map (A(3), B(3), f_carry(2), S(3), Cout); -- Suma el bit más significativo y obtiene el acarreo de salida
 	 
-	 S <= result;
+	 carryOut(0) <= Cout;
 	 
 	 -- Instancia del decodificador de 7 segmentos para la suma
-    sum_disp: disp7seg port map (result, sum_seg);
+    sum_disp: disp7seg port map (S, sum_seg);
 
     -- Instancia del decodificador de 7 segmentos para el acarreo
-    carry_disp: disp7seg port map (f_carry, carry_seg);
+    carry_disp: disp7seg port map (carryOut, carry_seg);
 	 
 end sumadorCompleto4Bits;

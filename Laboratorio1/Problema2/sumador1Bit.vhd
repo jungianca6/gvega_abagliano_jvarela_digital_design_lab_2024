@@ -5,7 +5,7 @@ entity sumador1Bit is
 	port(A : in STD_LOGIC; 					-- Entrada del primer número de 4 bits
 		  B : in STD_LOGIC; 					-- Entrada del segundo número de 4 bits
 		  Cin : in STD_LOGIC;				-- Acarreo de entrada
-			S, Cout: out STD_LOGIC);	-- Resultado de la suma y acarreo de salida
+			S, Cout: buffer STD_LOGIC);	-- Resultado de la suma y acarreo de salida
 			
 end;
 

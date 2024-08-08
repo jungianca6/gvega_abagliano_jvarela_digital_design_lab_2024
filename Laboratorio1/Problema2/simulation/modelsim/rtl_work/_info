@@ -8,38 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/simulation/modelsim
-Esumador1bit
-Z1 w1722961920
+Z0 dC:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/simulation/modelsim
+Edisp7seg
+Z1 w1723013205
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
+!i122 2
 R0
-Z4 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd
-Z5 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd
+Z4 8C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd
+Z5 FC:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd
 l0
-L3 1
-V=HL0SU>fAbU@X[ES?iHc[0
-!s100 b1JW3:;Hfl88ZN7Uf=LY[3
+L4 1
+VzefeeWiWZgWEnAXe;Q>0S1
+!s100 @oJkgbDDY@:aa]O7njo743
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1722964768
+Z7 !s110 1723015261
 !i10b 1
-Z8 !s108 1722964768.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd|
-Z10 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd|
+Z8 !s108 1723015261.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd|
+Z10 !s107 C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/disp7seg.vhd|
 !i113 1
 Z11 o-93 -work work
 Z12 tExplicit 1 CvgOpt 0
-Aonebitmodule
+Abehavioral
 R2
 R3
-DEx4 work 11 sumador1bit 0 22 =HL0SU>fAbU@X[ES?iHc[0
-!i122 0
-l14
-L12 10
-Vf6`0aNoA3a9S^o`HP8PFD3
-!s100 iCZT7cHTdFLn<OTHad;>@2
+DEx4 work 8 disp7seg 0 22 zefeeWiWZgWEnAXe;Q>0S1
+!i122 2
+l15
+L13 31
+VNoC=kBKFQaUJiCoVB3EJ43
+!s100 TF@CXkW@7UW9c^WAUO@5L0
 R6
 31
 R7
@@ -50,66 +50,107 @@ R10
 !i113 1
 R11
 R12
+Esumador1bit
+Z13 w1723005003
+R2
+R3
+!i122 0
+R0
+Z14 8C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd
+Z15 FC:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd
+l0
+L3 1
+V<O8HSOI5Y^zE3bz<A2JA31
+!s100 ZkdmdO4S9O5fl[_O?EM683
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1723015260.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd|
+Z18 !s107 C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador1Bit.vhd|
+!i113 1
+R11
+R12
+Aonebitmodule
+R2
+R3
+DEx4 work 11 sumador1bit 0 22 <O8HSOI5Y^zE3bz<A2JA31
+!i122 0
+l14
+L12 10
+Vf6`0aNoA3a9S^o`HP8PFD3
+!s100 iCZT7cHTdFLn<OTHad;>@2
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
 Esumador4bits
-Z13 w1722964544
+Z19 w1723005000
 R2
 R3
 !i122 1
 R0
-Z14 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd
-Z15 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd
+Z20 8C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd
+Z21 FC:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd
 l0
 L4 1
-V2[NN_^^Vkh8i<Gkfd:lAz0
-!s100 jWz2nHAAHY[9fmzCEm;^I1
+V?ZJKQ_9AbO7[4F>fb]XI;1
+!s100 DfnZ`BHB5i1bKV0llOB@_1
 R6
 31
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd|
-Z17 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd|
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd|
+Z23 !s107 C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits.vhd|
 !i113 1
 R11
 R12
 Asumadorcompleto4bits
 R2
 R3
-DEx4 work 12 sumador4bits 0 22 2[NN_^^Vkh8i<Gkfd:lAz0
+DEx4 work 12 sumador4bits 0 22 ?ZJKQ_9AbO7[4F>fb]XI;1
 !i122 1
-l36
-L13 39
-VG^VF4iO`Y6V@R]KkE1LK22
-!s100 OLUn8?D>gY^?a]noROKiG1
+l41
+L16 41
+V53Wlk01AdJA`MYPiNjfSY1
+!s100 @Fgzb0jJSIzX87OGQoL3=1
 R6
 31
 R7
 !i10b 1
 R8
-R16
-R17
+R22
+R23
 !i113 1
 R11
 R12
 Esumador4bits_tb
-Z18 w1722964490
+Z24 w1723015224
 R2
 R3
-!i122 2
+!i122 3
 R0
-Z19 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd
-Z20 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd
+Z25 8C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd
+Z26 FC:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd
 l0
 L4 1
 V3If=7z]aU1H`??G`meA3J1
 !s100 XR7ATWi7@[7XX3eBC@GUD0
 R6
 31
-Z21 !s110 1722964769
+R7
 !i10b 1
-Z22 !s108 1722964769.000000
-Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
+!s107 C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
 !i113 1
 R11
 R12
@@ -117,18 +158,18 @@ Aprueba
 R2
 R3
 DEx4 work 15 sumador4bits_tb 0 22 3If=7z]aU1H`??G`meA3J1
-!i122 2
-l26
-L7 48
-V1CY9I=QE3L:cONkDfgg>j0
-!s100 :_0U;5OUY[g6d[HANJLRL1
+!i122 3
+l30
+L7 56
+V6ok4O7;dQK=flfeL>AP[X0
+!s100 JoXHf0=I3D`^?fYN0hZg<3
 R6
 31
-R21
+R7
 !i10b 1
-R22
-R23
-Z24 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
+R8
+R27
+Z28 !s107 C:/Users/DELL/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema2/sumador4Bits_tb.vhd|
 !i113 1
 R11
 R12

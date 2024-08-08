@@ -1,0 +1,33 @@
+|contador_restador
+clk => z[0]~reg0.CLK
+clk => z[1]~reg0.CLK
+clk => z[2]~reg0.CLK
+clk => z[3]~reg0.CLK
+clk => z[4]~reg0.CLK
+clk => z[5]~reg0.CLK
+reset => z[0]~reg0.ALOAD
+reset => z[1]~reg0.ALOAD
+reset => z[2]~reg0.ALOAD
+reset => z[3]~reg0.ALOAD
+reset => z[4]~reg0.ALOAD
+reset => z[5]~reg0.ALOAD
+run => z[0]~reg0.ENA
+run => z[5]~reg0.ENA
+run => z[4]~reg0.ENA
+run => z[3]~reg0.ENA
+run => z[2]~reg0.ENA
+run => z[1]~reg0.ENA
+a[0] => z[0]~reg0.ADATA
+a[1] => z[1]~reg0.ADATA
+a[2] => z[2]~reg0.ADATA
+a[3] => z[3]~reg0.ADATA
+a[4] => z[4]~reg0.ADATA
+a[5] => z[5]~reg0.ADATA
+z[0] <= z[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z[1] <= z[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z[2] <= z[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z[3] <= z[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z[4] <= z[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z[5] <= z[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

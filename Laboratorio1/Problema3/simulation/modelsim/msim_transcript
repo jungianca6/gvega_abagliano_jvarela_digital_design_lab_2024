@@ -1,0 +1,99 @@
+# Reading pref.tcl
+# do contador_restador_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:49 on Aug 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv 
+# -- Compiling module contador_restador
+# 
+# Top level modules:
+# 	contador_restador
+# End time: 16:25:49 on Aug 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:49 on Aug 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv 
+# -- Compiling module contador_restador_tb
+# 
+# Top level modules:
+# 	contador_restador_tb
+# End time: 16:25:50 on Aug 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_restador_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" contador_restador_tb 
+# Start time: 16:25:50 on Aug 06,2024
+# Loading sv_std.std
+# Loading work.contador_restador_tb
+# Loading work.contador_restador
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# TestBench para 2 bits
+# Time: 0 | reset: 1 | run: 0 | a:  3 | z:  3
+# Time: 10 | reset: 0 | run: 0 | a:  3 | z:  3
+# Time: 20 | reset: 0 | run: 1 | a:  3 | z:  3
+# Time: 25 | reset: 0 | run: 1 | a:  3 | z:  2
+# Time: 35 | reset: 0 | run: 1 | a:  3 | z:  1
+# Time: 45 | reset: 0 | run: 1 | a:  3 | z:  0
+# TestBench para 4 bits
+# Time: 70 | reset: 1 | run: 0 | a: 15 | z: 15
+# Time: 80 | reset: 0 | run: 0 | a: 15 | z: 15
+# Time: 90 | reset: 0 | run: 1 | a: 15 | z: 15
+# Time: 95 | reset: 0 | run: 1 | a: 15 | z: 14
+# Time: 105 | reset: 0 | run: 1 | a: 15 | z: 13
+# Time: 115 | reset: 0 | run: 1 | a: 15 | z: 12
+# Time: 125 | reset: 0 | run: 1 | a: 15 | z: 11
+# Time: 135 | reset: 0 | run: 1 | a: 15 | z: 10
+# Time: 145 | reset: 0 | run: 1 | a: 15 | z:  9
+# Time: 155 | reset: 0 | run: 1 | a: 15 | z:  8
+# Time: 165 | reset: 0 | run: 1 | a: 15 | z:  7
+# Time: 175 | reset: 0 | run: 1 | a: 15 | z:  6
+# Time: 185 | reset: 0 | run: 1 | a: 15 | z:  5
+# TestBench para 6 bits
+# Time: 190 | reset: 1 | run: 0 | a: 63 | z: 63
+# Time: 200 | reset: 0 | run: 0 | a: 63 | z: 63
+# Time: 210 | reset: 0 | run: 1 | a: 63 | z: 63
+# Time: 215 | reset: 0 | run: 1 | a: 63 | z: 62
+# Time: 225 | reset: 0 | run: 1 | a: 63 | z: 61
+# Time: 235 | reset: 0 | run: 1 | a: 63 | z: 60
+# Time: 245 | reset: 0 | run: 1 | a: 63 | z: 59
+# Time: 255 | reset: 0 | run: 1 | a: 63 | z: 58
+# Time: 265 | reset: 0 | run: 1 | a: 63 | z: 57
+# Time: 275 | reset: 0 | run: 1 | a: 63 | z: 56
+# Time: 285 | reset: 0 | run: 1 | a: 63 | z: 55
+# Time: 295 | reset: 0 | run: 1 | a: 63 | z: 54
+# Time: 305 | reset: 0 | run: 1 | a: 63 | z: 53
+# Time: 315 | reset: 0 | run: 1 | a: 63 | z: 52
+# Time: 325 | reset: 0 | run: 1 | a: 63 | z: 51
+# Time: 335 | reset: 0 | run: 1 | a: 63 | z: 50
+# Time: 345 | reset: 0 | run: 1 | a: 63 | z: 49
+# Time: 355 | reset: 0 | run: 1 | a: 63 | z: 48
+# Time: 365 | reset: 0 | run: 1 | a: 63 | z: 47
+# Time: 375 | reset: 0 | run: 1 | a: 63 | z: 46
+# Time: 385 | reset: 0 | run: 1 | a: 63 | z: 45
+# Time: 395 | reset: 0 | run: 1 | a: 63 | z: 44
+# Time: 405 | reset: 0 | run: 1 | a: 63 | z: 43
+# Time: 410 | reset: 0 | run: 0 | a: 63 | z: 43
+# ** Note: $finish    : C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(59)
+#    Time: 420 ps  Iteration: 0  Instance: /contador_restador_tb
+# 1
+# Break in Module contador_restador_tb at C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 59
+# End time: 16:27:32 on Aug 06,2024, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
