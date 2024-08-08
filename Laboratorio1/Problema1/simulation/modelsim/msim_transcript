@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# do BinaryToBCD_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1 {C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:00:03 on Aug 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1" C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv 
+# -- Compiling module binary_to_bcd
+# 
+# Top level modules:
+# 	binary_to_bcd
+# End time: 22:00:03 on Aug 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1 {C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:00:03 on Aug 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1" C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv 
+# -- Compiling module tb_binary_to_bcd
+# 
+# Top level modules:
+# 	tb_binary_to_bcd
+# End time: 22:00:03 on Aug 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_binary_to_bcd
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_binary_to_bcd 
+# Start time: 22:00:03 on Aug 06,2024
+# Loading sv_std.std
+# Loading work.tb_binary_to_bcd
+# Loading work.binary_to_bcd
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Aless  Hostname: GRISELDA  ProcessID: 6336
+#           Attempting to use alternate WLF file "./wlftmxinck".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmxinck
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# binary = 0000, bcd = 00000000
+# binary = 0001, bcd = 00000001
+# binary = 0010, bcd = 00000010
+# binary = 0011, bcd = 00000011
+# binary = 0100, bcd = 00000100
+# binary = 0101, bcd = 00000101
+# binary = 0110, bcd = 00000110
+# binary = 0111, bcd = 00000111
+# ** Note: $finish    : C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv(23)
+#    Time: 80 ps  Iteration: 0  Instance: /tb_binary_to_bcd
+# 1
+# Break in Module tb_binary_to_bcd at C:/Users/Aless/OneDrive/Escritorio/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv line 23
