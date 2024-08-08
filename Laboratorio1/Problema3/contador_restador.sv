@@ -18,12 +18,11 @@ always @(posedge clk or posedge reset) begin
     end
 end
 
-contadorFPGA contadorFPGA_inst(
+contadorFPGA #(.N(N)) contadorFPGA_inst(
 	 .reset(reset),
     .clk(clk),
     .run(run),
-    .a(a),
-    .z(z),
+    .a(z),
 	 .digit0(digit0),
     .digit1(digit1)
 );
