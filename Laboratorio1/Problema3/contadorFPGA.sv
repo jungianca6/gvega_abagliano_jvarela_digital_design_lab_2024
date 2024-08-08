@@ -4,8 +4,8 @@ module contadorFPGA #(
     input logic reset,
     input logic clk,
     input logic run,
-    input reg [N-1:0] a,
-    output logic [N-1:0] z,  // Declarar `z` solo como salida
+    input logic [N-1:0] a,
+    output logic [N-1:0] z,  
     output reg [6:0] digit0,
     output reg [6:0] digit1
 );
@@ -17,7 +17,7 @@ module contadorFPGA #(
             z <= a; // Resetea el contador a 'a' cuando el reset es activo
             counter <= 0;
         end else begin
-            if (!run && (z != 0)) begin // Asegura que el contador no llegue a un valor negativo
+            if (run && (z != 0)) begin // Asegura que el contador no llegue a un valor negativo
                 if(counter == 15_000_000) begin
                     z <= z - 1; // Decrementa el contador en cada flanco de bajada del reloj
                     counter <= 0;
@@ -59,4 +59,5 @@ module contadorFPGA #(
     end
 
 endmodule
+
 

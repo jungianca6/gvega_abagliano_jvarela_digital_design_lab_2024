@@ -46,6 +46,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv}
 
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv}
 

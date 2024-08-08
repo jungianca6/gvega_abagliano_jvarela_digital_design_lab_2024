@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/simulation/modelsim
 vcontador_restador
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1723105522
+Z2 !s110 1723116152
 !i10b 1
-!s100 j__A0;R6W_1DzJcSG;7EF3
+!s100 mnSk9^?VIG@ni2?zklESg1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IJYh[K77_jH<YkKnj2B2983
+I=G4k7N@X8<HRC5Ek]Zn3I1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1723105458
+w1723116095
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 !i122 0
-L0 1 30
+L0 1 20
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1723105522.000000
+Z6 !s108 1723116152.000000
 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !i113 1
@@ -37,19 +37,19 @@ Z8 !s92 -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_20
 Z9 tCvgOpt 0
 vcontador_restador_tb
 R1
-!s110 1723105523
+R2
 !i10b 1
-!s100 [T<i4zX?KR<aPQ[M_>XS72
+!s100 =IgLhih9RHgSNQ4deZ4VK1
 R3
-IIjMfIlbUl?eE72f31o>4h2
+Il_W^X;4DaVDO1f>@`RX9T2
 R4
 S1
 R0
-w1723104731
+w1723116093
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
-!i122 2
-Z10 L0 1 61
+!i122 1
+L0 1 63
 R5
 r1
 !s85 0
@@ -61,30 +61,3 @@ R6
 R7
 R8
 R9
-vcontadorFPGA
-R1
-R2
-!i10b 1
-!s100 U@1EVKFkbaWeG0Z`_ZZFb3
-R3
-IQXV0l7dAQgUi<h9ZGIVZf0
-R4
-S1
-R0
-w1723105213
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
-!i122 1
-R10
-R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
-!i113 1
-R7
-R8
-R9
-ncontador@f@p@g@a

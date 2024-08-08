@@ -1,8 +1,8 @@
 
 module binary_to_bcd(
 		input logic[3:0] binary,
-      output logic [5:0]  bcd
-		//output logic [6:0] seg
+      output logic [7:0]  bcd, 
+      output logic [6:0] seg
 );
 		
 			
@@ -18,23 +18,15 @@ module binary_to_bcd(
     4'b0111: bcd = 8'b00000111; //7 en BCD
     4'b1000: bcd = 8'b00001000; //8 en BCD
     4'b1001: bcd = 8'b00001001; //9 en BCD
-    4'b1010: bcd = 8'b0001_0000; //10 en BCD
-    4'b1011: bcd = 8'b0001_0001; //11 en BCD
-    4'b1100: bcd = 8'b0001_0010; //12 en BCD
-    4'b1101: bcd = 8'b0001_0011; //13 en BCD
-    4'b1110: bcd = 8'b0001_0100; //14 en BCD
-    4'b1111: bcd = 8'b0001_0101; //15 en BCD
 
-    default: bcd = 8'b11110000;
+    default: bcd = 6'b110000;
    endcase
 	
+ bcdFPGA BCDFPGA_inst(
+    .bcd(bcd),
+    .seg(seg)
+     );
+
 endmodule
 
-	
-	
-	// Instancia del módulo decoderFPGA y conexión
-   //decoderFPGA decoderFPGA_inst(
-    //.bcd(bcd),
-    //.seg(seg)
-     //);
 

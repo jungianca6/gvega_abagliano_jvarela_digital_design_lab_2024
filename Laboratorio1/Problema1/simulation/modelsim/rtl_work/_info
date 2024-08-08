@@ -9,32 +9,59 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/simulation/modelsim
-vbinary_to_bcd
+vbcdFPGA
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1723096926
+Z2 !s110 1723119267
 !i10b 1
-!s100 @l?i6@7[V^omf^7JQmn1g1
+!s100 fUK_[6GG7Dk<jAOXi[AWz0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I4FHa^?eO=JP`@LdcMfi6=0
+I2k9i8ZU8bHBlYJA7;z<Ce0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1723096512
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
-!i122 0
-L0 2 30
+w1723119206
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv
+!i122 1
+L0 1 24
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1723096926.000000
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv|
+Z6 !s108 1723119266.000000
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv|
 !i113 1
 Z7 o-sv -work work
 Z8 !s92 -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1
 Z9 tCvgOpt 0
+nbcd@f@p@g@a
+vbinary_to_bcd
+R1
+!s110 1723119266
+!i10b 1
+!s100 BnXEncNk1d2m0TDS[VXRU0
+R3
+Ih?]DHiekkddGM6RdLoC[d1
+R4
+S1
+R0
+w1723119172
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
+!i122 0
+L0 2 35
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv|
+!i113 1
+R7
+R8
+R9
 vtb_binary_to_bcd
 R1
 R2
@@ -48,13 +75,13 @@ R0
 w1723096869
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv
-!i122 1
+!i122 2
 L0 1 23
 R5
 r1
 !s85 0
 31
-R6
+!s108 1723119267.000000
 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv|
 !i113 1
