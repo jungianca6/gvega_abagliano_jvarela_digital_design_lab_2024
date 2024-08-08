@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:08 on Aug 08,2024
+# Start time: 10:27:35 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 05:22:09 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:27:37 on Aug 08,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:10 on Aug 08,2024
+# Start time: 10:27:37 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 05:22:10 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 10:27:38 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:11 on Aug 08,2024
+# Start time: 10:27:38 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 05:22:11 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 10:27:38 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:12 on Aug 08,2024
+# Start time: 10:27:38 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 05:22:13 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:27:40 on Aug 08,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:14 on Aug 08,2024
+# Start time: 10:27:41 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 05:22:15 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:27:42 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:15 on Aug 08,2024
+# Start time: 10:27:43 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 05:22:19 on Aug 08,2024, Elapsed time: 0:00:04
+# End time: 10:27:46 on Aug 08,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:19 on Aug 08,2024
+# Start time: 10:27:46 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 05:22:22 on Aug 08,2024, Elapsed time: 0:00:03
+# End time: 10:27:49 on Aug 08,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:22 on Aug 08,2024
+# Start time: 10:27:49 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 05:22:23 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:27:50 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:23 on Aug 08,2024
+# Start time: 10:27:51 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 05:22:26 on Aug 08,2024, Elapsed time: 0:00:03
+# End time: 10:27:54 on Aug 08,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:26 on Aug 08,2024
+# Start time: 10:27:54 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 05:22:27 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:27:55 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:27 on Aug 08,2024
+# Start time: 10:27:56 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 05:22:31 on Aug 08,2024, Elapsed time: 0:00:04
+# End time: 10:28:00 on Aug 08,2024, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:31 on Aug 08,2024
+# Start time: 10:28:00 on Aug 08,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 05:22:32 on Aug 08,2024, Elapsed time: 0:00:01
+# End time: 10:28:01 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -800,32 +800,50 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:32 on Aug 08,2024
+# Start time: 10:28:02 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv 
 # -- Compiling module contador_restador
 # 
 # Top level modules:
 # 	contador_restador
-# End time: 05:22:32 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 10:28:02 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:28:02 on Aug 08,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv 
+# -- Compiling module contadorFPGA
+# 
+# Top level modules:
+# 	contadorFPGA
+# End time: 10:28:02 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 05:22:32 on Aug 08,2024
+# Start time: 10:28:02 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv 
 # -- Compiling module contador_restador_tb
 # 
 # Top level modules:
 # 	contador_restador_tb
-# End time: 05:22:32 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 10:28:02 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_restador_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" contador_restador_tb 
-# Start time: 05:22:33 on Aug 08,2024
+# Start time: 10:28:02 on Aug 08,2024
 # Loading sv_std.std
 # Loading work.contador_restador_tb
 # Loading work.contador_restador
+# Loading work.contadorFPGA
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /contador_restador_tb/dut File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 13
+# ** Warning: (vsim-3722) C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(13): [TFMPC] - Missing connection for port 'digit0'.
+# ** Warning: (vsim-3722) C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(13): [TFMPC] - Missing connection for port 'digit1'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'contFPGA_inst'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /contador_restador_tb/dut/contFPGA_inst File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 23
+# ** Warning: (vsim-3722) C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv(23): [TFMPC] - Missing connection for port 'z'.
 # 
 # add wave *
 # view structure
@@ -862,7 +880,7 @@
 #    Time: 190 ps  Iteration: 0  Instance: /contador_restador_tb
 # 1
 # Break in Module contador_restador_tb at C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 49
-run
+run 1000
 # TestBench para 6 bits
 # Time: 190 | reset: 1 | run: 0 | a: 63 | z: 63
 # Time: 200 | reset: 0 | run: 0 | a: 63 | z: 63
@@ -875,7 +893,6 @@ run
 # Time: 265 | reset: 0 | run: 1 | a: 63 | z: 57
 # Time: 275 | reset: 0 | run: 1 | a: 63 | z: 56
 # Time: 285 | reset: 0 | run: 1 | a: 63 | z: 55
-run 1000
 # Time: 295 | reset: 0 | run: 1 | a: 63 | z: 54
 # Time: 305 | reset: 0 | run: 1 | a: 63 | z: 53
 # Time: 315 | reset: 0 | run: 1 | a: 63 | z: 52
@@ -896,5 +913,3 @@ run 1000
 #    Time: 410 ps  Iteration: 0  Instance: /contador_restador_tb
 # 1
 # Break in Module contador_restador_tb at C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 59
-# End time: 05:26:58 on Aug 08,2024, Elapsed time: 0:04:25
-# Errors: 2, Warnings: 2

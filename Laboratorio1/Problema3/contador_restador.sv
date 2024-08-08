@@ -19,6 +19,16 @@ always @(posedge clk or posedge reset) begin
         end
     end
 end
+
+contadorFPGA #(.N(6)) contFPGA_inst(
+	 .reset(reset),
+    .clk(clk),
+    .run(run),
+    .a(z),
+	 .digit0(digit0),
+	 .digit1(digit1)
+     );
+
 endmodule
 
 

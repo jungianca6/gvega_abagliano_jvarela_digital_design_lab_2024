@@ -68,4 +68,21 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE contadorFPGA.sv
+set_location_assignment PIN_W17 -to digit1[0]
+set_location_assignment PIN_V18 -to digit1[1]
+set_location_assignment PIN_AG17 -to digit1[2]
+set_location_assignment PIN_AG16 -to digit1[3]
+set_location_assignment PIN_AH17 -to digit1[4]
+set_location_assignment PIN_AG18 -to digit1[5]
+set_location_assignment PIN_AH18 -to digit1[6]
+set_location_assignment PIN_AF16 -to digit0[0]
+set_location_assignment PIN_V16 -to digit0[1]
+set_location_assignment PIN_AE16 -to digit0[2]
+set_location_assignment PIN_AD17 -to digit0[3]
+set_location_assignment PIN_AE18 -to digit0[4]
+set_location_assignment PIN_AE17 -to digit0[5]
+set_location_assignment PIN_V17 -to digit0[6]
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_AB30 -to reset
+set_location_assignment PIN_AJ4 -to run
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

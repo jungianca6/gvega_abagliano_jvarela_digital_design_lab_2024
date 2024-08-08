@@ -46,6 +46,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv}
 
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
 

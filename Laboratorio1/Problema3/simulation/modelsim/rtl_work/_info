@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/simulation/modelsim
 vcontador_restador
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1723116152
+Z2 !s110 1723134482
 !i10b 1
-!s100 mnSk9^?VIG@ni2?zklESg1
+!s100 VNTlXI>n?;_QRK[g6VLhJ3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I=G4k7N@X8<HRC5Ek]Zn3I1
+Ig^_8;iL7>GF3W?bC@O:P62
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1723116095
+w1723133525
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 !i122 0
-L0 1 20
+L0 1 32
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1723116152.000000
+Z6 !s108 1723134482.000000
 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !i113 1
@@ -48,7 +48,7 @@ R0
 w1723116093
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
-!i122 1
+!i122 2
 L0 1 63
 R5
 r1
@@ -61,3 +61,30 @@ R6
 R7
 R8
 R9
+vcontadorFPGA
+R1
+R2
+!i10b 1
+!s100 Qo]NV4U5MTLHez_:hImo;3
+R3
+I8H4Pof4ZLIShO_T@9>V0Y2
+R4
+S1
+R0
+w1723116091
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
+!i122 1
+L0 1 61
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
+!i113 1
+R7
+R8
+R9
+ncontador@f@p@g@a
