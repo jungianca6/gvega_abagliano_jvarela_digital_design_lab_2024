@@ -5,7 +5,9 @@ module contador_restador #(
     input logic reset,
     input logic run,
     input logic [N-1:0] a,
-    output logic [N-1:0] z
+    output logic [N-1:0] z,
+	 output reg [6:0] digit0,
+    output reg [6:0] digit1
 );
 
 always @(posedge clk or posedge reset) begin
@@ -18,4 +20,16 @@ always @(posedge clk or posedge reset) begin
     end
 end
 
+contadorFPGA #(.N(6)) contFPGA_inst(
+	 .reset(reset),
+    .clk(clk),
+    .run(run),
+    .a(z),
+	 .digit0(digit0),
+	 .digit1(digit1)
+     );
+
 endmodule
+
+
+

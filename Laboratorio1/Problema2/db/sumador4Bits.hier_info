@@ -8,11 +8,25 @@ B[1] => sumador1Bit:FA1.B
 B[2] => sumador1Bit:FA2.B
 B[3] => sumador1Bit:FA3.B
 Cin => sumador1Bit:FA0.Cin
-S[0] <= sumador1Bit:FA0.S
-S[1] <= sumador1Bit:FA1.S
-S[2] <= sumador1Bit:FA2.S
-S[3] <= sumador1Bit:FA3.S
-Cout <= sumador1Bit:FA3.Cout
+S[0] << sumador1Bit:FA0.S
+S[1] << sumador1Bit:FA1.S
+S[2] << sumador1Bit:FA2.S
+S[3] << sumador1Bit:FA3.S
+Cout << sumador1Bit:FA3.Cout
+sum_seg[0] << disp7seg:sum_disp.seg[0]
+sum_seg[1] << disp7seg:sum_disp.seg[1]
+sum_seg[2] << disp7seg:sum_disp.seg[2]
+sum_seg[3] << disp7seg:sum_disp.seg[3]
+sum_seg[4] << disp7seg:sum_disp.seg[4]
+sum_seg[5] << disp7seg:sum_disp.seg[5]
+sum_seg[6] << disp7seg:sum_disp.seg[6]
+carry_seg[0] << disp7seg:carry_disp.seg[0]
+carry_seg[1] << disp7seg:carry_disp.seg[1]
+carry_seg[2] << disp7seg:carry_disp.seg[2]
+carry_seg[3] << disp7seg:carry_disp.seg[3]
+carry_seg[4] << disp7seg:carry_disp.seg[4]
+carry_seg[5] << disp7seg:carry_disp.seg[5]
+carry_seg[6] << disp7seg:carry_disp.seg[6]
 
 
 |sumador4Bits|sumador1Bit:FA0
@@ -69,5 +83,81 @@ Cin => Cout.IN1
 Cin => Cout.IN1
 S <= S.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador4Bits|disp7seg:sum_disp
+b_num[0] => Mux0.IN19
+b_num[0] => Mux1.IN19
+b_num[0] => Mux2.IN19
+b_num[0] => Mux3.IN19
+b_num[0] => Mux4.IN19
+b_num[0] => Mux5.IN19
+b_num[0] => Mux6.IN19
+b_num[1] => Mux0.IN18
+b_num[1] => Mux1.IN18
+b_num[1] => Mux2.IN18
+b_num[1] => Mux3.IN18
+b_num[1] => Mux4.IN18
+b_num[1] => Mux5.IN18
+b_num[1] => Mux6.IN18
+b_num[2] => Mux0.IN17
+b_num[2] => Mux1.IN17
+b_num[2] => Mux2.IN17
+b_num[2] => Mux3.IN17
+b_num[2] => Mux4.IN17
+b_num[2] => Mux5.IN17
+b_num[2] => Mux6.IN17
+b_num[3] => Mux0.IN16
+b_num[3] => Mux1.IN16
+b_num[3] => Mux2.IN16
+b_num[3] => Mux3.IN16
+b_num[3] => Mux4.IN16
+b_num[3] => Mux5.IN16
+b_num[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador4Bits|disp7seg:carry_disp
+b_num[0] => Mux0.IN19
+b_num[0] => Mux1.IN19
+b_num[0] => Mux2.IN19
+b_num[0] => Mux3.IN19
+b_num[0] => Mux4.IN19
+b_num[0] => Mux5.IN19
+b_num[0] => Mux6.IN19
+b_num[1] => Mux0.IN18
+b_num[1] => Mux1.IN18
+b_num[1] => Mux2.IN18
+b_num[1] => Mux3.IN18
+b_num[1] => Mux4.IN18
+b_num[1] => Mux5.IN18
+b_num[1] => Mux6.IN18
+b_num[2] => Mux0.IN17
+b_num[2] => Mux1.IN17
+b_num[2] => Mux2.IN17
+b_num[2] => Mux3.IN17
+b_num[2] => Mux4.IN17
+b_num[2] => Mux5.IN17
+b_num[2] => Mux6.IN17
+b_num[3] => Mux0.IN16
+b_num[3] => Mux1.IN16
+b_num[3] => Mux2.IN16
+b_num[3] => Mux3.IN16
+b_num[3] => Mux4.IN16
+b_num[3] => Mux5.IN16
+b_num[3] => Mux6.IN16
+seg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 

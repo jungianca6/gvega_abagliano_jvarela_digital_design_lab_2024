@@ -8,56 +8,83 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/simulation/modelsim
+Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/simulation/modelsim
 vcontador_restador
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1722983149
+Z2 !s110 1723134482
 !i10b 1
-!s100 kIdgGbX3>1;d;V=PO8M`L0
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I0BJiBBROU:0Dh?j22<WTK2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 VNTlXI>n?;_QRK[g6VLhJ3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ig^_8;iL7>GF3W?bC@O:P62
+Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1722983012
-8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
-FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
+w1723133525
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 !i122 0
-L0 1 21
-Z4 OV;L;2020.1;71
+L0 1 32
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1722983149.000000
-!s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
+Z6 !s108 1723134482.000000
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !i113 1
-Z6 o-sv -work work
-Z7 !s92 -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3
-Z8 tCvgOpt 0
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3
+Z9 tCvgOpt 0
 vcontador_restador_tb
 R1
-!s110 1722983150
-!i10b 1
-!s100 [T<i4zX?KR<aPQ[M_>XS72
 R2
-I=]][J4ON2miB;mH2;:_C<0
+!i10b 1
+!s100 =IgLhih9RHgSNQ4deZ4VK1
 R3
+Il_W^X;4DaVDO1f>@`RX9T2
+R4
 S1
 R0
-w1722983013
-8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
-FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
-!i122 1
-L0 1 61
-R4
+w1723116093
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
+!i122 2
+L0 1 63
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv|
-!i113 1
 R6
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv|
+!i113 1
 R7
 R8
+R9
+vcontadorFPGA
+R1
+R2
+!i10b 1
+!s100 Qo]NV4U5MTLHez_:hImo;3
+R3
+I8H4Pof4ZLIShO_T@9>V0Y2
+R4
+S1
+R0
+w1723116091
+8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
+FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv
+!i122 1
+L0 1 61
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv|
+!i113 1
+R7
+R8
+R9
+ncontador@f@p@g@a
