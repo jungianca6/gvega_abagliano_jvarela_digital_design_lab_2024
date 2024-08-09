@@ -5,7 +5,9 @@ module contador_restador #(
     input logic reset,
     input logic run,
     input logic [N-1:0] a,
-    output logic [N-1:0] z
+    output logic [N-1:0] z,
+	 output reg [6:0] digit0,
+    output reg [6:0] digit1
 );
 
 always @(posedge clk or posedge reset) begin
@@ -17,9 +19,7 @@ always @(posedge clk or posedge reset) begin
         end
     end
 end
-
 endmodule
-
 
 
 /*

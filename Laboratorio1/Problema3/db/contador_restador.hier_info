@@ -29,5 +29,19 @@ z[2] <= z[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 z[3] <= z[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 z[4] <= z[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 z[5] <= z[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+digit0[0] <= <GND>
+digit0[1] <= <GND>
+digit0[2] <= <GND>
+digit0[3] <= <GND>
+digit0[4] <= <GND>
+digit0[5] <= <GND>
+digit0[6] <= <GND>
+digit1[0] <= <GND>
+digit1[1] <= <GND>
+digit1[2] <= <GND>
+digit1[3] <= <GND>
+digit1[4] <= <GND>
+digit1[5] <= <GND>
+digit1[6] <= <GND>
 
 

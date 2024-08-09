@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/simulation/modelsim
 vcontador_restador
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1723102164
+Z2 !s110 1723163737
 !i10b 1
-!s100 kIdgGbX3>1;d;V=PO8M`L0
+!s100 l=X]Xd26gE7m=F<Ri;];N2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I0BJiBBROU:0Dh?j22<WTK2
+If=bYK:K>0EHiQ5m6ej6410
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-Z5 w1723102136
+Z5 w1723163285
 Z6 8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 Z7 FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv
 !i122 0
-L0 1 21
+L0 1 22
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1723102164.000000
+Z9 !s108 1723163737.000000
 Z10 !s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv|
 !i113 1
@@ -37,19 +37,19 @@ Z13 !s92 -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_
 Z14 tCvgOpt 0
 vcontador_restador_tb
 R1
-R2
+!s110 1723163738
 !i10b 1
-!s100 [T<i4zX?KR<aPQ[M_>XS72
+!s100 =IgLhih9RHgSNQ4deZ4VK1
 R3
-I=]][J4ON2miB;mH2;:_C<0
+IO2X>dmNjll;T]hS7FhR`=1
 R4
 S1
 R0
-w1722983013
+w1723133689
 8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
 FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv
 !i122 1
-L0 1 61
+L0 1 63
 R8
 r1
 !s85 0

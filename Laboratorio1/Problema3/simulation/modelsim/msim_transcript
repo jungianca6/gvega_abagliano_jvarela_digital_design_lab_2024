@@ -12,7 +12,7 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:29:24 on Aug 08,2024
+# Start time: 18:35:37 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv 
 # -- Compiling module contador_restador
 # -- Compiling module counter
@@ -20,26 +20,30 @@
 # Top level modules:
 # 	contador_restador
 # 	counter
-# End time: 01:29:24 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 18:35:37 on Aug 08,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:29:24 on Aug 08,2024
+# Start time: 18:35:37 on Aug 08,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv 
 # -- Compiling module contador_restador_tb
 # 
 # Top level modules:
 # 	contador_restador_tb
-# End time: 01:29:24 on Aug 08,2024, Elapsed time: 0:00:00
+# End time: 18:35:38 on Aug 08,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_restador_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" contador_restador_tb 
-# Start time: 01:29:25 on Aug 08,2024
+# Start time: 18:35:38 on Aug 08,2024
 # Loading sv_std.std
 # Loading work.contador_restador_tb
 # Loading work.contador_restador
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /contador_restador_tb/dut File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 13
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(13): [TFMPC] - Missing connection for port 'digit0'.
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(13): [TFMPC] - Missing connection for port 'digit1'.
 # 
 # add wave *
 # view structure
@@ -68,34 +72,27 @@
 # Time: 165 | reset: 0 | run: 1 | a: 15 | z:  7
 # Time: 175 | reset: 0 | run: 1 | a: 15 | z:  6
 # Time: 185 | reset: 0 | run: 1 | a: 15 | z:  5
+# ** Warning: (vsim-PLI-8496) $fatal : Argument number 1 is invalid. Expecting 0, 1, or 2. Using default value of 1
+#    Time: 190 ps  Iteration: 0  Process: /contador_restador_tb/#INITIAL#28(#ublk#94687682#28) File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 49
+# ** Fatal: Error: z no se decrementa correctamente para 4 bits
+#    Time: 190 ps  Scope: contador_restador_tb File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 49
+# ** Note: $finish    : C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(49)
+#    Time: 190 ps  Iteration: 0  Instance: /contador_restador_tb
+# 1
+# Break in Module contador_restador_tb at C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 49
+run 10
 # TestBench para 6 bits
 # Time: 190 | reset: 1 | run: 0 | a: 63 | z: 63
+run 20
 # Time: 200 | reset: 0 | run: 0 | a: 63 | z: 63
 # Time: 210 | reset: 0 | run: 1 | a: 63 | z: 63
 # Time: 215 | reset: 0 | run: 1 | a: 63 | z: 62
+run 10
 # Time: 225 | reset: 0 | run: 1 | a: 63 | z: 61
+run 15
 # Time: 235 | reset: 0 | run: 1 | a: 63 | z: 60
+run 15
 # Time: 245 | reset: 0 | run: 1 | a: 63 | z: 59
 # Time: 255 | reset: 0 | run: 1 | a: 63 | z: 58
-# Time: 265 | reset: 0 | run: 1 | a: 63 | z: 57
-# Time: 275 | reset: 0 | run: 1 | a: 63 | z: 56
-# Time: 285 | reset: 0 | run: 1 | a: 63 | z: 55
-# Time: 295 | reset: 0 | run: 1 | a: 63 | z: 54
-# Time: 305 | reset: 0 | run: 1 | a: 63 | z: 53
-# Time: 315 | reset: 0 | run: 1 | a: 63 | z: 52
-# Time: 325 | reset: 0 | run: 1 | a: 63 | z: 51
-# Time: 335 | reset: 0 | run: 1 | a: 63 | z: 50
-# Time: 345 | reset: 0 | run: 1 | a: 63 | z: 49
-# Time: 355 | reset: 0 | run: 1 | a: 63 | z: 48
-# Time: 365 | reset: 0 | run: 1 | a: 63 | z: 47
-# Time: 375 | reset: 0 | run: 1 | a: 63 | z: 46
-# Time: 385 | reset: 0 | run: 1 | a: 63 | z: 45
-# Time: 395 | reset: 0 | run: 1 | a: 63 | z: 44
-# Time: 405 | reset: 0 | run: 1 | a: 63 | z: 43
-# Time: 410 | reset: 0 | run: 0 | a: 63 | z: 43
-# ** Note: $finish    : C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv(59)
-#    Time: 420 ps  Iteration: 0  Instance: /contador_restador_tb
-# 1
-# Break in Module contador_restador_tb at C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv line 59
-# End time: 01:30:36 on Aug 08,2024, Elapsed time: 0:01:11
-# Errors: 0, Warnings: 0
+# End time: 18:43:03 on Aug 08,2024, Elapsed time: 0:07:25
+# Errors: 1, Warnings: 4

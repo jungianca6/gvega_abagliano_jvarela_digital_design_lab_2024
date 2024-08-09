@@ -8,8 +8,7 @@ module contador_restador_tb #(
     logic run;
     logic [N-1:0] a;
     logic [N-1:0] z;
-	 
-	 
+
     // Instancia del contador
     contador_restador #(.N(N)) dut (
         .clk(clk),
@@ -37,6 +36,7 @@ module contador_restador_tb #(
         #10 reset = 0;
         #10 run = 1;
         #50 run = 0;
+        assert(z == 0) else $fatal("Error: z no se decrementa correctamente para 2 bits");
         
         // Prueba para 4 bits
         $display("TestBench para 4 bits");
@@ -46,6 +46,7 @@ module contador_restador_tb #(
         #10 reset = 0;
         #10 run = 1;
         #100 run = 0;
+        assert(z == 0) else $fatal("Error: z no se decrementa correctamente para 4 bits");
 
         // Prueba para 6 bits
         $display("TestBench para 6 bits");
@@ -55,6 +56,7 @@ module contador_restador_tb #(
         #10 reset = 0;
         #10 run = 1;
         #200 run = 0;
+        assert(z == 0) else $fatal("Error: z no se decrementa correctamente para 6 bits");
 
         #10 $finish; // Termina la simulación
     end
