@@ -1,6 +1,6 @@
 Analysis & Elaboration report for contador_restador
-Thu Aug 08 18:28:14 2024
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Thu Aug  8 10:27:21 2024
+Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
 ---------------------
@@ -10,15 +10,17 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Parameter Settings for User Entity Instance: Top-level Entity: |contador_restador
-  5. Analysis & Elaboration Settings
-  6. Analysis & Elaboration Messages
+  5. Parameter Settings for User Entity Instance: contadorFPGA:contFPGA_inst
+  6. Analysis & Elaboration Settings
+  7. Port Connectivity Checks: "contadorFPGA:contFPGA_inst"
+  8. Analysis & Elaboration Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -35,22 +37,22 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-----------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                              ;
-+-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Aug 08 18:28:14 2024       ;
-; Quartus Prime Version         ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                 ; contador_restador                           ;
-; Top-level Entity Name         ; contador_restador                           ;
-; Family                        ; Cyclone V                                   ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
-; Total registers               ; N/A until Partition Merge                   ;
-; Total pins                    ; N/A until Partition Merge                   ;
-; Total virtual pins            ; N/A until Partition Merge                   ;
-; Total block memory bits       ; N/A until Partition Merge                   ;
-; Total PLLs                    ; N/A until Partition Merge                   ;
-; Total DLLs                    ; N/A until Partition Merge                   ;
-+-------------------------------+---------------------------------------------+
++--------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                 ;
++-------------------------------+------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Aug  8 10:27:21 2024          ;
+; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Revision Name                 ; contador_restador                              ;
+; Top-level Entity Name         ; contador_restador                              ;
+; Family                        ; Cyclone V                                      ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
+; Total registers               ; N/A until Partition Merge                      ;
+; Total pins                    ; N/A until Partition Merge                      ;
+; Total virtual pins            ; N/A until Partition Merge                      ;
+; Total block memory bits       ; N/A until Partition Merge                      ;
+; Total PLLs                    ; N/A until Partition Merge                      ;
+; Total DLLs                    ; N/A until Partition Merge                      ;
++-------------------------------+------------------------------------------------+
 
 
 +------------------------------------------+
@@ -58,8 +60,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -76,6 +78,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------+-------+----------------------------------------------------------+
 ; N              ; 6     ; Signed Integer                                           ;
 +----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: contadorFPGA:contFPGA_inst ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; N              ; 6     ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -166,31 +178,40 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "contadorFPGA:contFPGA_inst"                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; z    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Aug 08 18:28:07 2024
+    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+    Info: Processing started: Thu Aug  8 10:27:09 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off contador_restador -c contador_restador --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 2 design units, including 2 entities, in source file contador_restador.sv
-    Info (12023): Found entity 1: contador_restador File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 1
-    Info (12023): Found entity 2: counter File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 30
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file contador_restador.sv
+    Info (12023): Found entity 1: contador_restador File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contador_restador_tb.sv
-    Info (12023): Found entity 1: contador_restador_tb File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 1
+    Info (12023): Found entity 1: contador_restador_tb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file contadorfpga.sv
-    Info (12023): Found entity 1: contadorFPGA File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv Line: 1
+    Info (12023): Found entity 1: contadorFPGA File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv Line: 1
 Info (12127): Elaborating entity "contador_restador" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at contador_restador.sv(18): truncated value with size 32 to match size of target (6) File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 18
-Warning (10034): Output port "digit0" at contador_restador.sv(9) has no driver File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 9
-Warning (10034): Output port "digit1" at contador_restador.sv(11) has no driver File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 11
+Warning (10230): Verilog HDL assignment warning at contador_restador.sv(18): truncated value with size 32 to match size of target (6) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 18
+Info (12128): Elaborating entity "contadorFPGA" for hierarchy "contadorFPGA:contFPGA_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv Line: 30
+Warning (10230): Verilog HDL assignment warning at contadorFPGA.sv(22): truncated value with size 32 to match size of target (6) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contadorFPGA.sv Line: 22
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4765 megabytes
-    Info: Processing ended: Thu Aug 08 18:28:14 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 4784 megabytes
+    Info: Processing ended: Thu Aug  8 10:27:21 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:31
 
 
