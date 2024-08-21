@@ -1,8 +1,8 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
-source_file = 1, C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv
-source_file = 1, C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv
-source_file = 1, C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/db/BinaryToBCD.cbx.xml
+source_file = 1, C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv
+source_file = 1, C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv
+source_file = 1, C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv
+source_file = 1, C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/db/BinaryToBCD.cbx.xml
 design_name = binary_to_bcd
 instance = comp, \bcd[0]~output , bcd[0]~output, binary_to_bcd, 1
 instance = comp, \bcd[1]~output , bcd[1]~output, binary_to_bcd, 1

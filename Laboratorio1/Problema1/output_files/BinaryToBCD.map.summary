@@ -1,5 +1,5 @@
-Analysis & Synthesis Status : Successful - Thu Aug  8 06:42:36 2024
-Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Analysis & Synthesis Status : Successful - Thu Aug 08 23:03:07 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : BinaryToBCD
 Top-level Entity Name : binary_to_bcd
 Family : Cyclone V
