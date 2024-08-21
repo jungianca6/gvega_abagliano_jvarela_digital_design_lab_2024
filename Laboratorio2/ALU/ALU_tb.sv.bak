@@ -1,0 +1,94 @@
+	  // ------------------------------------------- OPERACION: XOR ---------------------------------------------------------------
+	 
+	 // Operacion XOR: Ejemplo 1
+ 
+    a = 4'b1100; 
+    b = 4'b1010;
+    Operator = 4'b0111;
+    
+    #10;
+    
+    
+    $display("XOR operation Example 1 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("XOR operation Example 1 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (4'b1100 ^ 4'b1010), 1'b0, 1'b0, 1'b0, 1'b0);
+    
+    // Operacion XOR: Ejemplo 2
+    a = 4'b1111; 
+    b = 4'b0000;
+    Operator = 4'b0111;
+    
+	 
+	 #10
+	 
+	 $display("XOR operation Example 2 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("XOR operation Example 2 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (4'b1111 ^ 4'b0000), 1'b1, 1'b0, 1'b0, 1'b0);
+	 
+	 
+	 
+	 
+	 
+	  // ------------------------------------------- OPERACION: Shift left---------------------------------------------------------------
+	 
+	 // Operacion Shift left: Ejemplo 1
+ 
+    a = 4'b0010; 
+    b = 4'b0011;
+    Operator = 4'b1000;
+    
+    #10;
+    
+    
+    $display("Shift left operation Example 1 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("Shift left operation Example 1 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (8'b0010 << 8'b0011), 1'b0, 1'b0, 1'b0, 1'b0);
+    
+    // Operacion Shift left: Ejemplo 2
+    a = 4'b1111; 
+    b = 4'b0111;
+    Operator = 4'b1000;
+    
+	 
+	 #10
+	 
+	 $display("Shift left operation Example 2 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("Shift left operation Example 2 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (8'b1111 << 8'b0111), 1'b0, 1'b0, 1'b0, 1'b0);
+	 
+	 
+	  // ------------------------------------------- OPERACION: Shift right ---------------------------------------------------------------
+	 
+	 // Operacion Shift right : Ejemplo 1
+ 
+    a = 4'b0100; 
+    b = 4'b0010;
+    Operator = 4'b1001;
+    
+    #10;
+    
+    
+    $display("Shift right  operation Example 1 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("Shift right  operation Example 1 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (8'b0100 >> 8'b0010), 1'b0, 1'b0, 1'b0, 1'b0);
+    
+    // Operacion Shift lright : Ejemplo 2
+    a = 4'b1111; 
+    b = 4'b0011;
+    Operator = 4'b1001;
+    
+	 
+	 #10
+	 
+	 $display("Shift right  operation Example 2 ---> result:       %b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("Shift right  operation Example 2 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (8'b1111 >> 8'b0011), 1'b0, 1'b0, 1'b0, 1'b0);
+    
+    
+    
+    
+    
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 end
+
+endmodule
