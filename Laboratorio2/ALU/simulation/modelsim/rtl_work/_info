@@ -1,0 +1,222 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/julio/OneDrive/Escritorio/Problema_1/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1724288637
+!i10b 1
+!s100 i<B^VIdBHzM2APRg?KaIj3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;]aB=KGbCQP`B]DHNWgof0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1724179210
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv
+!i122 0
+L0 1 121
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1724288637.000000
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1
+Z9 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R1
+Z10 !s110 1724288638
+!i10b 1
+!s100 AEc04CN^B1zI?U`8jH`;z1
+R3
+IG<aTNP91j4zjKHU=Fo5G20
+R4
+S1
+R0
+w1724288619
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv
+!i122 7
+L0 1 290
+R5
+r1
+!s85 0
+31
+Z11 !s108 1724288638.000000
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@u_tb
+vDecoder
+R1
+R2
+!i10b 1
+!s100 [ide:>lnzAc0bX[WC20@c3
+R3
+I]5=>5gnQHVPIDgHOVTBcE2
+R4
+S1
+R0
+w1724179650
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv
+!i122 1
+L0 1 71
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv|
+!i113 1
+R7
+R8
+R9
+n@decoder
+vfull_adder_1b
+R1
+R10
+!i10b 1
+!s100 ]RJMg62]Wm61P<enI@`eX3
+R3
+IYU:80EEd4dmI^cl2Xf]X]2
+R4
+S1
+R0
+Z12 w1718198043
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv
+!i122 3
+Z13 L0 1 17
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv|
+!i113 1
+R7
+R8
+R9
+vfull_adder_nb
+R1
+R2
+!i10b 1
+!s100 [QOYQd[XXX9:=?Z4kWz0^0
+R3
+I7SaQeQSbCS5mNzF9N2JRF1
+R4
+S1
+R0
+R12
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv
+!i122 2
+Z14 L0 1 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv|
+!i113 1
+R7
+R8
+R9
+vfull_subtractor_1b
+R1
+R10
+!i10b 1
+!s100 8E:YI5k9=Z>Ml7k806K2b1
+R3
+IVPToMWLfOfJKDI`09U2^h1
+R4
+S1
+R0
+R12
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv
+!i122 5
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv|
+!i113 1
+R7
+R8
+R9
+vfull_subtractor_nb
+R1
+R10
+!i10b 1
+!s100 g`jMjP0W60G1liE<<@o;I0
+R3
+I9z0R^3oFHB0_e[U>Z9CbZ2
+R4
+S1
+R0
+R12
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv
+!i122 4
+R14
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv|
+!i113 1
+R7
+R8
+R9
+vmultiplier_nb
+R1
+R10
+!i10b 1
+!s100 TmikRVN76;Kki?ah5WcL`1
+R3
+IOH6e<DB[ezB4O4_d`47;g3
+R4
+S1
+R0
+R12
+8C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv
+FC:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv
+!i122 6
+L0 28 44
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1|C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv|
+!i113 1
+R7
+R8
+R9

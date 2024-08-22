@@ -1,0 +1,180 @@
+# Reading pref.tcl
+# do ALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:57 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:03:57 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:57 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 19:03:57 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:57 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv 
+# -- Compiling module full_adder_nb
+# 
+# Top level modules:
+# 	full_adder_nb
+# End time: 19:03:57 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:58 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv 
+# -- Compiling module full_adder_1b
+# 
+# Top level modules:
+# 	full_adder_1b
+# End time: 19:03:58 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:58 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv 
+# -- Compiling module full_subtractor_nb
+# 
+# Top level modules:
+# 	full_subtractor_nb
+# End time: 19:03:58 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:58 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv 
+# -- Compiling module full_subtractor_1b
+# 
+# Top level modules:
+# 	full_subtractor_1b
+# End time: 19:03:58 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:58 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv 
+# -- Compiling module multiplier_nb
+# 
+# Top level modules:
+# 	multiplier_nb
+# End time: 19:03:58 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1 {C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:03:58 on Aug 21,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Problema_1" C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv 
+# -- Compiling module ALU_tb
+# 
+# Top level modules:
+# 	ALU_tb
+# End time: 19:03:58 on Aug 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" ALU_tb 
+# Start time: 19:03:58 on Aug 21,2024
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+# Loading work.full_adder_nb
+# Loading work.full_subtractor_nb
+# Loading work.multiplier_nb
+# Loading work.Decoder
+# Loading work.full_adder_1b
+# Loading work.full_subtractor_1b
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 11, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/uut File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv Line: 12
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv(12): [TFMPC] - Missing connection for port 'display1'.
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv(12): [TFMPC] - Missing connection for port 'display2'.
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv(12): [TFMPC] - Missing connection for port 'display3'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ADD operation Example 1 --->  result: 		00000011 N: 0 Z: 0 C: 1 V: 1
+# ADD operation Example 1 ---> Expected: 1001 N: 1 Z: 0 C: 0 V: 0
+# 
+# ADD operation Example 2 ---> result: 		00000011 N: 0 Z: 0 C: 1 V: 1
+# ADD operation Example 2 ---> Expected: 0011 N: 0 Z: 0 C: 1 V: 1 
+# 
+# SUB operation Example 1 ---> result: 		00000000 N: 0 Z: 1 C: 0 V: 0
+# SUB operation Example 1 ---> Expected: 00000000 N: 0 Z: 1 C: 0 V: 0
+# 
+# SUB operation Example 2 ---> result: 		00000100 N: 0 Z: 0 C: 0 V: 0
+# SUB operation Example 2 ---> Expected: 00000100 N: 0 Z: 0 C: 0 V: 0 
+# 
+# MUL operation Example 1 ---> result: 		11100001 N: 0 Z: 0 C: 0 V: 0
+# MUL operation Example 1 ---> Expected: 11100001 N: 0 Z: 0 C: 0 V: 0
+# 
+# MUL operation Example 2 ---> result: 		00000000 N: 0 Z: 1 C: 0 V: 0
+# MUL operation Example 2 ---> Expected: 00000000 N: 0 Z: 1 C: 0 V: 0 
+# 
+# DIV operation Example 1 ---> result: 		00000001 N: 0 Z: 0 C: 0 V: 0
+# DIV operation Example 1 ---> Expected: 00000001 N: 0 Z: 0 C: 0 V: 0
+# 
+# DIV operation Example 2 ---> result: 		00000110 N: 0 Z: 0 C: 0 V: 0
+# DIV operation Example 2 ---> Expected: 00000110 N: 0 Z: 0 C: 0 V: 0 
+# 
+# MOD operation Example 1 ---> result: 		00000000 N: 0 Z: 1 C: 0 V: 0
+# MOD operation Example 1 ---> Expected: 0000 N: 0 Z: 1 C: 0 V: 0
+# 
+# MOD operation Example 2 ---> result: 		00000011 N: 0 Z: 0 C: 0 V: 0
+# MOD operation Example 2 ---> Expected: 00000011 N: 0 Z: 0 C: 0 V: 0 
+# 
+# AND operation Example 1 ---> result:       00001000 N: 1 Z: 0 C: 0 V: 0
+# AND operation Example 1 ---> Expected:     00001000 N: 1 Z: 0 C: 0 V: 0
+# 
+# AND operation Example 2 ---> result:       00000000 N: 0 Z: 1 C: 0 V: 0
+# AND operation Example 2 ---> Expected:     00000000 N: 0 Z: 1 C: 0 V: 0
+# 
+# OR operation Example 1 ---> result:       00001110 N: 1 Z: 0 C: 0 V: 0
+# OR operation Example 1 ---> Expected:     1110 N: 1 Z: 0 C: 0 V: 0
+# 
+# OR operation Example 2 ---> result:       00001111 N: 1 Z: 0 C: 0 V: 0
+# OR operation Example 2 ---> Expected:     1111 N: 1 Z: 0 C: 0 V: 0
+# 
+# XOR operation Example 1 ---> result:       00000110 N: 0 Z: 0 C: 0 V: 0
+# XOR operation Example 1 ---> Expected:     0110 N: 0 Z: 0 C: 0 V: 0
+# 
+# XOR operation Example 2 ---> result:       00001111 N: 1 Z: 0 C: 0 V: 0
+# XOR operation Example 2 ---> Expected:     1111 N: 1 Z: 0 C: 0 V: 0
+# 
+# Shift left operation Example 1 ---> result:       00010000 N: 0 Z: 0 C: 0 V: 0
+# Shift left operation Example 1 ---> Expected:     00010000 N: 0 Z: 0 C: 0 V: 0
+# 
+# Shift left operation Example 2 ---> result:       10000000 N: 0 Z: 0 C: 0 V: 0
+# Shift left operation Example 2 ---> Expected:     10000000 N: 0 Z: 0 C: 0 V: 0
+# 
+# Shift right  operation Example 1 ---> result:       00000001 N: 0 Z: 0 C: 0 V: 0
+# Shift right  operation Example 1 ---> Expected:     00000001 N: 0 Z: 0 C: 0 V: 0
+# 
+# Shift right  operation Example 2 ---> result:       00000001 N: 0 Z: 0 C: 0 V: 0
+# Shift right  operation Example 2 ---> Expected:     00000001 N: 0 Z: 0 C: 0 V: 0
+# 
+# End time: 19:05:06 on Aug 21,2024, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 4
