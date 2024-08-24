@@ -29,30 +29,30 @@ initial begin
 	 // ------------------------------------------- OPERACION: ADD ---------------------------------------------------------------
     
 	 // Operacion ADD: Ejemplo 1
-    a = 4'b0110; 
-    b = 4'b1001;
+    a = 4'b1000; 
+    b = 4'b0001;
     Operator = 4'b0000;
     
     #10;
     
-    //$display("ADD operation Example 1 --->  result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
-    //$display("ADD operation Example 1 ---> Expected: %b N: %b Z: %b C: %b V: %b\n", (4'b1000 + 4'b0001), 1'b1, 1'b0, 1'b0, 1'b0);
+    $display("ADD operation Example 1 --->  result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("ADD operation Example 1 ---> Expected: %b N: %b Z: %b C: %b V: %b\n", (4'b1000 + 4'b0001), 1'b1, 1'b0, 1'b0, 1'b0);
     
 	 // Operacion ADD: Ejemplo 2
-    a = 4'b1100; 
-    b = 4'b1101;
+    a = 4'b1001; 
+    b = 4'b1010;
     Operator = 4'b0000;
     
     #10;
     
-    //$display("ADD operation Example 2 ---> result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
-    //$display("ADD operation Example 2 ---> Expected: %b N: %b Z: %b C: %b V: %b \n", (4'b1001 + 4'b1010), 1'b0, 1'b0, 1'b1, 1'b1);
+    $display("ADD operation Example 2 ---> result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    $display("ADD operation Example 2 ---> Expected: %b N: %b Z: %b C: %b V: %b \n", (4'b1001 + 4'b1010), 1'b0, 1'b0, 1'b1, 1'b1);
 
 	 // ------------------------------------------- OPERACION: SUB ---------------------------------------------------------------
 	 
 	 // Operacion SUB: Ejemplo 1
-    a = 4'b1111; 
-    b = 4'b1111;
+    a = 4'b1110; 
+    b = 4'b0011;
     Operator = 4'b0001;
     
     #10;
@@ -73,8 +73,8 @@ initial begin
 	 // ------------------------------------------- OPERACION: MUL ---------------------------------------------------------------
 	 
 	 // Operacion MUL: Ejemplo 1
-    a = 4'b1111; 
-    b = 4'b1111;
+    a = 4'b0101; 
+    b = 4'b0101;
     Operator = 4'b0010;
     
     #10;
@@ -83,8 +83,8 @@ initial begin
     $display("MUL operation Example 1 ---> Expected: %b N: %b Z: %b C: %b V: %b\n", (8'b1111 * 8'b1111), 1'b0, 1'b0, 1'b0, 1'b0);
     
 	 // Operacion MUL: Ejemplo 2
-    a = 4'b1101; 
-    b = 4'b0000;
+    a = 4'b0101; 
+    b = 4'b0010;
     Operator = 4'b0010;
     
     #10;

@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1724480981
+Z2 !s110 1724486838
 !i10b 1
 !s100 AS0@olQGc[H>j>D>da^R63
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1724480981.000000
+Z6 !s108 1724486838.000000
 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv|
 !i113 1
@@ -38,15 +38,15 @@ Z9 tCvgOpt 0
 n@a@l@u
 vALU_tb
 R1
-Z10 !s110 1724480982
+Z10 !s110 1724486839
 !i10b 1
-!s100 7XMD[Zi[W=dm7[ToMNfZn3
+!s100 XN@Tc;K7A4dmA33f7UaX`2
 R3
-ICI?nD[KU^_E5cd_gN34MU0
+INn:5PP8<FeK=m6NWZ6Qnf0
 R4
 S1
 R0
-w1724480891
+w1724486785
 8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv
 FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv
 !i122 7
@@ -55,7 +55,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1724480982.000000
+Z11 !s108 1724486839.000000
 !s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv|
 !i113 1
