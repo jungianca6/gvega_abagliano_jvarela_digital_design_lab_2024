@@ -74,7 +74,7 @@ module ALU # (parameter n = 4)(
 			ADD: begin
 				  Result = adder_result; // suma
 				  C = adder_cout;
-				  V = (a[n-1] ^ adder_result[n-1]) & (a[n-1] ~^ b[n-1]);
+				  V = (a[n-1] == b[n-1]) && (adder_result[n-1] != a[n-1]);
 			end
 			
 			SUB: begin

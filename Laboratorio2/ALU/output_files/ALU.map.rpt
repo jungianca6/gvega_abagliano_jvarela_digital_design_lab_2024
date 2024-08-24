@@ -1,45 +1,36 @@
-Analysis & Synthesis report for ALU
-Wed Aug 21 20:04:27 2024
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Analysis & Elaboration report for ALU
+Sat Aug 24 00:28:25 2024
+Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
 ---------------------
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Multiplexer Restructuring Statistics (Restructuring Performed)
- 10. Parameter Settings for User Entity Instance: Top-level Entity: |ALU
- 11. Parameter Settings for User Entity Instance: full_adder_nb:adder_inst
- 12. Parameter Settings for User Entity Instance: full_subtractor_nb:subtractor_inst
- 13. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst
- 14. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder
- 15. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder
- 16. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder
- 17. Parameter Settings for Inferred Entity Instance: lpm_divide:Div0
- 18. Parameter Settings for Inferred Entity Instance: lpm_divide:Mod0
- 19. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder"
- 20. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder"
- 21. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder"
- 22. Port Connectivity Checks: "full_subtractor_nb:subtractor_inst"
- 23. Port Connectivity Checks: "full_adder_nb:adder_inst"
- 24. Post-Synthesis Netlist Statistics for Top Partition
- 25. Elapsed Time Per Partition
- 26. Analysis & Synthesis Messages
- 27. Analysis & Synthesis Suppressed Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |ALU
+  5. Parameter Settings for User Entity Instance: full_adder_nb:adder_inst
+  6. Parameter Settings for User Entity Instance: full_subtractor_nb:subtractor_inst
+  7. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst
+  8. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder
+  9. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder
+ 10. Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder
+ 11. Analysis & Elaboration Settings
+ 12. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder"
+ 13. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder"
+ 14. Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder"
+ 15. Port Connectivity Checks: "full_subtractor_nb:subtractor_inst"
+ 16. Port Connectivity Checks: "full_adder_nb:adder_inst"
+ 17. Analysis & Elaboration Messages
+ 18. Analysis & Elaboration Suppressed Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -56,31 +47,112 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Aug 21 20:04:27 2024       ;
-; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                   ; ALU                                         ;
-; Top-level Entity Name           ; ALU                                         ;
-; Family                          ; Cyclone V                                   ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 45                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++--------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                 ;
++-------------------------------+------------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Sat Aug 24 00:28:25 2024          ;
+; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
+; Revision Name                 ; ALU                                            ;
+; Top-level Entity Name         ; ALU                                            ;
+; Family                        ; Cyclone V                                      ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
+; Total registers               ; N/A until Partition Merge                      ;
+; Total pins                    ; N/A until Partition Merge                      ;
+; Total virtual pins            ; N/A until Partition Merge                      ;
+; Total block memory bits       ; N/A until Partition Merge                      ;
+; Total PLLs                    ; N/A until Partition Merge                      ;
+; Total DLLs                    ; N/A until Partition Merge                      ;
++-------------------------------+------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ALU ;
++----------------+-------+--------------------------------------------+
+; Parameter Name ; Value ; Type                                       ;
++----------------+-------+--------------------------------------------+
+; n              ; 4     ; Signed Integer                             ;
++----------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: full_adder_nb:adder_inst ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; n              ; 4     ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: full_subtractor_nb:subtractor_inst ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 4     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 4     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; n              ; 5     ; Signed Integer                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; n              ; 6     ; Signed Integer                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------------+
+; n              ; 7     ; Signed Integer                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -166,254 +238,6 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                               ; Library ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-; ALU.sv                           ; yes             ; User SystemVerilog HDL File        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv                       ;         ;
-; Decoder.sv                       ; yes             ; User SystemVerilog HDL File        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv                   ;         ;
-; full_adder_nb.sv                 ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv             ;         ;
-; full_adder_1b.sv                 ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv             ;         ;
-; full_subtractor_nb.sv            ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv        ;         ;
-; full_subtractor_1b.sv            ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv        ;         ;
-; multiplier_nb.sv                 ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv             ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc      ;         ;
-; db/lpm_divide_1am.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/db/lpm_divide_1am.tdf        ;         ;
-; db/sign_div_unsign_7kh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/db/sign_div_unsign_7kh.tdf   ;         ;
-; db/alt_u_div_kse.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/db/alt_u_div_kse.tdf         ;         ;
-; db/lpm_divide_42m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/julio/OneDrive/Escritorio/Problema_1/db/lpm_divide_42m.tdf        ;         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
-
-
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 76         ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 133        ;
-;     -- 7 input functions                    ; 6          ;
-;     -- 6 input functions                    ; 12         ;
-;     -- 5 input functions                    ; 33         ;
-;     -- 4 input functions                    ; 49         ;
-;     -- <=3 input functions                  ; 33         ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 45         ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; b[3]~input ;
-; Maximum fan-out                             ; 36         ;
-; Total fan-out                               ; 632        ;
-; Average fan-out                             ; 2.83       ;
-+---------------------------------------------+------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                            ;
-+---------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Entity Name         ; Library Name ;
-+---------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |ALU                                                    ; 133 (38)            ; 0 (0)                     ; 0                 ; 0          ; 45   ; 0            ; |ALU                                                                                                   ; ALU                 ; work         ;
-;    |Decoder:decoder_inst|                               ; 21 (21)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|Decoder:decoder_inst                                                                              ; Decoder             ; work         ;
-;    |full_adder_nb:adder_inst|                           ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_adder_nb:adder_inst                                                                          ; full_adder_nb       ; work         ;
-;       |full_adder_1b:gen_adder[1].adder|                ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_adder_nb:adder_inst|full_adder_1b:gen_adder[1].adder                                         ; full_adder_1b       ; work         ;
-;       |full_adder_1b:gen_adder[2].adder|                ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_adder_nb:adder_inst|full_adder_1b:gen_adder[2].adder                                         ; full_adder_1b       ; work         ;
-;       |full_adder_1b:gen_adder[3].adder|                ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_adder_nb:adder_inst|full_adder_1b:gen_adder[3].adder                                         ; full_adder_1b       ; work         ;
-;    |full_subtractor_nb:subtractor_inst|                 ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_subtractor_nb:subtractor_inst                                                                ; full_subtractor_nb  ; work         ;
-;       |full_subtractor_1b:gen_subtractor[1].subtractor| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[1].subtractor                ; full_subtractor_1b  ; work         ;
-;       |full_subtractor_1b:gen_subtractor[2].subtractor| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[2].subtractor                ; full_subtractor_1b  ; work         ;
-;       |full_subtractor_1b:gen_subtractor[3].subtractor| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[3].subtractor                ; full_subtractor_1b  ; work         ;
-;    |lpm_divide:Div0|                                    ; 22 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0                                                                                   ; lpm_divide          ; work         ;
-;       |lpm_divide_1am:auto_generated|                   ; 22 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_1am:auto_generated                                                     ; lpm_divide_1am      ; work         ;
-;          |sign_div_unsign_7kh:divider|                  ; 22 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_1am:auto_generated|sign_div_unsign_7kh:divider                         ; sign_div_unsign_7kh ; work         ;
-;             |alt_u_div_kse:divider|                     ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_1am:auto_generated|sign_div_unsign_7kh:divider|alt_u_div_kse:divider   ; alt_u_div_kse       ; work         ;
-;    |lpm_divide:Mod0|                                    ; 25 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Mod0                                                                                   ; lpm_divide          ; work         ;
-;       |lpm_divide_42m:auto_generated|                   ; 25 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Mod0|lpm_divide_42m:auto_generated                                                     ; lpm_divide_42m      ; work         ;
-;          |sign_div_unsign_7kh:divider|                  ; 25 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Mod0|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider                         ; sign_div_unsign_7kh ; work         ;
-;             |alt_u_div_kse:divider|                     ; 25 (25)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Mod0|lpm_divide_42m:auto_generated|sign_div_unsign_7kh:divider|alt_u_div_kse:divider   ; alt_u_div_kse       ; work         ;
-;    |multiplier_nb:multiplier_inst|                      ; 18 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst                                                                     ; multiplier_nb       ; work         ;
-;       |full_adder_nb:Sumproducts[1].adder|              ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder                                  ; full_adder_nb       ; work         ;
-;          |full_adder_1b:gen_adder[1].adder|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder|full_adder_1b:gen_adder[1].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[2].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder|full_adder_1b:gen_adder[2].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[3].adder|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder|full_adder_1b:gen_adder[3].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[4].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder|full_adder_1b:gen_adder[4].adder ; full_adder_1b       ; work         ;
-;       |full_adder_nb:Sumproducts[2].adder|              ; 7 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder                                  ; full_adder_nb       ; work         ;
-;          |full_adder_1b:gen_adder[2].adder|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder|full_adder_1b:gen_adder[2].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[3].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder|full_adder_1b:gen_adder[3].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[4].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder|full_adder_1b:gen_adder[4].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[5].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder|full_adder_1b:gen_adder[5].adder ; full_adder_1b       ; work         ;
-;       |full_adder_nb:Sumproducts[3].adder|              ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder                                  ; full_adder_nb       ; work         ;
-;          |full_adder_1b:gen_adder[3].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder|full_adder_1b:gen_adder[3].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[4].adder|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder|full_adder_1b:gen_adder[4].adder ; full_adder_1b       ; work         ;
-;          |full_adder_1b:gen_adder[5].adder|             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder|full_adder_1b:gen_adder[5].adder ; full_adder_1b       ; work         ;
-+---------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 16:1               ; 2 bits    ; 20 LEs        ; 6 LEs                ; 14 LEs                 ; No         ; |ALU|Selector0             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-
-
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |ALU ;
-+----------------+-------+--------------------------------------------+
-; Parameter Name ; Value ; Type                                       ;
-+----------------+-------+--------------------------------------------+
-; n              ; 4     ; Signed Integer                             ;
-+----------------+-------+--------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: full_adder_nb:adder_inst ;
-+----------------+-------+----------------------------------------------+
-; Parameter Name ; Value ; Type                                         ;
-+----------------+-------+----------------------------------------------+
-; n              ; 4     ; Signed Integer                               ;
-+----------------+-------+----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: full_subtractor_nb:subtractor_inst ;
-+----------------+-------+--------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                   ;
-+----------------+-------+--------------------------------------------------------+
-; n              ; 4     ; Signed Integer                                         ;
-+----------------+-------+--------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst ;
-+----------------+-------+---------------------------------------------------+
-; Parameter Name ; Value ; Type                                              ;
-+----------------+-------+---------------------------------------------------+
-; n              ; 4     ; Signed Integer                                    ;
-+----------------+-------+---------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                 ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; n              ; 5     ; Signed Integer                                                                       ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                 ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; n              ; 6     ; Signed Integer                                                                       ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                 ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-; n              ; 7     ; Signed Integer                                                                       ;
-+----------------+-------+--------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_divide:Div0 ;
-+------------------------+----------------+------------------------+
-; Parameter Name         ; Value          ; Type                   ;
-+------------------------+----------------+------------------------+
-; LPM_WIDTHN             ; 4              ; Untyped                ;
-; LPM_WIDTHD             ; 4              ; Untyped                ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_PIPELINE           ; 0              ; Untyped                ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
-; CBXI_PARAMETER         ; lpm_divide_1am ; Untyped                ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
-+------------------------+----------------+------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_divide:Mod0 ;
-+------------------------+----------------+------------------------+
-; Parameter Name         ; Value          ; Type                   ;
-+------------------------+----------------+------------------------+
-; LPM_WIDTHN             ; 4              ; Untyped                ;
-; LPM_WIDTHD             ; 4              ; Untyped                ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_PIPELINE           ; 0              ; Untyped                ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
-; CBXI_PARAMETER         ; lpm_divide_42m ; Untyped                ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
-+------------------------+----------------+------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +----------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" ;
 +---------+-------+----------+-----------------------------------------------------------------+
@@ -463,127 +287,58 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------+
 
 
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 137                         ;
-;     arith             ; 12                          ;
-;         0 data inputs ; 4                           ;
-;         2 data inputs ; 2                           ;
-;         5 data inputs ; 6                           ;
-;     extend            ; 6                           ;
-;         7 data inputs ; 6                           ;
-;     normal            ; 101                         ;
-;         1 data inputs ; 4                           ;
-;         2 data inputs ; 4                           ;
-;         3 data inputs ; 11                          ;
-;         4 data inputs ; 43                          ;
-;         5 data inputs ; 27                          ;
-;         6 data inputs ; 12                          ;
-;     shared            ; 18                          ;
-;         0 data inputs ; 6                           ;
-;         2 data inputs ; 6                           ;
-;         4 data inputs ; 6                           ;
-; boundary_port         ; 45                          ;
-;                       ;                             ;
-; Max LUT depth         ; 12.50                       ;
-; Average LUT depth     ; 8.87                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Aug 21 20:04:19 2024
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+    Info: Processing started: Sat Aug 24 00:28:13 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
-    Info (12023): Found entity 1: ALU File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 1
+    Info (12023): Found entity 1: ALU File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.sv
-    Info (12023): Found entity 1: ALU_tb File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU_tb.sv Line: 1
+    Info (12023): Found entity 1: ALU_tb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decoder.sv
-    Info (12023): Found entity 1: Decoder File: C:/Users/julio/OneDrive/Escritorio/Problema_1/Decoder.sv Line: 1
+    Info (12023): Found entity 1: Decoder File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file selector.sv
-    Info (12023): Found entity 1: selector File: C:/Users/julio/OneDrive/Escritorio/Problema_1/Selector.sv Line: 1
+    Info (12023): Found entity 1: selector File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/Selector.sv Line: 1
 Info (12127): Elaborating entity "ALU" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at ALU.sv(13): object "extended_result" assigned a value but never read File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 13
+Warning (10036): Verilog HDL or VHDL warning at ALU.sv(13): object "extended_result" assigned a value but never read File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 13
 Warning (12125): Using design file full_adder_nb.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_adder_nb File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv Line: 1
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "full_adder_nb:adder_inst" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 36
+    Info (12023): Found entity 1: full_adder_nb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv Line: 1
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "full_adder_nb:adder_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 36
 Warning (12125): Using design file full_adder_1b.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_adder_1b File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_1b.sv Line: 1
-Info (12128): Elaborating entity "full_adder_1b" for hierarchy "full_adder_nb:adder_inst|full_adder_1b:gen_adder[0].adder" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_adder_nb.sv Line: 29
+    Info (12023): Found entity 1: full_adder_1b File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv Line: 1
+Info (12128): Elaborating entity "full_adder_1b" for hierarchy "full_adder_nb:adder_inst|full_adder_1b:gen_adder[0].adder" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv Line: 29
 Warning (12125): Using design file full_subtractor_nb.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_subtractor_nb File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv Line: 1
-Info (12128): Elaborating entity "full_subtractor_nb" for hierarchy "full_subtractor_nb:subtractor_inst" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 47
+    Info (12023): Found entity 1: full_subtractor_nb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv Line: 1
+Info (12128): Elaborating entity "full_subtractor_nb" for hierarchy "full_subtractor_nb:subtractor_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 47
 Warning (12125): Using design file full_subtractor_1b.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: full_subtractor_1b File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_1b.sv Line: 1
-Info (12128): Elaborating entity "full_subtractor_1b" for hierarchy "full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[0].subtractor" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/full_subtractor_nb.sv Line: 29
+    Info (12023): Found entity 1: full_subtractor_1b File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv Line: 1
+Info (12128): Elaborating entity "full_subtractor_1b" for hierarchy "full_subtractor_nb:subtractor_inst|full_subtractor_1b:gen_subtractor[0].subtractor" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv Line: 29
 Warning (12125): Using design file multiplier_nb.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: multiplier_nb File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 28
-Info (12128): Elaborating entity "multiplier_nb" for hierarchy "multiplier_nb:multiplier_inst" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 57
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 3 to match size of target (2) File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 2 to match size of target (1) File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 59
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/multiplier_nb.sv Line: 68
-Info (12128): Elaborating entity "Decoder" for hierarchy "Decoder:decoder_inst" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 67
-Info (278001): Inferred 2 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 91
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 94
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 91
-Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 91
-    Info (12134): Parameter "LPM_WIDTHN" = "4"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_1am.tdf
-    Info (12023): Found entity 1: lpm_divide_1am File: C:/Users/julio/OneDrive/Escritorio/Problema_1/db/lpm_divide_1am.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_7kh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_7kh File: C:/Users/julio/OneDrive/Escritorio/Problema_1/db/sign_div_unsign_7kh.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kse.tdf
-    Info (12023): Found entity 1: alt_u_div_kse File: C:/Users/julio/OneDrive/Escritorio/Problema_1/db/alt_u_div_kse.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 94
-Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: C:/Users/julio/OneDrive/Escritorio/Problema_1/ALU.sv Line: 94
-    Info (12134): Parameter "LPM_WIDTHN" = "4"
-    Info (12134): Parameter "LPM_WIDTHD" = "4"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_42m.tdf
-    Info (12023): Found entity 1: lpm_divide_42m File: C:/Users/julio/OneDrive/Escritorio/Problema_1/db/lpm_divide_42m.tdf Line: 25
-Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/julio/OneDrive/Escritorio/Problema_1/output_files/ALU.map.smsg
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 178 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 12 input pins
-    Info (21059): Implemented 33 output pins
-    Info (21061): Implemented 133 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4820 megabytes
-    Info: Processing ended: Wed Aug 21 20:04:27 2024
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:16
+    Info (12023): Found entity 1: multiplier_nb File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 28
+Info (12128): Elaborating entity "multiplier_nb" for hierarchy "multiplier_nb:multiplier_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 57
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 3 to match size of target (2) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at multiplier_nb.sv(59): truncated value with size 2 to match size of target (1) File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 59
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[1].adder" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[2].adder" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "full_adder_nb" for hierarchy "multiplier_nb:multiplier_inst|full_adder_nb:Sumproducts[3].adder" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv Line: 68
+Info (12128): Elaborating entity "Decoder" for hierarchy "Decoder:decoder_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv Line: 67
+Info (144001): Generated suppressed messages file C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/output_files/ALU.map.smsg
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 4781 megabytes
+    Info: Processing ended: Sat Aug 24 00:28:25 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:31
 
 
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/julio/OneDrive/Escritorio/Problema_1/output_files/ALU.map.smsg.
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/output_files/ALU.map.smsg.
 
 

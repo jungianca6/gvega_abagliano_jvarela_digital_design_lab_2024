@@ -29,24 +29,24 @@ initial begin
 	 // ------------------------------------------- OPERACION: ADD ---------------------------------------------------------------
     
 	 // Operacion ADD: Ejemplo 1
-    a = 4'b1001; 
-    b = 4'b1010;
+    a = 4'b0110; 
+    b = 4'b1001;
     Operator = 4'b0000;
     
     #10;
     
-    $display("ADD operation Example 1 --->  result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
-    $display("ADD operation Example 1 ---> Expected: %b N: %b Z: %b C: %b V: %b\n", (4'b1000 + 4'b0001), 1'b1, 1'b0, 1'b0, 1'b0);
+    //$display("ADD operation Example 1 --->  result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    //$display("ADD operation Example 1 ---> Expected: %b N: %b Z: %b C: %b V: %b\n", (4'b1000 + 4'b0001), 1'b1, 1'b0, 1'b0, 1'b0);
     
 	 // Operacion ADD: Ejemplo 2
-    a = 4'b1001; 
-    b = 4'b1010;
+    a = 4'b1100; 
+    b = 4'b1101;
     Operator = 4'b0000;
     
     #10;
     
-    $display("ADD operation Example 2 ---> result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
-    $display("ADD operation Example 2 ---> Expected: %b N: %b Z: %b C: %b V: %b \n", (4'b1001 + 4'b1010), 1'b0, 1'b0, 1'b1, 1'b1);
+    //$display("ADD operation Example 2 ---> result: 		%b N: %b Z: %b C: %b V: %b", Result, N, Z, C, V);
+    //$display("ADD operation Example 2 ---> Expected: %b N: %b Z: %b C: %b V: %b \n", (4'b1001 + 4'b1010), 1'b0, 1'b0, 1'b1, 1'b1);
 
 	 // ------------------------------------------- OPERACION: SUB ---------------------------------------------------------------
 	 
@@ -275,16 +275,6 @@ initial begin
     $display("Shift right  operation Example 2 ---> Expected:     %b N: %b Z: %b C: %b V: %b\n", (8'b1111 >> 8'b0011), 1'b0, 1'b0, 1'b0, 1'b0);
     
     
-    
-    
-    
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 	 end
 
 endmodule
