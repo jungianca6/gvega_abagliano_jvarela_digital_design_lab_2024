@@ -4,7 +4,6 @@ module ALU # (parameter n = 4)(
 	output logic [n-1:0] Result,// resultado de la operacion
 	output logic [6:0] display1,
 	output logic [6:0] display2,
-	output logic [6:0] display3,
 	
 	output logic N, Z, C, V		 	// banderas de estado:
 											// Negativo(N), Cero(Z), Acarreo(C), Desbordamiento (V) 

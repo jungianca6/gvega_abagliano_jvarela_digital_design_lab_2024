@@ -45,13 +45,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv}
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv}
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv}
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv}
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv}
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv}
-vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv}
-vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv}
 
 vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv}
 

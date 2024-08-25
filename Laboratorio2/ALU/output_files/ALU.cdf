@@ -1,4 +1,4 @@
-/* Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition */
+/* Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSXFC6D6F31) Path("C:/Users/julio/OneDrive/Escritorio/Problema_1/output_files/") File("ALU.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSXFC6D6F31) Path("C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/output_files/") File("ALU.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

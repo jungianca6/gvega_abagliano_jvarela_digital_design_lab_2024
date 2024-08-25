@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1724560278
+Z2 !s110 1724565466
 !i10b 1
-!s100 cm9QDl9B01J6nQ^9E[hm[3
+!s100 FG^AZ?0nkR_U[ME6M:oSX2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IM8fEQgO;JLG6SC?`D>ZT_1
+IC=5[3:cU:7[^Z_[Ta1MaC0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1724560054
+w1724562579
 8C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv
 FC:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv
 !i122 5
-L0 1 121
+L0 1 119
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1724560278.000000
+Z6 !s108 1724565466.000000
 !s107 C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU|C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv|
 !i113 1
@@ -67,17 +67,17 @@ vDecoder
 R1
 R2
 !i10b 1
-!s100 Q?D2F]YHBNbcc0H6f49SF2
+!s100 gLS1VDlIefOkNT6?@A_4^0
 R3
-Ib9?eL3_RUOnTIzb30IH]B3
+IESL^T]`=1gI0L:^z:ATHD2
 R4
 S1
 R0
-w1724560120
+w1724560530
 8C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv
 FC:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv
 !i122 6
-L0 1 72
+L0 1 50
 R5
 r1
 !s85 0
@@ -109,7 +109,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z12 !s108 1724565465.000000
 !s107 C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU|C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv|
 !i113 1
@@ -130,7 +130,7 @@ R10
 8C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv
 FC:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv
 !i122 3
-Z12 L0 1 36
+Z13 L0 1 36
 R5
 r1
 !s85 0
@@ -144,7 +144,7 @@ R8
 R9
 vfull_subtractor_1b
 R1
-R2
+!s110 1724565465
 !i10b 1
 !s100 8E:YI5k9=Z>Ml7k806K2b1
 R3
@@ -161,7 +161,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU|C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv|
 !i113 1
@@ -182,7 +182,7 @@ R10
 8C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv
 FC:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv
 !i122 2
-R12
+R13
 R5
 r1
 !s85 0
