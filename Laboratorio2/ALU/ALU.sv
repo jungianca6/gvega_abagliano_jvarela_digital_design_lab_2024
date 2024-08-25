@@ -1,7 +1,7 @@
 module ALU # (parameter n = 4)(
 	input logic [n-1:0] a, b,   	// entradas u operandos
 	input logic [3:0] Operator, 	// codigo para la operacion
-	output logic [2*n-1:0] Result,// resultado de la operacion
+	output logic [n-1:0] Result,// resultado de la operacion
 	output logic [6:0] display1,
 	output logic [6:0] display2,
 	output logic [6:0] display3,
@@ -10,7 +10,7 @@ module ALU # (parameter n = 4)(
 											// Negativo(N), Cero(Z), Acarreo(C), Desbordamiento (V) 
 );
 
-	logic [2*n-1:0] extended_result; // resultado extendido para operaciones como MUL y DIV
+	//logic [n-1:0] extended_result; // resultado extendido para operaciones como MUL y DIV
 
 	// definición de códigos de operación
 	localparam [3:0] ADD = 4'b0000,
@@ -58,17 +58,15 @@ module ALU # (parameter n = 4)(
 	
 	// Instancia del decoder
 	Decoder decoder_inst (
-		 .bin1(Result[7:4]),
-		 .bin2(Result[3:0]),
-		 .bin3(Operator),
+		 .bin1(Result[3:0]),
+		 .bin2(Operator),
 		 .hex_result1(display1),
-		 .hex_result2(display2),
-		 .hex_result3(display3)
+		 .hex_result2(display2)
 	);
 						  
 	always_comb begin
 		{N, Z, C, V} = 4'b0; // inicializacion de las banderas en "0000"
-		extended_result = {2*n{1'b0}}; // inicializacion del resultado extendido en "n...0"
+		//extended_result = {2*n{1'b0}}; // inicializacion del resultado extendido en "n...0"
 		
 		case(Operator)
 			ADD: begin
@@ -85,6 +83,7 @@ module ALU # (parameter n = 4)(
 			
 			MUL: begin
 				  Result = {multiplier_Overf, multiplier_result}; // multiplicacion
+				  C = |multiplier_Overf;
 			end
 			
 			DIV: begin

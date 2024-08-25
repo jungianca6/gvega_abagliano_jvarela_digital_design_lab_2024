@@ -45,15 +45,15 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv}
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_1b.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_1b.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_subtractor_nb.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/full_adder_nb.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/multiplier_nb.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/Decoder.sv}
 
-vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv}
+vlog -sv -work work +incdir+C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU {C:/Users/DELL/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio2/ALU/ALU_tb.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  ALU_tb
 

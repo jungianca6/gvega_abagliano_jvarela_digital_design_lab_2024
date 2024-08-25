@@ -1,4 +1,4 @@
-/*module multiplier_nb#(
+ /*module multiplier_nb#(
 		parameter n = 4 // numero de bits del multiplicador
 )(
     input logic [n-1:0] a,

@@ -5,7 +5,7 @@ parameter n = 4; // numero de bits
 // Instanciar parametros de entrada y salida de la ALU
 reg [n-1:0] a, b;
 reg [3:0] Operator;
-reg [2*n-1:0] Result;
+reg [n-1:0] Result;
 reg N, Z, C, V;
 
 // Instanciar la ALU
@@ -84,7 +84,7 @@ initial begin
     
 	 // Operacion MUL: Ejemplo 2
     a = 4'b0101; 
-    b = 4'b0010;
+    b = 4'b1010;
     Operator = 4'b0010;
     
     #10;
