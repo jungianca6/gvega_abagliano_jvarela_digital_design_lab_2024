@@ -2,6 +2,7 @@ module ALU # (parameter n = 4)(
 	input logic [n-1:0] a, b,   	// entradas u operandos
 	input logic [3:0] Operator, 	// codigo para la operacion
 	output logic [n-1:0] Result,// resultado de la operacion
+	output logic [n-1:0] binaryResult,
 	output logic [6:0] display1,
 	output logic [6:0] display2,
 	
@@ -113,6 +114,8 @@ module ALU # (parameter n = 4)(
 		
 		N = Result[n-1];
 		Z = (Result == {n{1'b0}});
+		
+		binaryResult = Result;
 		
 	end
 	

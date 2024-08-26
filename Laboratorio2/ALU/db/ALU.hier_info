@@ -14,7 +14,11 @@ Operator[3] => Operator[3].IN1
 Result[0] << Result[0].DB_MAX_OUTPUT_PORT_TYPE
 Result[1] << Result[1].DB_MAX_OUTPUT_PORT_TYPE
 Result[2] << Result[2].DB_MAX_OUTPUT_PORT_TYPE
-Result[3] << Result[3].DB_MAX_OUTPUT_PORT_TYPE
+Result[3] << binaryResult[3].DB_MAX_OUTPUT_PORT_TYPE
+binaryResult[0] << Result[0].DB_MAX_OUTPUT_PORT_TYPE
+binaryResult[1] << Result[1].DB_MAX_OUTPUT_PORT_TYPE
+binaryResult[2] << Result[2].DB_MAX_OUTPUT_PORT_TYPE
+binaryResult[3] << binaryResult[3].DB_MAX_OUTPUT_PORT_TYPE
 display1[0] << Decoder:decoder_inst.hex_result1
 display1[1] << Decoder:decoder_inst.hex_result1
 display1[2] << Decoder:decoder_inst.hex_result1
@@ -29,7 +33,7 @@ display2[3] << Decoder:decoder_inst.hex_result2
 display2[4] << Decoder:decoder_inst.hex_result2
 display2[5] << Decoder:decoder_inst.hex_result2
 display2[6] << Decoder:decoder_inst.hex_result2
-N << Result[3].DB_MAX_OUTPUT_PORT_TYPE
+N << binaryResult[3].DB_MAX_OUTPUT_PORT_TYPE
 Z << Equal0.DB_MAX_OUTPUT_PORT_TYPE
 C << Mux4.DB_MAX_OUTPUT_PORT_TYPE
 V << Selector0.DB_MAX_OUTPUT_PORT_TYPE

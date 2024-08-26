@@ -6,6 +6,7 @@ parameter n = 4; // numero de bits
 reg [n-1:0] a, b;
 reg [3:0] Operator;
 reg [n-1:0] Result;
+reg [n-1:0] binaryResult;   //solo para la defensa
 reg N, Z, C, V;
 
 // Instanciar la ALU
@@ -14,6 +15,7 @@ ALU #(n) uut (
     .b(b),
     .Operator(Operator),
     .Result(Result),
+	 .binaryResult(binaryResult),  //solo para la defensa
     .N(N),
     .Z(Z),
 	 .C(C),

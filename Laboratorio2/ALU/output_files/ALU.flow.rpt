@@ -1,5 +1,5 @@
 Flow report for ALU
-Sat Aug 24 23:57:17 2024
+Sun Aug 25 18:50:05 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Sat Aug 24 23:57:17 2024          ;
+; Flow Status                 ; Successful - Sun Aug 25 18:50:05 2024          ;
 ; Quartus Prime Version       ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name               ; ALU                                            ;
 ; Top-level Entity Name       ; ALU                                            ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/24/2024 23:57:06 ;
+; Start date & time ; 08/25/2024 18:49:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 194080957758903.172456542619168        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 168119032730854.172463339410756        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ALU_tb                            ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -104,8 +104,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4780 MB             ; 00:00:27                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:27                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4780 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +114,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+------------------+------------+------------+----------------+
 ; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-L14H8HP  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Elaboration ; DESKTOP-1OBLLTT  ; Windows 10 ; 10.0       ; x86_64         ;
 +------------------------+------------------+------------+------------+----------------+
 
 
