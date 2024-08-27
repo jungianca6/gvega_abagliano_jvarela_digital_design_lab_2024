@@ -20,6 +20,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "binaryResult[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binaryResult[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binaryResult[2]",
+					"strict" : false
+				},
+				{
+					"name" : "binaryResult[3]",
+					"strict" : false
+				},
+				{
 					"name" : "display1[0]",
 					"strict" : false
 				},
