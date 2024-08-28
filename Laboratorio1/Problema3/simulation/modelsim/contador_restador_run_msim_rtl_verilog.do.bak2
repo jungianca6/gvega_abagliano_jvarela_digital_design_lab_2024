@@ -1,4 +1,6 @@
 transcript on
+<<<<<<< HEAD
+=======
 if ![file isdirectory verilog_libs] {
 	file mkdir verilog_libs
 }
@@ -39,15 +41,22 @@ vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver
 vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 
+>>>>>>> d3831851d38dacfe96fa37d2d2973579ace1012e
 if {[file exists rtl_work]} {
 	vdel -lib rtl_work -all
 }
 vlib rtl_work
 vmap work rtl_work
 
+<<<<<<< HEAD
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
+
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
+=======
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador.sv}
 
 vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3 {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema3/contador_restador_tb.sv}
+>>>>>>> d3831851d38dacfe96fa37d2d2973579ace1012e
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_restador_tb
 

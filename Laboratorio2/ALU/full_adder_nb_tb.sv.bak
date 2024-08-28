@@ -1,0 +1,48 @@
+module full_adder_nb_tb;
+	// escoger el numero de bits
+	parameter n = 4;  
+
+	// cables de entrada
+	wire [n-1:0] a, b;
+	wire Cin;
+	// cables de salida
+	wire [N-1:0] Sum;
+	wire Cout;
+
+	// instanciar el sumador de n bits
+	full_adder_nb #(
+		.n(n)
+	) uut (
+		.a(a),
+		.b(b),
+		.Cin(Cin),
+		.Sum(Sum),
+		.Cout(Cout)
+	);
+	
+	// testbench
+	
+	initial begin
+	
+		$display("Testbench para full_adder_nb");
+		// Generate random inputs
+      a = 1111;
+      b = 1111;
+
+      // Apply inputs
+      #1; // Allow some time for inputs to settle
+      $display("Input: a = %b, b = %b, Cin = %b", a, b, Cin);
+
+      // Display output
+      #1; // Allow some time for outputs to settle
+      $display("Output: Sum = %b, Cout = %b", Sum, Cout);
+
+      // Check correctness (you may need to adjust the expected values)
+      if (sum !== (a + b + Cin)) $fatal("Mismatch in sum");
+      if (cout !== ((a + b + Cin) >>> n)) $fatal("Mismatch in cout");
+		
+		$stop;
+	end
+	
+	
+endmodule 

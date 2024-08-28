@@ -1,0 +1,26 @@
+module multiplier_nb#(
+		parameter n = 4 // numero de bits del multiplicador
+)(
+    input logic [n-1:0] a,
+    input logic [n-1:0] b, 
+    output logic [2*n-1:0] Result // salida de tamano 2N-bit
+);
+	// declaracion de variables temporales
+	logic [N-1:0] Ax;
+	logic [N-1:0] Bx;
+
+   int i, j; 
+
+   always_comb begin
+		// asignar los inputs a variables temporales (para el for)
+		Ax = a; 
+		Bx = b;
+		j = Bx;
+
+		Z = 0; // Reinicia el resultado en cada ciclo
+
+		for (i = 0; i < j; i++) begin : Itera
+			Result = Result + Ax; // resultado anterior mas el A (se realiza B veces)	 
+		end         
+    end 
+endmodule 

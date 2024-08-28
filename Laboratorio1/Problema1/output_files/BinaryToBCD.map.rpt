@@ -1,6 +1,6 @@
 Analysis & Synthesis report for BinaryToBCD
-Thu Aug  8 06:42:36 2024
-Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Thu Aug 08 23:03:07 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -24,7 +24,7 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2023  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -41,27 +41,27 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Aug  8 06:42:36 2024          ;
-; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
-; Revision Name                   ; BinaryToBCD                                    ;
-; Top-level Entity Name           ; binary_to_bcd                                  ;
-; Family                          ; Cyclone V                                      ;
-; Logic utilization (in ALMs)     ; N/A                                            ;
-; Total registers                 ; 0                                              ;
-; Total pins                      ; 19                                             ;
-; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 0                                              ;
-; Total DSP Blocks                ; 0                                              ;
-; Total HSSI RX PCSs              ; 0                                              ;
-; Total HSSI PMA RX Deserializers ; 0                                              ;
-; Total HSSI TX PCSs              ; 0                                              ;
-; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0                                              ;
-; Total DLLs                      ; 0                                              ;
-+---------------------------------+------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Thu Aug 08 23:03:07 2024       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; BinaryToBCD                                 ;
+; Top-level Entity Name           ; binary_to_bcd                               ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 19                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -156,8 +156,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -167,14 +167,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------+---------+
-; binary_to_bcd.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv ;         ;
-; bcdFPGA.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv       ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                        ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                    ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; binary_to_bcd.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv ;         ;
+; bcdFPGA.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv       ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------+
@@ -272,23 +272,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Thu Aug  8 06:42:24 2024
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Aug 08 23:02:59 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off BinaryToBCD -c BinaryToBCD
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file binary_to_bcd.sv
-    Info (12023): Found entity 1: binary_to_bcd File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 2
+    Info (12023): Found entity 1: binary_to_bcd File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tb_binary_to_bcd.sv
-    Info (12023): Found entity 1: tb_binary_to_bcd File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv Line: 1
+    Info (12023): Found entity 1: tb_binary_to_bcd File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/tb_binary_to_bcd.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bcdfpga.sv
-    Info (12023): Found entity 1: bcdFPGA File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv Line: 1
+    Info (12023): Found entity 1: bcdFPGA File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv Line: 1
 Info (12127): Elaborating entity "binary_to_bcd" for the top level hierarchy
-Info (12128): Elaborating entity "bcdFPGA" for hierarchy "bcdFPGA:BCDFPGA_inst" File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 28
-Warning (10272): Verilog HDL Case Statement warning at bcdFPGA.sv(14): case item expression covers a value already covered by a previous case item File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv Line: 14
+Info (12128): Elaborating entity "bcdFPGA" for hierarchy "bcdFPGA:BCDFPGA_inst" File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 28
+Warning (10272): Verilog HDL Case Statement warning at bcdFPGA.sv(14): case item expression covers a value already covered by a previous case item File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/bcdFPGA.sv Line: 14
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "bcd[6]" is stuck at GND File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 4
-    Warning (13410): Pin "bcd[7]" is stuck at GND File: C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 4
+    Warning (13410): Pin "bcd[6]" is stuck at GND File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 4
+    Warning (13410): Pin "bcd[7]" is stuck at GND File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio1/Problema1/binary_to_bcd.sv Line: 4
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -297,9 +297,9 @@ Info (21057): Implemented 31 device resources after synthesis - the final resour
     Info (21059): Implemented 15 output pins
     Info (21061): Implemented 12 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Thu Aug  8 06:42:36 2024
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Thu Aug 08 23:03:07 2024
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:16
 
 

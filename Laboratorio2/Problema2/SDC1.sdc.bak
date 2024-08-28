@@ -1,0 +1,14 @@
+# Define el reloj principal
+create_clock -period 10ns -name clk clk
+
+# Establece los tiempos de setup y hold para los datos de entrada
+set_input_delay -max 2ns -clock clk [get_ports data_in]
+
+# Establece los tiempos de hold para los datos de salida
+set_output_delay -min 2ns -clock clk [get_ports data_out]
+
+# Crea una restricción de false path para un camino no crítico
+set_false_path -from [get_ports reset] -to [all]
+
+# Crea una restricción de multicycle path para un camino que tarda múltiples ciclos
+set_multicycle_path 2 -from [get_ports data_in] -to [get_ports result]
