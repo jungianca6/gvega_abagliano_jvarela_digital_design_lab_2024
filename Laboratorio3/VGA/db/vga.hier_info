@@ -1,0 +1,132 @@
+|vga
+clk => clk.IN1
+vgaclk <= vgaclk.DB_MAX_OUTPUT_PORT_TYPE
+hsync <= vgaController:vgaCont.hsync
+vsync <= vgaController:vgaCont.vsync
+sync_b <= vgaController:vgaCont.sync_b
+blank_b <= vgaController:vgaCont.blank_b
+r[0] <= videoGen:vgaVideoGen.r
+r[1] <= videoGen:vgaVideoGen.r
+r[2] <= videoGen:vgaVideoGen.r
+r[3] <= videoGen:vgaVideoGen.r
+r[4] <= videoGen:vgaVideoGen.r
+r[5] <= videoGen:vgaVideoGen.r
+r[6] <= videoGen:vgaVideoGen.r
+r[7] <= videoGen:vgaVideoGen.r
+g[0] <= videoGen:vgaVideoGen.g
+g[1] <= videoGen:vgaVideoGen.g
+g[2] <= videoGen:vgaVideoGen.g
+g[3] <= videoGen:vgaVideoGen.g
+g[4] <= videoGen:vgaVideoGen.g
+g[5] <= videoGen:vgaVideoGen.g
+g[6] <= videoGen:vgaVideoGen.g
+g[7] <= videoGen:vgaVideoGen.g
+b[0] <= videoGen:vgaVideoGen.b
+b[1] <= videoGen:vgaVideoGen.b
+b[2] <= videoGen:vgaVideoGen.b
+b[3] <= videoGen:vgaVideoGen.b
+b[4] <= videoGen:vgaVideoGen.b
+b[5] <= videoGen:vgaVideoGen.b
+b[6] <= videoGen:vgaVideoGen.b
+b[7] <= videoGen:vgaVideoGen.b
+
+
+|vga|pll:vgapll
+inclk0 => toggle.CLK
+c0 <= toggle.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vga|vgaController:vgaCont
+vgaclk => y[0]~reg0.CLK
+vgaclk => y[1]~reg0.CLK
+vgaclk => y[2]~reg0.CLK
+vgaclk => y[3]~reg0.CLK
+vgaclk => y[4]~reg0.CLK
+vgaclk => y[5]~reg0.CLK
+vgaclk => y[6]~reg0.CLK
+vgaclk => y[7]~reg0.CLK
+vgaclk => y[8]~reg0.CLK
+vgaclk => y[9]~reg0.CLK
+vgaclk => x[0]~reg0.CLK
+vgaclk => x[1]~reg0.CLK
+vgaclk => x[2]~reg0.CLK
+vgaclk => x[3]~reg0.CLK
+vgaclk => x[4]~reg0.CLK
+vgaclk => x[5]~reg0.CLK
+vgaclk => x[6]~reg0.CLK
+vgaclk => x[7]~reg0.CLK
+vgaclk => x[8]~reg0.CLK
+vgaclk => x[9]~reg0.CLK
+hsync <= hsync.DB_MAX_OUTPUT_PORT_TYPE
+vsync <= vsync.DB_MAX_OUTPUT_PORT_TYPE
+sync_b <= sync_b.DB_MAX_OUTPUT_PORT_TYPE
+blank_b <= blank_b.DB_MAX_OUTPUT_PORT_TYPE
+x[0] <= x[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[1] <= x[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[2] <= x[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[3] <= x[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[4] <= x[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[5] <= x[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[6] <= x[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[7] <= x[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[8] <= x[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+x[9] <= x[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= y[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|vga|videoGen:vgaVideoGen
+x[0] => ~NO_FANOUT~
+x[1] => ~NO_FANOUT~
+x[2] => ~NO_FANOUT~
+x[3] => ~NO_FANOUT~
+x[4] => ~NO_FANOUT~
+x[5] => ~NO_FANOUT~
+x[6] => ~NO_FANOUT~
+x[7] => ~NO_FANOUT~
+x[8] => ~NO_FANOUT~
+x[9] => ~NO_FANOUT~
+y[0] => ~NO_FANOUT~
+y[1] => ~NO_FANOUT~
+y[2] => ~NO_FANOUT~
+y[3] => ~NO_FANOUT~
+y[4] => ~NO_FANOUT~
+y[5] => ~NO_FANOUT~
+y[6] => ~NO_FANOUT~
+y[7] => ~NO_FANOUT~
+y[8] => ~NO_FANOUT~
+y[9] => ~NO_FANOUT~
+r[0] <= <VCC>
+r[1] <= <VCC>
+r[2] <= <VCC>
+r[3] <= <VCC>
+r[4] <= <VCC>
+r[5] <= <VCC>
+r[6] <= <VCC>
+r[7] <= <VCC>
+g[0] <= <GND>
+g[1] <= <GND>
+g[2] <= <GND>
+g[3] <= <GND>
+g[4] <= <GND>
+g[5] <= <GND>
+g[6] <= <GND>
+g[7] <= <GND>
+b[0] <= <GND>
+b[1] <= <GND>
+b[2] <= <GND>
+b[3] <= <GND>
+b[4] <= <GND>
+b[5] <= <GND>
+b[6] <= <GND>
+b[7] <= <GND>
+
+
