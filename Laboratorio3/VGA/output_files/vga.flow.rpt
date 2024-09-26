@@ -1,5 +1,5 @@
 Flow report for vga
-Thu Sep 26 09:57:38 2024
+Thu Sep 26 10:42:59 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Thu Sep 26 09:57:38 2024          ;
+; Flow Status                 ; Successful - Thu Sep 26 10:42:59 2024          ;
 ; Quartus Prime Version       ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name               ; vga                                            ;
 ; Top-level Entity Name       ; vga                                            ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/26/2024 09:57:28 ;
+; Start date & time ; 09/26/2024 10:42:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; vga                 ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 194080957758903.172736624805560        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 194080957758903.172736896802520        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;

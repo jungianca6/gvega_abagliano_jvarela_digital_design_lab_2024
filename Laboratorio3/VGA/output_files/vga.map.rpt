@@ -1,5 +1,5 @@
 Analysis & Elaboration report for vga
-Thu Sep 26 09:57:38 2024
+Thu Sep 26 10:42:59 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Sep 26 09:57:38 2024          ;
+; Analysis & Elaboration Status ; Successful - Thu Sep 26 10:42:59 2024          ;
 ; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                 ; vga                                            ;
 ; Top-level Entity Name         ; vga                                            ;
@@ -181,7 +181,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Thu Sep 26 09:57:27 2024
+    Info: Processing started: Thu Sep 26 10:42:48 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga -c vga --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -199,7 +199,7 @@ Info (12128): Elaborating entity "vgaController" for hierarchy "vgaController:vg
 Info (12128): Elaborating entity "videoGen" for hierarchy "videoGen:vgaVideoGen" File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Laboratorio3/VGA/vga.sv Line: 30
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4777 megabytes
-    Info: Processing ended: Thu Sep 26 09:57:38 2024
+    Info: Processing ended: Thu Sep 26 10:42:59 2024
     Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:26
 
