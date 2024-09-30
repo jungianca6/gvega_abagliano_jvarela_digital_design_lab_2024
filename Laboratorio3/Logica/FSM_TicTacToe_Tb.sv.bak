@@ -1,22 +1,20 @@
 `timescale 1ns / 1ps
 
-module FSM_TicTacToe_Tb;
+module gameState_tb;
 
     // Señales de prueba
     logic Reset;
     logic clk;
     logic [17:0] Cells; // Celdas del juego
     logic winState;
-    logic drawState;
     logic [8:0] Color;
 
-    // Instanciar el módulo FSM_TicTacToe
-    FSM_TicTacToe uut (
+    // Instanciar el módulo gameState
+    gameState uut (
         .Reset(Reset),
         .clk(clk),
         .Cells(Cells),
         .winState(winState),
-        .drawState(drawState),
         .Color(Color)
     );
 
@@ -39,11 +37,8 @@ module FSM_TicTacToe_Tb;
         #10; // Esperar un ciclo de reloj
         
         // Verificar el resultado
-        #1; // Un pequeño delay para asegurar la lectura del resultado
         if (winState !== 1'b1) begin
             $display("Error: X debería haber ganado.");
-        end else begin
-            $display("Test 1: X ganó correctamente.");
         end
         
         // Test 2: O gana verticalmente (celdas 0, 3, 6)
@@ -51,23 +46,28 @@ module FSM_TicTacToe_Tb;
         #10; // Esperar un ciclo de reloj
 
         // Verificar el resultado
-        #1; // Un pequeño delay para asegurar la lectura del resultado
         if (winState !== 1'b1) begin
             $display("Error: O debería haber ganado.");
-        end else begin
-            $display("Test 2: O ganó correctamente.");
         end
 
-        // Test 3: Empate (todas las celdas ocupadas sin ganador)
-        Cells = 18'b111111111111111111; // Todas las celdas ocupadas
+        // Test 3: X gana diagonalmente (celdas 0, 4, 8)
+        Cells = 18'b000000000000010100; // Las celdas ocupadas por X
         #10; // Esperar un ciclo de reloj
         
         // Verificar el resultado
-        #1; // Un pequeño delay para asegurar la lectura del resultado
-        if (drawState !== 1'b1) begin
-            $display("Error: Debería haber empate.");
-        end else begin
-            $display("Test 3: Empate detectado correctamente.");
+        if (winState !== 1'b1) begin
+            $display("Error: X debería haber ganado.");
+        end
+
+        // Test 4: No hay ganador
+        Cells = 18'b000000000000000000; // Inicializar nuevamente
+        #10; // Esperar un ciclo de reloj
+        Cells = 18'b000000000000000000; // Sin ganadores
+        #10; // Esperar un ciclo de reloj
+
+        // Verificar que winState sigue siendo 0
+        if (winState !== 1'b0) begin
+            $display("Error: No debería haber ganador.");
         end
 
         // Finalizar la simulación
@@ -76,9 +76,8 @@ module FSM_TicTacToe_Tb;
 
     // Monitoreo de señales
     initial begin
-        $monitor("Time: %0t | Reset: %b | Cells: %b | winState: %b | drawState: %b | Color: %b", 
-                  $time, Reset, Cells, winState, drawState, Color);
+        $monitor("Time: %0t | Reset: %b | Cells: %b | winState: %b | Color: %b", 
+                  $time, Reset, Cells, winState, Color);
     end
 
 endmodule
-
