@@ -3,22 +3,34 @@ typedef enum {PLAY, WIN, DRAW} gameStates;
 module FSM_TicTacToe(
     input logic Reset,
     input logic clk,
-    input logic [17:0] Cells,
+    input logic [8:0] switches,   // Switches para seleccionar celdas
+    input logic playerMove,        // Botón para confirmar el movimiento
     output reg winState,
     output reg drawState,
-    output reg [8:0] Color
+    output reg [8:0] Color,
+    output logic [17:0] Cells      // Tablero de juego (18 bits)
 );
     gameStates PS, NS;
 
     // Instanciar el módulo de condiciones de victoria
     logic X_wins, O_wins;
+    logic draw; // Declarar la señal de empate
     VictoryConditions vc (
         .Cells(Cells),
         .X_wins(X_wins),
         .O_wins(O_wins),
-		  .draw(draw)
+        .draw(draw)
     );
-	 
+
+    // Instanciar el módulo de control de entradas
+    InputController ic (
+        .clk(clk),
+        .Reset(Reset),
+        .switches(switches),
+        .playerMove(playerMove),
+        .Cells(Cells) // Pasar el tablero actualizado
+    );
+    
     always_ff @(posedge clk or posedge Reset) begin
         if (Reset)
             PS <= PLAY;
@@ -69,4 +81,3 @@ module FSM_TicTacToe(
         endcase
     end
 endmodule
-

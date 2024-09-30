@@ -1,0 +1,39 @@
+module InputController(
+    input logic clk,
+    input logic Reset,            // Botón de reinicio
+    input logic [8:0] switches,   // Switches para seleccionar la celda (9 switches, 1 por celda)
+    input logic playerMove,       // Botón para confirmar el movimiento
+    output logic [17:0] Cells,    // Tablero de juego (9 bits para X, 9 bits para O)
+    output logic currentPlayer    // Jugador actual (0 = X, 1 = O)
+);
+
+    // Estado inicial
+    initial begin
+        Cells = 18'b0;
+        currentPlayer = 0; // X comienza
+    end
+
+    // Manejo de celdas y cambios de jugador
+    always_ff @(posedge clk or posedge Reset) begin
+        if (Reset) begin
+            // Reiniciar tablero y jugador
+            Cells <= 18'b0;
+            currentPlayer <= 0;
+        end
+        else if (playerMove) begin
+            // Si el switch está activado y la celda está vacía
+            for (int i = 0; i < 9; i++) begin
+                if (switches[i] && !Cells[2*i] && !Cells[2*i+1]) begin
+                    if (currentPlayer == 0) begin
+                        Cells[2*i] <= 1;  // Marca X
+                    end
+                    else begin
+                        Cells[2*i+1] <= 1;  // Marca O
+                    end
+                    // Cambiar de jugador
+                    currentPlayer <= ~currentPlayer;
+                end
+            end
+        end
+    end
+endmodule
