@@ -1,0 +1,147 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/simulation/modelsim
+vFSM_TicTacToe
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx4 work 21 FSM_TicTacToe_sv_unit 0 22 7;ZTBH[[FF=XOT]1^Y]?X3
+Z2 !s110 1727692258
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 YKiRcTISGNJo@e`0nY_BD3
+IiU^AD58i<6Z0d3[9RRaSX3
+!s105 FSM_TicTacToe_sv_unit
+S1
+R0
+Z4 w1727692236
+Z5 8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv
+Z6 FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv
+!i122 0
+Z7 L0 3 81
+Z8 OV;L;2020.1;71
+31
+Z9 !s108 1727692258.000000
+Z10 !s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica
+Z14 tCvgOpt 0
+n@f@s@m_@tic@tac@toe
+XFSM_TicTacToe_sv_unit
+R1
+R2
+V7;ZTBH[[FF=XOT]1^Y]?X3
+r1
+!s85 0
+!i10b 1
+!s100 A8MRmE`On5HTI>?f@A@R[1
+I7;ZTBH[[FF=XOT]1^Y]?X3
+!i103 1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@f@s@m_@tic@tac@toe_sv_unit
+vFSM_TicTacToe_Tb
+R1
+R2
+!i10b 1
+!s100 4^`LWoWH79i`BJ5Djn1VX1
+Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ih]@9Y_BhVBNUEZS^aN^MC2
+R3
+S1
+R0
+w1727677068
+8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv
+FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv
+!i122 3
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv|
+!i113 1
+R12
+R13
+R14
+n@f@s@m_@tic@tac@toe_@tb
+vInputController
+R1
+R2
+!i10b 1
+!s100 96D4OABZ>0lSKHFaFcKOD0
+R15
+I8`FzCLMk9C9H5J?jgNgGh2
+R3
+S1
+R0
+w1727690743
+8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv
+FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv
+!i122 2
+L0 1 24
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv|
+!i113 1
+R12
+R13
+R14
+n@input@controller
+vVictoryConditions
+R1
+R2
+!i10b 1
+!s100 [9`?zNWegBkjFi_:TV:7j2
+R15
+IBdX8KT8UMXnRGW3V4J]W72
+R3
+S1
+R0
+w1727676553
+8C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv
+FC:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv
+!i122 1
+L0 1 46
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica|C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv|
+!i113 1
+R12
+R13
+R14
+n@victory@conditions

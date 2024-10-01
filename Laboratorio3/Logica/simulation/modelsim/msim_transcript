@@ -1,0 +1,87 @@
+# Reading pref.tcl
+# do TicTacToe_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:30:58 on Sep 30,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe.sv 
+# -- Compiling package FSM_TicTacToe_sv_unit
+# -- Compiling module FSM_TicTacToe
+# 
+# Top level modules:
+# 	FSM_TicTacToe
+# End time: 04:30:58 on Sep 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:30:58 on Sep 30,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/VictoryConditions.sv 
+# -- Compiling module VictoryConditions
+# 
+# Top level modules:
+# 	VictoryConditions
+# End time: 04:30:58 on Sep 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:30:58 on Sep 30,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/InputController.sv 
+# -- Compiling module InputController
+# 
+# Top level modules:
+# 	InputController
+# End time: 04:30:58 on Sep 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica {C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:30:58 on Sep 30,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica" C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv 
+# -- Compiling module FSM_TicTacToe_Tb
+# 
+# Top level modules:
+# 	FSM_TicTacToe_Tb
+# End time: 04:30:58 on Sep 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  FSM_TicTacToe_Tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" FSM_TicTacToe_Tb 
+# Start time: 04:30:58 on Sep 30,2024
+# Loading sv_std.std
+# Loading work.FSM_TicTacToe_Tb
+# Loading work.FSM_TicTacToe_sv_unit
+# Loading work.FSM_TicTacToe
+# Loading work.VictoryConditions
+# Loading work.InputController
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 8, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_TicTacToe_Tb/uut File: C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv(14): [TFMPC] - Missing connection for port 'switches'.
+# ** Warning: (vsim-3722) C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv(14): [TFMPC] - Missing connection for port 'playerMove'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time: 0 | Reset: 1 | Cells: 000000000000000000 | winState: 0 | drawState: 0 | Color: 000000000
+# Time: 10000 | Reset: 0 | Cells: 000000000000000011 | winState: 0 | drawState: 0 | Color: 000000000
+# Error: X debería haber ganado.
+# Time: 21000 | Reset: 0 | Cells: 000000000000001100 | winState: 0 | drawState: 0 | Color: 000000000
+# Error: O debería haber ganado.
+# Time: 32000 | Reset: 0 | Cells: 111111111111111111 | winState: 0 | drawState: 0 | Color: 000000000
+# Error: Debería haber empate.
+# ** Note: $stop    : C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv(74)
+#    Time: 43 ns  Iteration: 0  Instance: /FSM_TicTacToe_Tb
+# Break in Module FSM_TicTacToe_Tb at C:/Users/julio/OneDrive/Documentos/GitHub/gvega_digital_design_lab_2024/Laboratorio3/Logica/FSM_TicTacToe_Tb.sv line 74
+# End time: 04:31:06 on Sep 30,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 3
