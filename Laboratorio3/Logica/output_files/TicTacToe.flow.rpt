@@ -1,5 +1,5 @@
 Flow report for TicTacToe
-Mon Sep 30 11:12:16 2024
+Mon Sep 30 19:59:31 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Mon Sep 30 11:12:16 2024          ;
+; Flow Status                 ; Successful - Mon Sep 30 19:59:31 2024          ;
 ; Quartus Prime Version       ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name               ; TicTacToe                                      ;
 ; Top-level Entity Name       ; FSM_TicTacToe                                  ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/30/2024 11:12:05 ;
+; Start date & time ; 09/30/2024 19:59:20 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TicTacToe           ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 168119032730854.172771632520916        ; --            ; --            ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 168119032730854.172774796038296        ; --            ; --            ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; FSM_TicTacToe_Tb                  ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --            ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --            ; eda_board_design_boundary_scan    ;
@@ -105,8 +105,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4777 MB             ; 00:00:28                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:28                           ;
+; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4777 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
