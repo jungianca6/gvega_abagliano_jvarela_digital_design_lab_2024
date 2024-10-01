@@ -56,7 +56,79 @@
 					"strict" : false
 				},
 				{
+					"name" : "winner[0]",
+					"strict" : false
+				},
+				{
+					"name" : "winner[1]",
+					"strict" : false
+				},
+				{
+					"name" : "estado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "estado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "estado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "current_player_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "current_player_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "row_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "row_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "col_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "col_out[1]",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "select",
+					"strict" : false
+				},
+				{
+					"name" : "cant_player",
+					"strict" : false
+				},
+				{
+					"name" : "orden",
+					"strict" : false
+				},
+				{
+					"name" : "move",
+					"strict" : false
+				},
+				{
+					"name" : "attack",
 					"strict" : false
 				}
 			]

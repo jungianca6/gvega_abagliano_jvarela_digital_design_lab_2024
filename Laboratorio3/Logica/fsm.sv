@@ -76,7 +76,7 @@ always_comb begin
 		end
 
 
-		4'b0101:if (timeout) begin 
+		4'b0101:if (finished) begin 
 						next_state = 4'b0111;
 					end else if (end_attack_p2 || end_attack_p1) begin
 						next_state = 4'b0110;

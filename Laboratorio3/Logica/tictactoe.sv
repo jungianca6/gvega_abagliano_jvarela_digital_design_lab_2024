@@ -15,7 +15,10 @@ module tictactoe(
     output logic [3:0] estado,
     output logic [1:0] current_player_out,
     output logic [1:0] row_out,
-    output logic [1:0] col_out
+    output logic [1:0] col_out,
+	 output logic [6:0] seg1,  // Segmentos del primer display de 7 segmentos
+    output logic [6:0] seg2
+	 
 );
 
     // Señales internas
@@ -131,6 +134,22 @@ module tictactoe(
     assign current_player_out = current_player;
     assign row_out = row;
     assign col_out = col;
+	 
+	 TopContador counter_inst (
+        .clk(clk),
+        .rst(rst),
+		  .next_state(next_state),
+        .current_state(estado),  // Estado actual de la MEF
+        .finished(finished),  // Señal de finished desde el contador
+        .count(count)
+    );
+	 
+	 DisplayController display_inst (
+        .bin(bin),
+        .seg1(seg1),
+        .seg2(seg2)
+    );
+
 
     // -- Integración VGA --
     // PLL para generar el reloj VGA
@@ -154,11 +173,11 @@ module tictactoe(
     videoGen vgaVideoGen(
         .x(x),
         .y(y),
-        .estado(estado),
-		  .row_out(row_out),
-		  .col_out(col_out),
-		  .board(board), 
-		  .winner(winner),
+       // .estado(estado),
+		  //.row_out(row_out),
+		 // .col_out(col_out),
+		 // .board(board), 
+		  //.winner(winner),
         .r(r),
         .g(g),
         .b(b)
