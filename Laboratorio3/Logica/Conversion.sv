@@ -18,7 +18,7 @@ module Conversion (
 
     // Instanciamos el controlador de displays BCD
     DisplayController display_inst (
-        .bin(count),
+        .bin(bin),
         .seg1(seg1),
         .seg2(seg2)
     );
