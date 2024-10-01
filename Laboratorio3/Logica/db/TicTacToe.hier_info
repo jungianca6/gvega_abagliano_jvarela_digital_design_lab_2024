@@ -25,11 +25,11 @@ next_state[0] => ~NO_FANOUT~
 next_state[1] => ~NO_FANOUT~
 next_state[2] => ~NO_FANOUT~
 next_state[3] => ~NO_FANOUT~
-finished <= Equal4.DB_MAX_OUTPUT_PORT_TYPE
-count[0] <= counter15[0].DB_MAX_OUTPUT_PORT_TYPE
-count[1] <= counter15[1].DB_MAX_OUTPUT_PORT_TYPE
-count[2] <= counter15[2].DB_MAX_OUTPUT_PORT_TYPE
-count[3] <= counter15[3].DB_MAX_OUTPUT_PORT_TYPE
+finished << Equal4.DB_MAX_OUTPUT_PORT_TYPE
+count[0] << counter15[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] << counter15[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] << counter15[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] << counter15[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |TopContador|Counter:counter_chain[0].u
