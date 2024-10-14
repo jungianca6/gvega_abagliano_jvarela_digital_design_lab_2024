@@ -27,7 +27,9 @@ next:
     B loop                    @ Volver al inicio del bucle
 
 endLoop:
+	B .
     @ Fin del bucle
 
 array:
     .word 7, 4, 2, 9, 1, 3, 6, 5, 10, 8  @ Definición del arreglo en memoria
+	
