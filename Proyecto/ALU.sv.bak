@@ -2,6 +2,10 @@ module ALU # (parameter n = 4)(
 	input logic [n-1:0] a, b,   	// entradas u operandos
 	input logic [3:0] Operator, 	// codigo para la operacion
 	output logic [n-1:0] Result,// resultado de la operacion
+	output logic [n-1:0] binaryResult,
+	output logic [6:0] display1,
+	output logic [6:0] display2,
+	
 	output logic N, Z, C, V		 	// banderas de estado:
 											// Negativo(N), Cero(Z), Acarreo(C), Desbordamiento (V) 
 );
@@ -50,6 +54,14 @@ module ALU # (parameter n = 4)(
 		 .b(b),
 		 .Overf(multiplier_Overf),
 		 .Result(multiplier_result)
+	);
+	
+	// Instancia del decoder
+	Decoder decoder_inst (
+		 .bin1(Result[3:0]),
+		 .bin2(Operator),
+		 .hex_result1(display1),
+		 .hex_result2(display2)
 	);
 						  
 	always_comb begin
@@ -103,6 +115,7 @@ module ALU # (parameter n = 4)(
 		N = Result[n-1];
 		Z = (Result == {n{1'b0}});
 		
+		binaryResult = Result;
 		
 	end
 	
