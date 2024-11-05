@@ -87,3 +87,5 @@ set_global_assignment -name MIF_FILE ram1.mif
 set_global_assignment -name QIP_FILE ram1.qip
 set_global_assignment -name MIF_FILE rom1.mif
 set_global_assignment -name QIP_FILE rom1.qip
+set_global_assignment -name SYSTEMVERILOG_FILE dmem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE imem.sv
