@@ -1,24 +1,19 @@
-module ALU # (parameter n = 4)(
+module ALU # (parameter n = 2)(
 	input logic [n-1:0] a, b,   	// entradas u operandos
-	input logic [3:0] Operator, 	// codigo para la operacion
-	output logic [n-1:0] Result,// resultado de la operacion
-	output logic N, Z, C, V		 	// banderas de estado:
-											// Negativo(N), Cero(Z), Acarreo(C), Desbordamiento (V) 
+	input logic [1:0] ALUControl, 	// codigo para la operacion
+	output logic [n-1:0] ALUResult,// resultado de la operacion
+	output logic [3:0] ALUFlags	
 );
 
 	//logic [n-1:0] extended_result; // resultado extendido para operaciones como MUL y DIV
 
 	// definición de códigos de operación
-	localparam [3:0] ADD = 4'b0000,
-						  SUB = 4'b0001,
-						  MUL = 4'b0010,
-						  DIV = 4'b0011,
-						  MOD = 4'b0100,
-						  AND = 4'b0101,
-						  OR  = 4'b0110,
-						  XOR = 4'b0111,
-						  SHL = 4'b1000,
-						  SHR = 4'b1001; 
+	localparam [1:0] ADD = 2'b00,
+						  SUB = 2'b01,
+						  AND = 2'b10,
+						  OR  = 2'b11;
+						  
+	logic N, Z, C, V;
 
 	// Instancia del full_adder_nb
 	wire [n-1:0] adder_result;
@@ -53,57 +48,40 @@ module ALU # (parameter n = 4)(
 	);
 						  
 	always_comb begin
-		{N, Z, C, V} = 4'b0; // inicializacion de las banderas en "0000"
-		//extended_result = {2*n{1'b0}}; // inicializacion del resultado extendido en "n...0"
-		
-		case(Operator)
+		{N, Z, C, V} = 4'b0000; // inicializacion de las banderas en "0000"
+	
+		case(ALUControl)
 			ADD: begin
-				  Result = adder_result; // suma
+				  ALUResult = adder_result; // suma
 				  C = adder_cout;
 				  V = (a[n-1] == b[n-1]) && (adder_result[n-1] != a[n-1]);
+				  N = ALUResult[n-1];
 			end
 			
 			SUB: begin
-				  Result = subtractor_result; // Resta
+				  ALUResult = subtractor_result; // Resta
 				  C = subtractor_cout;
 				  V = (a[n-1] ^ subtractor_result[n-1]) & (a[n-1] ^ b[n-1]);
+				  N = ALUResult[n-1];
 			end
-			
-			MUL: begin
-				  Result = {multiplier_Overf, multiplier_result}; // multiplicacion
-				  C = |multiplier_Overf;
-			end
-			
-			DIV: begin
-				  Result = a / b; // División
-			end
-			MOD: begin
-				  Result = a % b; // Módulo
-			end
+		
 			AND: begin
-				  Result = a & b; // AND
-			end
-			OR: begin
-				  Result = a | b; // OR
-			end
-			XOR: begin
-				  Result = a ^ b; // XOR
-			end
-			SHL: begin
-				  Result = a << b; // Shift left
-			end
-			SHR: begin
-				  Result = a >> b; // Shift right
+				  ALUResult = a & b; // AND
+				  {N, C, V} = 3'b000;
 			end
 			
-			default: Result = {n{1'b0}}; // En caso de operación desconocida
+			OR: begin
+				  ALUResult = a | b; // OR
+				 {N, C, V} = 3'b000;
+			end		
+			
+			default: ALUResult = {n{1'b0}}; // En caso de operación desconocida
 		
 		endcase
 		
-		N = Result[n-1];
-		Z = (Result == {n{1'b0}});
-		
+		Z = (ALUResult == {n{1'b0}});	
 		
 	end
+	assign ALUFlags = {N,Z,C,V};
 	
 endmodule
