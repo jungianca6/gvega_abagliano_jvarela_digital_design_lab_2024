@@ -1,0 +1,453 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1730960150
+!i10b 1
+!s100 1@:mWoS:Zhc^zGmBdWHfC2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG68:g59<nAlT^cW[eLX^_2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1730947542
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/adder.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/adder.sv
+!i122 11
+L0 1 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1730960150.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/adder.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador
+Z9 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 miZ@39iQ0bV<HazDI7azc2
+R3
+Ih;><Z>Y3ToA^Jb;ZzVDT>3
+R4
+S1
+R0
+w1730949221
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/alu.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/alu.sv
+!i122 13
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/alu.sv|
+!i113 1
+R7
+R8
+R9
+varm
+R1
+Z10 !s110 1730960149
+!i10b 1
+!s100 iYN6P0_]SRD]aB:iV6?j82
+R3
+I@2kLz6;^mI<F6>1:Gj4A60
+R4
+S1
+R0
+w1730953179
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/arm.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/arm.sv
+!i122 0
+Z11 L0 1 21
+R5
+r1
+!s85 0
+31
+!s108 1730960148.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/arm.sv|
+!i113 1
+R7
+R8
+R9
+vcondcheck
+R1
+R10
+!i10b 1
+!s100 zT]g5]z7X1JODJLkKiMn]0
+R3
+IIYV^]zb=hEXe_`]MBz[202
+R4
+S1
+R0
+Z12 w1730956748
+Z13 8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/condlogic.sv
+Z14 FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/condlogic.sv
+!i122 3
+L0 24 30
+R5
+r1
+!s85 0
+31
+Z15 !s108 1730960149.000000
+Z16 !s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/condlogic.sv|
+Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/condlogic.sv|
+!i113 1
+R7
+R8
+R9
+vcondlogic
+R1
+R10
+!i10b 1
+!s100 VWMeDT`<fgERAgYkJ>ZJ72
+R3
+IjP50OTR@Lo_P46dNj^0SO2
+R4
+S1
+R0
+R12
+R13
+R14
+!i122 3
+L0 1 22
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vcontroller
+R1
+R10
+!i10b 1
+!s100 JzaVAR0EfL3C0hVV`ff_>0
+R3
+IQIja[;K`Y>WD3_PkLX8ZQ2
+R4
+S1
+R0
+w1730950259
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/controller.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/controller.sv
+!i122 1
+L0 1 24
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/controller.sv|
+!i113 1
+R7
+R8
+R9
+vdatapath
+R1
+R10
+!i10b 1
+!s100 =GXK0Le2D0k8a6GC5?ZNj1
+R3
+IhnzfUCTD9aDU^:N^XbP9Z3
+R4
+S1
+R0
+w1730953844
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/datapath.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/datapath.sv
+!i122 4
+L0 1 38
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/datapath.sv|
+!i113 1
+R7
+R8
+R9
+vdecoder
+R1
+R10
+!i10b 1
+!s100 mXWf45J=lo8PH5O4K<_[<0
+R3
+Il1chiifnCWP^b5e^Yj?Be2
+R4
+S1
+R0
+w1730956606
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/decoder.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/decoder.sv
+!i122 2
+L0 1 58
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/decoder.sv|
+!i113 1
+R7
+R8
+R9
+vdmem
+R1
+R2
+!i10b 1
+!s100 S>DS8VYR6GY]YKYM1K66I1
+R3
+ICJj0mddKbYTHnTob6]LAP0
+R4
+S1
+R0
+w1730954217
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/dmem.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/dmem.sv
+!i122 10
+Z18 L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/dmem.sv|
+!i113 1
+R7
+R8
+R9
+vextend
+R1
+R2
+!i10b 1
+!s100 7O7UHCGO^lb2ke7hUBgc40
+R3
+IM0kRiKbYH?GNc24gV^0T=2
+R4
+S1
+R0
+w1730947565
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/extend.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/extend.sv
+!i122 12
+R11
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/extend.sv|
+!i113 1
+R7
+R8
+R9
+vflopenr
+R1
+R10
+!i10b 1
+!s100 X4TTB@oGLl2k`Y6?_2XZY2
+R3
+IJFZ1b8D2`2QU8Ol8N<1;73
+R4
+S1
+R0
+w1730953984
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopenr.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopenr.sv
+!i122 7
+L0 1 13
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopenr.sv|
+!i113 1
+R7
+R8
+R9
+vflopr
+R1
+R10
+!i10b 1
+!s100 C1:d>JQ6O0WGAW13[:F[z0
+R3
+IgOd1Z3=S3B>BOjR`NL3W:2
+R4
+S1
+R0
+w1730953929
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopr.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopr.sv
+!i122 6
+L0 1 12
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/flopr.sv|
+!i113 1
+R7
+R8
+R9
+vimem
+R1
+R2
+!i10b 1
+!s100 I9PYnIXP4Xb5?6Ie^>6nG1
+R3
+IX:@Tb09Vih?]:=T8lfVkA3
+R4
+S1
+R0
+w1730957500
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/imem.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/imem.sv
+!i122 14
+L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/imem.sv|
+!i113 1
+R7
+R8
+R9
+vmux2
+R1
+R2
+!i10b 1
+!s100 Lmh^7C5EOb^f?:C9Ce3;G2
+R3
+Ib`YN0<iW27DXYIOe=YTa51
+R4
+S1
+R0
+w1730954022
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/mux2.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/mux2.sv
+!i122 8
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/mux2.sv|
+!i113 1
+R7
+R8
+R9
+vregfile
+R1
+R10
+!i10b 1
+!s100 ><FXzb:SV3H?fe2CiiG]f1
+R3
+I`VLa6[Mn[FE9lhUof3]g92
+R4
+S1
+R0
+w1730947383
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/regfile.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/regfile.sv
+!i122 5
+L0 1 23
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/regfile.sv|
+!i113 1
+R7
+R8
+R9
+vtestbench
+R1
+R2
+!i10b 1
+!s100 e;AUZ3W`G3:HD65XKE:D_2
+R3
+IKim=AN]h3K?mM[P0RPP`21
+R4
+S1
+R0
+w1730957187
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/testbench.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/testbench.sv
+!i122 15
+L0 1 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/testbench.sv|
+!i113 1
+R7
+R8
+R9
+vtop
+R1
+R2
+!i10b 1
+!s100 =?2WDf<NhWNhfWNAgh9c?1
+R3
+I1XbUDoW[Aa]^cL0FFOi^62
+R4
+S1
+R0
+w1730956540
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/top.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/top.sv
+!i122 9
+R18
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador|D:/TEC/2Semestre2024/TallerDD/Proyecto/Procesador/top.sv|
+!i113 1
+R7
+R8
+R9
