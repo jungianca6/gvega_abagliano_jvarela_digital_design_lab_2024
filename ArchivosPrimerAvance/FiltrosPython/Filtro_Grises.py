@@ -59,4 +59,4 @@ def aplicar_filtro_grises(imagen_entrada, imagen_salida):
             archivo_salida.write(b'\x00' * padding)
 
 # Usar la función
-aplicar_filtro_grises('D:\\TEC\\2Semestre2024\\TallerDD\\Proyecto\\mario.bmp', 'D:\\TEC\\2Semestre2024\\TallerDD\\Proyecto\\mario_grises.bmp')
+aplicar_filtro_grises('mario.bmp', 'mario_grises.bmp')

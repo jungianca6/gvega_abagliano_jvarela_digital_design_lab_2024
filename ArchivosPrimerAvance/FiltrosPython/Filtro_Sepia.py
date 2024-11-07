@@ -64,7 +64,7 @@ def aplicar_filtro_sepia(imagen_entrada, imagen_salida):
             archivo_salida.write(b'\x00' * padding)
 
 # Usar la función
-aplicar_filtro_sepia('D:\\TEC\\2Semestre2024\\TallerDD\\Proyecto\\mario.bmp', 'D:\\TEC\\2Semestre2024\\TallerDD\\Proyecto\\mario_sepia.bmp')
+aplicar_filtro_sepia('mario.bmp', 'mario_sepia.bmp')
 
 
 
