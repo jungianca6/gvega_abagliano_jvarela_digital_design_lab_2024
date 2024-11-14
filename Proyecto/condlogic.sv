@@ -1,5 +1,5 @@
 module condlogic(
-   input logic clk,reset,
+   input logic clk,rst,
 	input logic [3:0] Cond,
 	input logic [3:0] ALUFlags,
 	input logic [1:0] FlagW,
@@ -11,17 +11,33 @@ module condlogic(
 	 logic [3:0] Flags;
 	 logic CondEx;
 	 
-	 flopenr #(2)flagreg1(clk,reset,FlagWrite[1],
-	 ALUFlags[3:2],Flags[3:2]);
 	 
-	 flopenr #(2)flagreg0(clk,reset,FlagWrite[0],
-	 ALUFlags[1:0],Flags[1:0]);
+flopenr #(2)flagreg1(
+	 .clk(clk), 
+	 .rst(rst), 
+	 .en(FlagWrite[1]),
+	 .d(ALUFlags[3:2]), 
+	 .q(Flags[3:2])
+	);
+	
+flopenr #(2)flagreg0(
+	 .clk(clk), 
+	 .rst(rst), 
+	 .en(FlagWrite[0]),
+	 .d(ALUFlags[1:0]), 
+	 .q(Flags[1:0])
+	);
+
+condcheck cc(
+	.Cond(Cond), 
+	.Flags(Flags), 
+	.CondEx(CondEx)
+	);	
 	 
-	 //writecontrolsareconditional
-	 condcheck cc(Cond, Flags, CondEx);
-	 assign FlagWrite= FlagW & {2{CondEx}};
-	 assign RegWrite = RegW & CondEx;
-	 assign MemWrite = MemW & CondEx;
-	 assign PCSrc = PCS & CondEx;
+
+	assign FlagWrite= FlagW & {2{CondEx}};
+	assign RegWrite = RegW & CondEx;
+	assign MemWrite = MemW & CondEx;
+	assign PCSrc = PCS & CondEx;
 	 
 endmodule 

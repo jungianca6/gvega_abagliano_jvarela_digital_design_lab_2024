@@ -47,11 +47,6 @@ vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v}
 vlog -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/multiplier_nb.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_nb.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_1b.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_nb.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_1b.sv}
 vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv}
 vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv}
 vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv}

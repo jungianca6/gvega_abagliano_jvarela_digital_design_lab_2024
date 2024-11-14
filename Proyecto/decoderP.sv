@@ -12,7 +12,7 @@
  logic Branch,ALUOp;
  
  //MainDecoder
- always_comb
+ always_comb begin
 	 casex(Op)
 		//Data-processing immediate
 		 2'b00:if(Funct[5]) controls = 10'b0000101001;
@@ -28,28 +28,29 @@
 		 //Unimplemented
 		 default: controls=10'bx;
 	 endcase
-	 
+end	 
 assign{RegSrc,ImmSrc,ALUSrc,MemtoReg,
-	 RegW,MemW,Branch,ALUOp}=controls;
+	 RegW,MemW,Branch,ALUOp} = controls;
 	 
  //ALUDecoder
- always_comb
-	 if(ALUOp)begin //whichDPInstr?
-	 case(Funct[4:1])
-		 4'b0100: ALUControl=2'b00; //ADD
-		 4'b0010: ALUControl=2'b01; //SUB
-		 4'b0000: ALUControl=2'b10; //AND
-		 4'b1100: ALUControl=2'b11; //ORR
-		 default: ALUControl=2'bx; //unimplemented
-	 endcase
-	 //update flags if Sbitisset(C&Vonlyforarith)
-	 FlagW[1] =Funct[0];
-	 FlagW[0] =Funct[0] & (ALUControl==2'b00|ALUControl==2'b01);
-	 end else begin
-	 ALUControl=2'b00; //addfornon-DPinstructions
-	 FlagW =2'b00; //don'tupdateFlags
+always_comb begin
+	if (ALUOp) begin
+		case(Funct[4:1])
+			4'b0100: ALUControl = 2'b00; // ADD
+			4'b0010: ALUControl = 2'b01; // SUB
+			4'b0000: ALUControl = 2'b10; // AND
+			4'b1100: ALUControl = 2'b11; // ORR
+			default: ALUControl = 2'bx; // unimplemented
+		endcase
+		FlagW[1] = Funct[0];
+		FlagW[0] = Funct[0] & (ALUControl == 2'b00 | ALUControl == 2'b01);
+	end else begin
+		ALUControl = 2'b00;
+		FlagW = 2'b00;
 	end
+end
 	
  //PCLogic
- assign PCS =((Rd==4'b1111)&RegW)|Branch;
+ assign PCS =((Rd==4'b1111) & RegW) | Branch;
+ 
  endmodule 

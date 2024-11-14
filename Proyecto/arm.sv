@@ -12,29 +12,56 @@ module arm
 	logic [31:0] PC, Instr, ReadData;
 	logic [31:0] ALUResult, WriteData;
 
-	controller controlUnit (
-		clk, rst, 
-		Instr[31:12], 
-		ALUFlags,
-		RegSrc, RegWrite, 
-		ImmSrc, ALUSrc, ALUControl,
-		MemWrite, MemtoReg, PCSrc
+	
+	controller controlUnit(
+	.clk(clk),
+	.rst(rst),
+	.Instr(Instr[31:12]),
+	.ALUFlags(ALUFlags),
+	.RegSrc(RegSrc),
+	.RegWrite(RegWrite),
+	.ImmSrc(ImmSrc),
+	.ALUSrc(ALUSrc),
+	.ALUControl(ALUControl),
+	.MemWrite(MemWrite),
+	.MemtoReg(MemtoReg),
+	.PCSrc(PCSrc)
 	);
 	
-	datapath dpUnit (
-		clk, rst,
-		RegSrc, RegWrite, ImmSrc,
-		ALUSrc, ALUControl,
-		MemtoReg, PCSrc,
-		ALUFlags, PC, Instr,
-		ALUResult, WriteData, ReadData
+	datapath dpUnit(
+	.clk(clk),
+	.rst(rst),
+	.RegSrc(RegSrc),
+	.RegWrite(RegWrite),
+	.ImmSrc(ImmSrc),
+	.ALUSrc(ALUSrc),
+	.ALUControl(ALUControl),
+	.MemtoReg(MemtoReg),
+	.PCSrc(PCSrc),
+	.ALUFlags(ALUFlags),
+	.PC(PC),
+	.Instr(Instr),
+	.ALUResult(ALUResult),
+	.WriteData(WriteData),
+	.ReadData(ReadData)
 	);
 	
-		
-	ROM ROM(PC[7:0],clk,Instr);
-	//dmem dmem(clk,MemWrite,DataAdr,WriteData,ReadData);
-	RAM RAM(ALUResult,address,clk,WriteData,
-	8'b0,MemWrite,1'b0,ReadData,q_b);
+	ROM ROM(
+	.address(PC),
+	.clock(clk),
+	.q(Instr)
+	);
 	
+	RAM RAM(
+	.address_a(ALUResult),
+	.address_b(address),
+	.clock(clk),
+	.data_a(WriteData),
+	.data_b(8'b0),
+	.wren_a(MemWrite),
+	.wren_b(1'b0),
+	.q_a(ReadData),
+	.q_b(q_b)
+	);
 
 endmodule

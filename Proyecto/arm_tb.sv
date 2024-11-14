@@ -6,7 +6,7 @@ module arm_tb();
 	logic [31:0] address;
 	logic [7:0] q_b;
 	
-	arm uft(
+	arm uut(
 		.clk(clk),
 		.rst(rst),
 		.address(address),
