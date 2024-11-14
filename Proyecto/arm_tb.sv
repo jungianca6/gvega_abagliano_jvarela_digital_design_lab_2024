@@ -14,13 +14,13 @@ module arm_tb();
 		);
 	
 	always begin
-		#20 clk = ~clk;
+		#10 clk = ~clk;
 	end
 		
 	initial begin
 		rst = 1;
 		clk = 0;
-		address = 32'd80;
+		address = 32'd96;
 		#32;
 		rst =0;
 		

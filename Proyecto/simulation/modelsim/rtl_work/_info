@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1731561551
+Z2 !s110 1731561973
 !i10b 1
 !s100 ?fRmJc6l3^BMdBGEJXK`h1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1731561551.000000
+Z6 !s108 1731561973.000000
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv|
 !i113 1
@@ -90,15 +90,15 @@ R8
 R9
 varm_tb
 R1
-Z10 !s110 1731561552
+Z10 !s110 1731561974
 !i10b 1
-!s100 JTBR>AH9_f2hbmnghUmGV3
+!s100 lQBLPLR=f@3Kf>Y_z10A23
 R3
-IR1VR8=Gz>^<:4cO9W9gUU1
+IB3eOP1C3H:gH1ca0:gkOV1
 R4
 S1
 R0
-w1731552497
+w1731561916
 8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv
 FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv
 !i122 15
@@ -107,7 +107,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1731561552.000000
+Z11 !s108 1731561974.000000
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv|
 !i113 1
@@ -168,7 +168,7 @@ R8
 R9
 vcontroller
 R1
-R2
+R10
 !i10b 1
 !s100 A<b:oCC6_:@XN@>C;lb<Y0
 R3
@@ -185,7 +185,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv|
 !i113 1
@@ -194,15 +194,15 @@ R8
 R9
 vdatapath
 R1
-R2
+R10
 !i10b 1
-!s100 O5_YE;ZDz8WVlBzhP70ng3
+!s100 EOcnSLWdUeXHFcAkgYSS30
 R3
-Inkho>a;7k^Oz21=9><^az3
+IjTjMaHJLB40gKA;9AdIZ83
 R4
 S1
 R0
-w1731561500
+w1731561754
 8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv
 FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv
 !i122 9
@@ -211,7 +211,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv|
 !i113 1
@@ -350,7 +350,7 @@ R7
 R8
 R9
 vRAM
-Z12 !s110 1731561550
+R2
 !i10b 1
 !s100 S?gKDi4Q::eFicc:HSH1z2
 R3
@@ -366,12 +366,12 @@ R5
 r1
 !s85 0
 31
-Z13 !s108 1731561550.000000
+R6
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v|
 !i113 1
-Z14 o-vlog01compat -work work
-Z15 !s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto
+Z12 o-vlog01compat -work work
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto
 R9
 n@r@a@m
 vregfile
@@ -401,7 +401,7 @@ R7
 R8
 R9
 vROM
-R12
+R2
 !i10b 1
 !s100 T=><E[HSonOg[jT9<e<^O0
 R3
@@ -417,11 +417,11 @@ R5
 r1
 !s85 0
 31
-R13
+R6
 !s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v|
 !i113 1
-R14
-R15
+R12
+R13
 R9
 n@r@o@m
