@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ProcesadorFiltro
-Wed Nov 13 18:47:14 2024
+Wed Nov 13 18:58:15 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -127,7 +127,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Nov 13 18:47:14 2024          ;
+; Analysis & Elaboration Status ; Successful - Wed Nov 13 18:58:15 2024          ;
 ; Quartus Prime Version         ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                 ; ProcesadorFiltro                               ;
 ; Top-level Entity Name         ; CPU                                            ;
@@ -1263,7 +1263,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Nov 13 18:46:50 2024
+    Info: Processing started: Wed Nov 13 18:58:01 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ProcesadorFiltro -c ProcesadorFiltro --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -1319,6 +1319,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file cpu.sv
     Info (12023): Found entity 1: CPU File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/CPU.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpu_tb.sv
+    Info (12023): Found entity 1: CPU_tb File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/CPU_tb.sv Line: 3
 Info (12127): Elaborating entity "CPU" for the top level hierarchy
 Info (12128): Elaborating entity "arm" for hierarchy "arm:arm" File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/CPU.sv Line: 12
 Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:controlUnit" File: C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv Line: 22
@@ -1480,9 +1482,9 @@ Warning (12011): Net is missing source, defaulting to GND
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/output_files/ProcesadorFiltro.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 57 warnings
-    Info: Peak virtual memory: 4831 megabytes
-    Info: Processing ended: Wed Nov 13 18:47:14 2024
-    Info: Elapsed time: 00:00:24
+    Info: Peak virtual memory: 4838 megabytes
+    Info: Processing ended: Wed Nov 13 18:58:15 2024
+    Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:28
 
 
