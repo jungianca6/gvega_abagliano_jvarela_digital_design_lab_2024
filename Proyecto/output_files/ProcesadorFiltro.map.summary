@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Wed Nov 13 18:58:15 2024
+Analysis & Elaboration Status : Successful - Wed Nov 13 20:48:31 2024
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : ProcesadorFiltro
-Top-level Entity Name : CPU
+Top-level Entity Name : arm
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge
