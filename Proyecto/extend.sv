@@ -1,6 +1,8 @@
-module extend(input logic [23:0] Instr,
+module extend(
+	 input logic [23:0] Instr,
 	 input logic [1:0] ImmSrc,
-	 output logic [31:0] ExtImm);
+	 output logic [31:0] ExtImm
+);
 	 
 	 always_comb
 		 case(ImmSrc)

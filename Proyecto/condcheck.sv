@@ -1,6 +1,9 @@
- module condcheck(input logic [3:0] Cond,
+ module condcheck(
+   input logic [3:0] Cond,
 	input logic [3:0] Flags,
-	output logic CondEx);
+	output logic CondEx 
+	
+);
 	
 	logic neg,zero,carry,overflow,ge;
 	

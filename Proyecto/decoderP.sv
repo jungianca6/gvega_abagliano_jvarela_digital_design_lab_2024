@@ -1,10 +1,12 @@
- module decoderP(input logic [1:0] Op,
+ module decoderP(
+   input logic [1:0] Op,
 	input logic [5:0] Funct,
 	input logic [3:0] Rd,
 	output logic [1:0] FlagW,
 	output logic PCS,RegW,MemW,
 	output logic MemtoReg,ALUSrc,
-	output logic [1:0] ImmSrc,RegSrc,ALUControl);
+	output logic [1:0] ImmSrc,RegSrc,ALUControl
+);
 	
  logic [9:0] controls;
  logic Branch,ALUOp;
