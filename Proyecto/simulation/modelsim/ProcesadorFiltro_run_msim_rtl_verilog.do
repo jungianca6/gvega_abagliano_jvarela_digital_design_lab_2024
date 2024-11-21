@@ -45,23 +45,23 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v}
-vlog -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condlogic.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condcheck.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/decoderP.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/extend.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopenr.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopr.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/mux2.sv}
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/regfile.sv}
+vlog -vlog01compat -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ROM.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/RAM.v}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ALU.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/adder.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condlogic.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condcheck.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/decoderP.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/controller.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/datapath.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/extend.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopenr.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopr.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/mux2.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/regfile.sv}
 
-vlog -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto {C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv}
+vlog -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto {C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm_tb.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  arm_tb
 
