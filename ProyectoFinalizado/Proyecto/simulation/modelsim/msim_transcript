@@ -1,0 +1,378 @@
+# Reading pref.tcl
+# do main_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/RAM2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/RAM2.v 
+# -- Compiling module RAM2
+# 
+# Top level modules:
+# 	RAM2
+# End time: 03:54:46 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/ROM2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/ROM2.v 
+# -- Compiling module ROM2
+# 
+# Top level modules:
+# 	ROM2
+# End time: 03:54:46 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/clock_divider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 03:54:46 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/arm_demo.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/arm_demo.sv 
+# -- Compiling module arm_demo
+# 
+# Top level modules:
+# 	arm_demo
+# End time: 03:54:46 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 03:54:46 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:46 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/interpreter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/interpreter.sv 
+# -- Compiling module interpreter
+# 
+# Top level modules:
+# 	interpreter
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/vga_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/vga_driver.sv 
+# -- Compiling module vga_driver
+# 
+# Top level modules:
+# 	vga_driver
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/condlogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/condlogic.sv 
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# 
+# Top level modules:
+# 	condlogic
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/arm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:47 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 03:54:47 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/main.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/main.sv 
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/adderalu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/adderalu.sv 
+# -- Compiling module adderalu
+# 
+# Top level modules:
+# 	adderalu
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/dmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/barrel_shifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/barrel_shifter.sv 
+# -- Compiling module barrel_shifter
+# 
+# Top level modules:
+# 	barrel_shifter
+# End time: 03:54:48 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/mulalu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:48 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/mulalu.sv 
+# -- Compiling module mulalu
+# 
+# Top level modules:
+# 	mulalu
+# End time: 03:54:49 on Nov 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/switchPC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:49 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/switchPC.sv 
+# -- Compiling module switchPC
+# 
+# Top level modules:
+# 	switchPC
+# End time: 03:54:49 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:49 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 03:54:49 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto {C:/Users/julio/OneDrive/Escritorio/Proyecto/arm_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:54:49 on Nov 22,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/OneDrive/Escritorio/Proyecto" C:/Users/julio/OneDrive/Escritorio/Proyecto/arm_tb.sv 
+# -- Compiling module arm_tb
+# 
+# Top level modules:
+# 	arm_tb
+# End time: 03:54:49 on Nov 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  arm_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" arm_tb 
+# Start time: 03:54:49 on Nov 22,2024
+# Loading sv_std.std
+# Loading work.arm_tb
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.adderalu
+# Loading work.barrel_shifter
+# Loading work.mulalu
+# Loading work.dmem
+# Loading work.RAM2
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+# Tiempo: 22000 | PC: 0x00000000 | Instr: 0xe24f0008 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 25000 | PC: 0x00000004 | Instr: 0xe280a00a | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 35000 | PC: 0x00000008 | Instr: 0xe280b002 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 45000 | PC: 0x0000000c | Instr: 0xe280c003 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 55000 | PC: 0x00000010 | Instr: 0xe2802000 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 65000 | PC: 0x00000014 | Instr: 0xe280e010 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 75000 | PC: 0x00000018 | Instr: 0xe1a0e70e | WriteData: 0x00000010 | MemWriteEnable: 0
+# Tiempo: 85000 | PC: 0x0000001c | Instr: 0xe052400e | WriteData: 0x00040000 | MemWriteEnable: 0
+# Tiempo: 95000 | PC: 0x00000020 | Instr: 0x0a000013 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+add wave -position end  sim:/arm_tb/arm/dp/rf/rf
+restart -f
+run 1000ns
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Tiempo: 22000 | PC: 0x00000000 | Instr: 0xe24f0008 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 25000 | PC: 0x00000004 | Instr: 0xe280a00a | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 35000 | PC: 0x00000008 | Instr: 0xe280b002 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 45000 | PC: 0x0000000c | Instr: 0xe280c003 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 55000 | PC: 0x00000010 | Instr: 0xe2802000 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 65000 | PC: 0x00000014 | Instr: 0xe280e010 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 75000 | PC: 0x00000018 | Instr: 0xe1a0e70e | WriteData: 0x00000010 | MemWriteEnable: 0
+# Tiempo: 85000 | PC: 0x0000001c | Instr: 0xe052400e | WriteData: 0x00040000 | MemWriteEnable: 0
+# Tiempo: 95000 | PC: 0x00000020 | Instr: 0x0a000013 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 105000 | PC: 0x00000024 | Instr: 0xe5923000 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 115000 | PC: 0x00000028 | Instr: 0xe5923000 | WriteData: 0x00000000 | MemWriteEnable: 0
+# Tiempo: 125000 | PC: 0x0000002c | Instr: 0xe1a04c03 | WriteData: 0x00ffc2a1 | MemWriteEnable: 0
+# Tiempo: 135000 | PC: 0x00000030 | Instr: 0xe1a04c24 | WriteData: 0xa1000000 | MemWriteEnable: 0
+# Tiempo: 145000 | PC: 0x00000034 | Instr: 0xe004400a | WriteData: 0x0000000a | MemWriteEnable: 0
+# Tiempo: 155000 | PC: 0x00000038 | Instr: 0xe1a05803 | WriteData: 0x00ffc2a1 | MemWriteEnable: 0
+# Tiempo: 165000 | PC: 0x0000003c | Instr: 0xe1a05c25 | WriteData: 0xc2a10000 | MemWriteEnable: 0
+# Tiempo: 175000 | PC: 0x00000040 | Instr: 0xe005500b | WriteData: 0x00000002 | MemWriteEnable: 0
+# Tiempo: 185000 | PC: 0x00000044 | Instr: 0xe1a06403 | WriteData: 0x00ffc2a1 | MemWriteEnable: 0
+# Tiempo: 195000 | PC: 0x00000048 | Instr: 0xe1a06c26 | WriteData: 0xffc2a100 | MemWriteEnable: 0
+# Tiempo: 205000 | PC: 0x0000004c | Instr: 0xe006600c | WriteData: 0x00000003 | MemWriteEnable: 0
+# Tiempo: 215000 | PC: 0x00000050 | Instr: 0xe0847005 | WriteData: 0x00000061 | MemWriteEnable: 0
+# Tiempo: 225000 | PC: 0x00000054 | Instr: 0xe0877006 | WriteData: 0x00000055 | MemWriteEnable: 0
+# Tiempo: 235000 | PC: 0x00000058 | Instr: 0xe1a08407 | WriteData: 0x000000c6 | MemWriteEnable: 0
+# Tiempo: 245000 | PC: 0x0000005c | Instr: 0xe0888007 | WriteData: 0x000000c6 | MemWriteEnable: 0
+# Tiempo: 255000 | PC: 0x00000060 | Instr: 0xe1a08408 | WriteData: 0x0000c6c6 | MemWriteEnable: 0
+# Tiempo: 265000 | PC: 0x00000064 | Instr: 0xe0888007 | WriteData: 0x000000c6 | MemWriteEnable: 0
+# Tiempo: 275000 | PC: 0x00000068 | Instr: 0xe5828000 | WriteData: 0x00c6c6c6 | MemWriteEnable: 1
+# Tiempo: 285000 | PC: 0x0000006c | Instr: 0xe2822004 | WriteData: 0x00000010 | MemWriteEnable: 0
+# Tiempo: 295000 | PC: 0x00000070 | Instr: 0xeaffffe9 | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 305000 | PC: 0x0000001c | Instr: 0xxxxxxxxx | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 315000 | PC: 0x000000X0 | Instr: 0xxxxxxxxx | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# Tiempo: 325000 | PC: 0xxxxxxxxx | Instr: 0xxxxxxxxx | WriteData: 0xxxxxxxxx | MemWriteEnable: 0
+# End time: 04:00:01 on Nov 22,2024, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 0

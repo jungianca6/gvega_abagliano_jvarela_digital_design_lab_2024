@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_25Mhz'
+Slack : -16.403
+TNS   : -179034.777
+
+Type  : Slow 1100mV 85C Model Setup 'clk_50Mhz_in'
+Slack : -5.215
+TNS   : -134.162
+
+Type  : Slow 1100mV 85C Model Setup 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -3.158
+TNS   : -166.882
+
+Type  : Slow 1100mV 85C Model Setup 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -1.634
+TNS   : -13.122
+
+Type  : Slow 1100mV 85C Model Hold 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_25Mhz'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_50Mhz_in'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.754
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_25Mhz'
+Slack : -2.174
+TNS   : -96682.392
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_50Mhz_in'
+Slack : -0.570
+TNS   : -25.760
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -0.394
+TNS   : -34.003
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -0.394
+TNS   : -4.759
+
+Type  : Slow 1100mV 0C Model Setup 'clk_25Mhz'
+Slack : -16.133
+TNS   : -175109.638
+
+Type  : Slow 1100mV 0C Model Setup 'clk_50Mhz_in'
+Slack : -5.338
+TNS   : -132.197
+
+Type  : Slow 1100mV 0C Model Setup 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -3.102
+TNS   : -162.525
+
+Type  : Slow 1100mV 0C Model Setup 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -1.662
+TNS   : -13.473
+
+Type  : Slow 1100mV 0C Model Hold 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_50Mhz_in'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_25Mhz'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.707
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_25Mhz'
+Slack : -2.174
+TNS   : -96968.730
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_50Mhz_in'
+Slack : -0.583
+TNS   : -27.758
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -0.394
+TNS   : -33.778
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -0.394
+TNS   : -4.713
+
+Type  : Fast 1100mV 85C Model Setup 'clk_25Mhz'
+Slack : -9.425
+TNS   : -105275.572
+
+Type  : Fast 1100mV 85C Model Setup 'clk_50Mhz_in'
+Slack : -3.352
+TNS   : -61.973
+
+Type  : Fast 1100mV 85C Model Setup 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -1.510
+TNS   : -79.325
+
+Type  : Fast 1100mV 85C Model Setup 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -0.682
+TNS   : -4.749
+
+Type  : Fast 1100mV 85C Model Hold 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_25Mhz'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_50Mhz_in'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_25Mhz'
+Slack : -2.174
+TNS   : -95985.168
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_50Mhz_in'
+Slack : -0.593
+TNS   : -5.554
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.002
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_25Mhz'
+Slack : -8.557
+TNS   : -94439.175
+
+Type  : Fast 1100mV 0C Model Setup 'clk_50Mhz_in'
+Slack : -2.805
+TNS   : -53.686
+
+Type  : Fast 1100mV 0C Model Setup 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : -1.320
+TNS   : -69.281
+
+Type  : Fast 1100mV 0C Model Setup 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : -0.623
+TNS   : -4.291
+
+Type  : Fast 1100mV 0C Model Hold 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_25Mhz'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_50Mhz_in'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_25Mhz'
+Slack : -2.174
+TNS   : -95854.924
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_50Mhz_in'
+Slack : -0.592
+TNS   : -5.473
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'vga_driver:draw|counter:horizontal_counter|q[0]'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'arm_demo:demo_inst|clock_divider:slow_clk_gen|clk_out'
+Slack : 0.120
+TNS   : 0.000
+
+------------------------------------------------------------

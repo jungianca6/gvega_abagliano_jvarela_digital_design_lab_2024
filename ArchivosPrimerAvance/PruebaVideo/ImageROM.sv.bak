@@ -1,0 +1,17 @@
+module ImageROM (
+    input logic [15:0] address,       // Dirección de memoria solicitada
+    output logic [23:0] data_out      // Salida de datos RGB
+);
+
+    // Memoria RGB de 200x200
+    logic [23:0] image_data[0:39999]; // Memoria 200x200, 24 bits por pixel (8 - R, G, B)
+
+    // Cargar datos de la imagen desde el archivo .mem
+    initial begin
+        $readmemh("image_data.mem", image_data);
+    end
+
+    // Salida de datos RGB basada en la dirección
+    assign data_out = image_data[address];
+
+endmodule
