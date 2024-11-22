@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Nov 13 19:35:46 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ProcesadorConFiltros
+Top-level Entity Name : main
+Family : Cyclone V
+Device : 5CGXFC7C7F23C8
+Timing Models : Final
+Logic utilization (in ALMs) : 1,136 / 56,480 ( 2 % )
+Total registers : 764
+Total pins : 32 / 268 ( 12 % )
+Total virtual pins : 0
+Total block memory bits : 2,764,288 / 7,024,640 ( 39 % )
+Total RAM Blocks : 352 / 686 ( 51 % )
+Total DSP Blocks : 0 / 156 ( 0 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 0 / 13 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

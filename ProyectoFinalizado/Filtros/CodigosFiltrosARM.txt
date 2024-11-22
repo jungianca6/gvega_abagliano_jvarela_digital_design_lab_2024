@@ -1,0 +1,415 @@
+ESCALA DE GRISES
+
+SUB        R0, R15, #8                 ; Poner el PC en 0 
+ADD        R10, R0, #10			; El valor para el canal Azul
+ADD 	   R11, R0, #2                 ; El valor para el canal verde
+ADD 	   R12, R0, #3                 ; El valor para el canal Rojo
+ADD        R2, R0, #0			; R2 : index (empieza en 0) 
+ADD        R14, R0, #0x10	; Limite de la imagen o tamaño de la imagen en bytes
+LSL     R14, R14, #14 		; Limite de la imagen o tamaño de la imagen en bytes
+SUBS    R4, R2, R14		; Compara que R2 sea menor a R14 para seguir iterando
+BEQ        #116		    ;   Salto a la linea 16 empezando desde 0  
+LDR        R3, [R2] 		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LDR        R3, [R2]		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LSL        R4, R3, #24		; Aislar el canal azul  
+LSR        R4, R3, #24		; Aislar el canal azul
+AND	   R4, R4, R10 			; Dividir para el canal azul
+LSL        R5, R3, #16		; Aislar el canal verde
+LSR        R5, R3, #24		; Aislar el canal verde
+AND	   R5, R5, R11 			; Dividir para el canal verde
+LSL        R6, R3, #8		; Aislar el canal Rojo
+LSR        R6, R3, #24		; Aislar el canal Rojo
+AND	   R6, R6, R12 			; Dividir para el canal Rojo
+ADD  	   R7, R4, R5 		; Sumar el canal azul y verde
+ADD  	   R7, R7, R6 		;Sumar el canal azul-verde + rojo 
+LSL        R8, R7, #8   	;Copiar el valor de los primeros 8 bits a los segundos 8 bits
+ADD 	   R8, R8, R7 		;Concatenar los 8 bits de R7 
+LSL        R8, R8, #8   	;Se repite para agregar el tercer canal
+ADD 	   R8, R8, R7 		;Se repite para agregar el tercer canal
+STR        R8, [R2]  		;Se copia el nuevo valor a la memoria 
+ADD        R2, R2, #4
+B        #28
+
+
+
+
+CODIGO CON ESCALA DE GRISES Y SEPIA 
+
+SUB        R0, R15, #8                 ; Poner el registro 0 en 0 
+ADD        R14, R0, #0x10	    ;   Limite de la imagen
+LSL        R14, R14, #14 		; Limite de la imagen o tamaño de la imagen en bytes
+ADD        R13, R14, #4         ; 
+LDR        R13, [R13]           ; Lee el valor del switch para determinar el filtro que se va a aplicar
+LDR        R13, [R13]           ; Lee el valor del switch para determinar el filtro que se va a aplicar
+ADD        R9, R0, #1           ; para comparar con el registro 9
+SUBS       R9, R13, R9          ;compara si la resta da 0 para levantar flag de Zero 
+BEQ        #403                 ;salta a filtro sepia si el filtro el valor del switch es 1 sino escala de grises
+ADD        R10, R0, #10			; El valor para el canal Azul
+ADD 	   R11, R0, #2                 ; El valor para el canal verde
+ADD 	   R12, R0, #3                 ; El valor para el canal Rojo
+ADD        R2, R0, #0			; R2 : index (empieza en 0) 
+ADD        R14, R0, #0x10	; Limite de la imagen o tamaño de la imagen en bytes
+LSL     R14, R14, #14 		; Limite de la imagen o tamaño de la imagen en bytes
+SUBS    R4, R2, R14		; Compara que R2 sea menor a R14 para seguir iterando
+BEQ        #116		    ;   Salto a la linea 16 empezando desde 0  
+LDR        R3, [R2] 		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LDR        R3, [R2]		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LSL        R4, R3, #24		; Aislar el canal azul  
+LSR        R4, R3, #24		; Aislar el canal azul
+AND	   R4, R4, R10 			; Dividir para el canal azul
+LSL        R5, R3, #16		; Aislar el canal verde
+LSR        R5, R3, #24		; Aislar el canal verde
+AND	   R5, R5, R11 			; Dividir para el canal verde
+LSL        R6, R3, #8		; Aislar el canal Rojo
+LSR        R6, R3, #24		; Aislar el canal Rojo
+AND	       R6, R6, R12 			; Dividir para el canal Rojo
+ADD  	   R7, R4, R5 		; Sumar el canal azul y verde
+ADD  	   R7, R7, R6 		;Sumar el canal azul-verde + rojo 
+LSL        R8, R7, #8   	;Copiar el valor de los primeros 8 bits a los segundos 8 bits
+ADD 	   R8, R8, R7 		;Concatenar los 8 bits de R7 
+LSL        R8, R8, #8   	;Se repite para agregar el tercer canal
+ADD 	   R8, R8, R7 		;Se repite para agregar el tercer canal
+STR        R8, [R2]  		;Se copia el nuevo valor a la memoria 
+ADD        R2, R2, #4
+B        #28
+ADD        R2, R0, #0			; R2 : index (empieza en 0) 
+ADD        R14, R0, #0x10	; Limite de la imagen o tamaño de la imagen en bytes
+LSL     R14, R14, #14 		; Limite de la imagen o tamaño de la imagen en bytes
+SUBS    R4, R2, R14		; Compara que R2 sea menor a R14 para seguir iterando
+BEQ        #116		    ;   Salto a la linea 16 empezando desde 0  
+ADD        R10, R0, #50			; El valor para el canal Azul
+ADD 	   R11, R0, #198                 ; El valor para el canal verde
+ADD 	   R12, R0, #101                 ; El valor para el canal Rojo
+LDR        R3, [R2] 		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LDR        R3, [R2]		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LSL        R4, R3, #24		; Aislar el canal azul  
+LSR        R4, R3, #24		; Aislar el canal azul
+OR	       R4, R4, R10 			; Multiplicar para el canal azul por 50
+LSL        R5, R3, #16		; Aislar el canal verde
+LSR        R5, R3, #24		; Aislar el canal verde
+OR	       R5, R5, R11 	; Multiplicar para el canal verde por 198
+LSL        R6, R3, #8		; Aislar el canal Rojo
+LSR        R6, R3, #24		; Aislar el canal Rojo
+OR	       R6, R6, R12 		; Multiplicar para el canal Rojo por 101
+ADD  	   R7, R4, R5 		; Sumar el canal azul y verde
+ADD        R7, R7, R6       ; Agregar el canal rojo  
+LSR        R7, R7, #8       ; Hacer un shift a la izquierda de 8 bits equivalente a Dividir por 256 
+ADD        R9, R0, #256     ;Valor para hacer la comparación   
+SUBS       R9, R9, R7       ;Compara para levantar flags 
+BEQ        #304             ;
+ADD        R7, R0, #255     ;Clamp para delimitar a 255 
+LSL        R8, R7, #16   	;Se guarda el canal rojo de 23 a 16
+ADD        R10, R0, #43			; El valor para el canal Azul
+ADD 	   R11, R0, #176                 ; El valor para el canal verde
+ADD 	   R12, R0, #89                 ; El valor para el canal Rojo
+LDR        R3, [R2] 		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LDR        R3, [R2]		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LSL        R4, R3, #24		; Aislar el canal azul  
+LSR        R4, R3, #24		; Aislar el canal azul
+OR	       R4, R4, R10 			; Multiplicar para el canal azul por 50
+LSL        R5, R3, #16		; Aislar el canal verde
+LSR        R5, R3, #24		; Aislar el canal verde
+OR	       R5, R5, R11 	; Multiplicar para el canal verde por 198
+LSL        R6, R3, #8		; Aislar el canal Rojo
+LSR        R6, R3, #24		; Aislar el canal Rojo
+OR	       R6, R6, R12 		; Multiplicar para el canal Rojo por 101
+ADD  	   R7, R4, R5 		; Sumar el canal azul y verde
+ADD        R7, R7, R6       ; Agregar el canal rojo  
+LSR        R7, R7, #8       ; Hacer un shift a la izquierda de 8 bits equivalente a Dividir por 256 
+ADD        R9, R0, #256     ;Valor para hacer la comparación   
+SUBS       R9, R9, R7       ;Compara para levantar flags 
+BEQ        #304             ;
+ADD        R7, R0, #255     ;Clamp para delimitar a 255 
+LSL        R7, R7, #8   	;Se corre el canal verde de 15 a 8 
+ADD        R8, R8, R7       ;Se guarda el verde del 15 al 8 
+ADD        R10, R0, #33			; El valor para el canal Azul
+ADD 	   R11, R0, #137        ; El valor para el canal verde
+ADD 	   R12, R0, #69         ; El valor para el canal Rojo
+LDR        R3, [R2] 		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LDR        R3, [R2]		; Se carga a R3 el valor de la dirección de R2 en memoria 
+LSL        R4, R3, #24		; Aislar el canal azul  
+LSR        R4, R3, #24		; Aislar el canal azul
+OR	       R4, R4, R10 			; Multiplicar para el canal azul por 50
+LSL        R5, R3, #16		; Aislar el canal verde
+LSR        R5, R3, #24		; Aislar el canal verde
+OR	       R5, R5, R11 	; Multiplicar para el canal verde por 198
+LSL        R6, R3, #8		; Aislar el canal Rojo
+LSR        R6, R3, #24		; Aislar el canal Rojo
+OR	       R6, R6, R12 		; Multiplicar para el canal Rojo por 101
+ADD  	   R7, R4, R5 		; Sumar el canal azul y verde
+ADD        R7, R7, R6       ; Agregar el canal rojo  
+LSR        R7, R7, #8       ; Hacer un shift a la izquierda de 8 bits equivalente a Dividir por 256 
+ADD        R9, R0, #256     ;Valor para hacer la comparación   
+SUBS       R9, R9, R7       ;Compara para levantar flags 
+BEQ        #304             ;
+ADD        R7, R0, #255     ;Clamp para delimitar a 255 
+ADD        R8, R8, R7       ;Se guarda el azul del 7 al 0 
+STR        R8, [R2]  		;Se copia el nuevo valor a la memoria 
+ADD        R2, R2, #4
+B        #28
+
+
+FILTROs COMPLETOS CON SALTOS ACTUALIZADOS 
+
+
+SUB        R0, R15, #8      
+ADD        R14, R0, #0x10
+LSL        R14, R14, #14
+ADD        R13, R14, #4
+LDR        R13, [R13]
+LDR        R13, [R13]
+ADD        R9, R0, #1
+SUBS       R9, R13, R9
+BEQ        #403                     ; SWITCH 
+ADD        R10, R0, #10
+ADD        R11, R0, #2
+ADD        R12, R0, #3
+ADD        R2, R0, #0
+ADD        R14, R0, #0x10
+LSL        R14, R14, #14
+SUBS       R4, R2, R14
+BEQ        #448                     ;FOR GRISES
+LDR        R3, [R2]
+LDR        R3, [R2]
+LSL        R4, R3, #24
+LSR        R4, R3, #24
+AND        R4, R4, R10
+LSL        R5, R3, #16
+LSR        R5, R3, #24
+AND        R5, R5, R11
+LSL        R6, R3, #8
+LSR        R6, R3, #24
+AND        R6, R6, R12
+ADD        R7, R4, R5
+ADD        R7, R7, R6
+LSL        R8, R7, #8
+ADD        R8, R8, R7
+LSL        R8, R8, #8
+ADD        R8, R8, R7
+STR        R8, [R2]
+ADD        R2, R2, #4
+B          #60                  ;END FOR GRISES 
+ADD        R2, R0, #0
+ADD        R14, R0, #0x10
+LSL        R14, R14, #14
+SUBS       R4, R2, R14
+BEQ        #448                 ;FOR SEPIA 
+ADD        R10, R0, #50
+ADD        R11, R0, #198
+ADD        R12, R0, #101
+LDR        R3, [R2]
+LDR        R3, [R2]
+LSL        R4, R3, #24
+LSR        R4, R3, #24
+OR         R4, R4, R10
+LSL        R5, R3, #16
+LSR        R5, R3, #24
+OR         R5, R5, R11
+LSL        R6, R3, #8
+LSR        R6, R3, #24
+OR         R6, R6, R12
+ADD        R7, R4, R5
+ADD        R7, R7, R6
+LSR        R7, R7, #8
+ADD        R9, R0, #256
+SUBS       R9, R9, R7
+BEQ        #252                 ;CLAMP ROJO 
+ADD        R7, R0, #255
+LSL        R8, R7, #16
+ADD        R10, R0, #43
+ADD        R11, R0, #176
+ADD        R12, R0, #89
+LDR        R3, [R2]
+LDR        R3, [R2]
+LSL        R4, R3, #24
+LSR        R4, R3, #24
+OR         R4, R4, R10
+LSL        R5, R3, #16
+LSR        R5, R3, #24
+OR         R5, R5, R11
+LSL        R6, R3, #8
+LSR        R6, R3, #24
+OR         R6, R6, R12
+ADD        R7, R4, R5
+ADD        R7, R7, R6
+LSR        R7, R7, #8
+ADD        R9, R0, #256
+SUBS       R9, R9, R7
+BEQ        #340                 ;CLAMP VERDE 
+ADD        R7, R0, #255
+LSL        R7, R7, #8
+ADD        R8, R8, R7
+ADD        R10, R0, #33
+ADD        R11, R0, #137
+ADD        R12, R0, #69
+LDR        R3, [R2]
+LDR        R3, [R2]
+LSL        R4, R3, #24
+LSR        R4, R3, #24
+OR         R4, R4, R10
+LSL        R5, R3, #16
+LSR        R5, R3, #24
+OR         R5, R5, R11
+LSL        R6, R3, #8
+LSR        R6, R3, #24
+OR         R6, R6, R12
+ADD        R7, R4, R5
+ADD        R7, R7, R6
+LSR        R7, R7, #8
+ADD        R9, R0, #256
+SUBS       R9, R9, R7
+BEQ        #432                 ;CLAMP AZUL
+ADD        R7, R0, #255
+ADD        R8, R8, R7
+STR        R8, [R2]
+ADD        R2, R2, #4
+B          #160          ;vuelve la for del sepia
+
+
+
+FILTRO GRISES
+
+E24F0008
+E280A00A
+E280B002
+E280C003
+E2802000
+E280E010
+E1A0E70E
+E052400E
+0A000013
+E5923000
+E5923000
+E1A04C03
+E1A04C24
+E004400A
+E1A05803
+E1A05C25
+E005500B
+E1A06403
+E1A06C26
+E006600C
+E0847005
+E0877006
+E1A08407
+E0888007
+E1A08408
+E0888007
+E5828000
+E2822004
+EAFFFFE9
+
+FILTRO SEPIA DAÑADO XD
+
+E24F0008
+E280E010
+E1A0E70E
+E28ED004
+E59DD000
+E59DD000
+E2809001
+E05D9009
+0A00005A
+E280A00A
+E280B002
+E280C003
+E2802000
+E280E010
+E1A0E70E
+E052400E
+0A00005E
+E5923000
+E5923000
+E1A04C03
+E1A04C23
+E004400A
+E1A05803
+E1A05C23
+E005500B
+E1A06403
+E1A06C23
+E006600C
+E0847005
+E0877006
+E1A08407
+E0888007
+E1A08408
+E0888007
+E5828000
+E2822004
+EAFFFFE9
+E2802000
+E280E010
+E1A0E70E
+E052400E
+0A000045
+E280A032
+E280B0C6
+E280C065
+E5923000
+E5923000
+E1A04C03
+E1A04C23
+E184400A
+E1A05803
+E1A05C23
+E185500B
+E1A06403
+E1A06C23
+E186600C
+E0847005
+E0877006
+E1A07427
+E2809C01
+E0599007
+0A000000
+E28070FF
+E1A08807
+E280A02B
+E280B0B0
+E280C059
+E5923000
+E5923000
+E1A04C03
+E1A04C23
+E184400A
+E1A05803
+E1A05C23
+E185500B
+E1A06403
+E1A06C23
+E186600C
+E0847005
+E0877006
+E1A07427
+E2809C01
+E0599007
+0A000000
+E28070FF
+E1A07407
+E0888007
+E280A021
+E280B089
+E280C045
+E5923000
+E5923000
+E1A04C03
+E1A04C23
+E184400A
+E1A05803
+E1A05C23
+E185500B
+E1A06403
+E1A06C23
+E186600C
+E0847005
+E0877006
+E1A07427
+E2809C01
+E0599007
+0A000000
+E28070FF
+E0888007
+E5828000
+E2822004
+EAFFFFB7
