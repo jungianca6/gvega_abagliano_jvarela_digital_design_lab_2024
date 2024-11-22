@@ -54,12 +54,12 @@ module datapath(
 	 //ALUlogic
 	 mux2 #(32) srcbmux(WriteData, ExtImm, ALUSrc, SrcB);
 	 
-ALU alu(
-	.SrcA(SrcA),
-	.SrcB(SrcB),
+ALU #(32) alu(
+	.a(SrcA),
+	.b(SrcB),
 	.ALUControl(ALUControl),
-	.Result(ALUResult),
-	.flags(ALUFlags)
+	.ALUResult(ALUResult),
+	.ALUFlags(ALUFlags)
 	);
 	
 endmodule 

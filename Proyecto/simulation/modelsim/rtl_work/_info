@@ -8,55 +8,55 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/simulation/modelsim
+Z0 dC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1732172260
+Z2 !s110 1732248944
 !i10b 1
 !s100 ?fRmJc6l3^BMdBGEJXK`h1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IH@9UATQQdi[]TB]eUB06T3
+IQA3ZBNJ1dOZBaIUQUH@H^0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1730449697
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/adder.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/adder.sv
-!i122 3
+w1730327744
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv
+!i122 8
 L0 1 8
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1732172260.000000
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/adder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/adder.sv|
+Z6 !s108 1732248944.000000
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/adder.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto
+Z8 !s92 -sv -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto
 Z9 tCvgOpt 0
 vALU
 R1
 R2
 !i10b 1
-!s100 mZARhg3a8NB9^S8KWZ0eS3
+!s100 l^]ma4nYzR_XoXz8DSkE`2
 R3
-IK]Rg[Nm6ikNI=E^UNN_8B0
+IOeJGXlRU98<?85M0]UlkX2
 R4
 S1
 R0
-Z10 w1731669952
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ALU.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ALU.sv
-!i122 2
-L0 1 45
+w1732248822
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv
+!i122 7
+L0 1 87
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ALU.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ALU.sv|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ALU.sv|
 !i113 1
 R7
 R8
@@ -68,48 +68,48 @@ R2
 !i10b 1
 !s100 6ma_e6eida:MzNgJY2J2F3
 R3
-I_6RXCT9iG191Mad=oL5Ez3
+I3`mkkh:o`E95TKkzKc:Tc3
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm.sv
-!i122 4
+w1731561080
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv
+!i122 9
 L0 1 67
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm.sv|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm.sv|
 !i113 1
 R7
 R8
 R9
 varm_tb
 R1
-Z11 !s110 1732172262
+Z10 !s110 1732248945
 !i10b 1
 !s100 lQBLPLR=f@3Kf>Y_z10A23
 R3
-I_GZJ2zmVP9eL5I=]N:d[61
+IB3eOP1C3H:gH1ca0:gkOV1
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm_tb.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm_tb.sv
-!i122 15
+w1731561916
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv
+!i122 20
 L0 3 29
 R5
 r1
 !s85 0
 31
-Z12 !s108 1732172262.000000
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/arm_tb.sv|
+Z11 !s108 1732248945.000000
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/arm_tb.sv|
 !i113 1
 R7
 R8
@@ -120,22 +120,22 @@ R2
 !i10b 1
 !s100 PZml_LUI;DJIZER4mBe6z2
 R3
-IR=PBn>_f4=BbBLM5cdhGk0
+IG_cF;mJ5cFmS_b0ggkh6G3
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condcheck.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condcheck.sv
-!i122 6
+w1731558360
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condcheck.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condcheck.sv
+!i122 11
 L0 1 33
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condcheck.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condcheck.sv|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condcheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condcheck.sv|
 !i113 1
 R7
 R8
@@ -146,100 +146,100 @@ R2
 !i10b 1
 !s100 Qm_doWl1_7lDz<=<_fCA[2
 R3
-Ic]]X92RYnSC41bJal>g5e1
+I8=<j?zTE7DNK0;A6_`fLT1
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condlogic.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condlogic.sv
-!i122 5
+w1731560071
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condlogic.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condlogic.sv
+!i122 10
 L0 1 43
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condlogic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/condlogic.sv|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condlogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/condlogic.sv|
 !i113 1
 R7
 R8
 R9
 vcontroller
 R1
-Z13 !s110 1732172261
+R2
 !i10b 1
 !s100 A<b:oCC6_:@XN@>C;lb<Y0
 R3
-IE@E1fWGkT1_LLJj6hzlm<2
+IFMnHKI=_K7El:`FC3k;8@2
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/controller.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/controller.sv
-!i122 8
+w1731560036
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv
+!i122 13
 L0 1 47
 R5
 r1
 !s85 0
 31
-Z14 !s108 1732172261.000000
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/controller.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/controller.sv|
+R6
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/controller.sv|
 !i113 1
 R7
 R8
 R9
 vdatapath
 R1
-R13
+R2
 !i10b 1
-!s100 O5_YE;ZDz8WVlBzhP70ng3
+!s100 V;?>7X@XP3a]LN5@mSi6L1
 R3
-IC>U6Z_S3=CiV_7G[`PgP[0
+I5gaMa`@fVQ`3VnL31[QGG3
 R4
 S1
 R0
-w1732172171
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/datapath.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/datapath.sv
-!i122 9
+w1732248823
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv
+!i122 14
 L0 1 65
 R5
 r1
 !s85 0
 31
-R14
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/datapath.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/datapath.sv|
+R6
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/datapath.sv|
 !i113 1
 R7
 R8
 R9
 vdecoderP
 R1
-R13
+R2
 !i10b 1
 !s100 2]SNA5=07GzG^eTZ63:]c1
 R3
-IITL247gKzfQ[NIIB^LZ;51
+IMC`^?d3LRP1Rle1XN6[LU0
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/decoderP.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/decoderP.sv
-!i122 7
+w1731558095
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/decoderP.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/decoderP.sv
+!i122 12
 L0 1 56
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/decoderP.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/decoderP.sv|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/decoderP.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/decoderP.sv|
 !i113 1
 R7
 R8
@@ -247,170 +247,300 @@ R9
 ndecoder@p
 vextend
 R1
-R13
+R2
 !i10b 1
 !s100 i6V0HoJ0hnK1nbHme[H]l2
 R3
-IKkdOf^Ga?bQW6l3fo`Y283
+I@CWgY7G?zEWmbHBB?3Bc;2
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/extend.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/extend.sv
-!i122 10
+w1731558434
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/extend.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/extend.sv
+!i122 15
 L0 1 18
 R5
 r1
 !s85 0
 31
-R14
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/extend.sv|
+R6
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/extend.sv|
 !i113 1
 R7
 R8
 R9
 vflopenr
 R1
-R13
+R10
 !i10b 1
 !s100 m<0SJYbhE1d^GMA?U;3631
 R3
-IV8?7U[LWekkFjFhL0PAQX1
+IMWjQL2lAA_b2cEd=MN4GB3
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopenr.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopenr.sv
-!i122 11
+w1731557410
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopenr.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopenr.sv
+!i122 16
 L0 1 14
 R5
 r1
 !s85 0
 31
-R14
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopenr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopenr.sv|
+R11
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopenr.sv|
 !i113 1
 R7
 R8
 R9
 vflopr
 R1
-R13
+R10
 !i10b 1
 !s100 YWWj9bigV7Vm_e`>5Smcz3
 R3
-IEd18bn2]1<<SbPLgXaYGR0
+I8f];HiBdJHV_8D[eYPfkB2
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopr.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopr.sv
-!i122 12
+w1731558557
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopr.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopr.sv
+!i122 17
 L0 1 13
 R5
 r1
 !s85 0
 31
+R11
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/flopr.sv|
+!i113 1
+R7
+R8
+R9
+vfull_adder_1b
+R1
+Z12 !s110 1732248943
+!i10b 1
+!s100 ]RJMg62]Wm61P<enI@`eX3
+R3
+I7a8VZ1=Cn^4B707bcPYT`1
+R4
+S1
+R0
+Z13 w1726898229
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_1b.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_1b.sv
+!i122 6
+Z14 L0 1 17
+R5
+r1
+!s85 0
+31
+Z15 !s108 1732248943.000000
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_1b.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_1b.sv|
+!i113 1
+R7
+R8
+R9
+vfull_adder_nb
+R1
+R12
+!i10b 1
+!s100 [QOYQd[XXX9:=?Z4kWz0^0
+R3
+IQESTg^WKEA6_izWY[Z7QF3
+R4
+S1
+R0
+R13
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_nb.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_nb.sv
+!i122 5
+Z16 L0 1 36
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_adder_nb.sv|
+!i113 1
+R7
+R8
+R9
+vfull_subtractor_1b
+R1
+R12
+!i10b 1
+!s100 8E:YI5k9=Z>Ml7k806K2b1
+R3
+I><bMM85Oa`Q21OV>KN=5U3
+R4
+S1
+R0
+R13
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_1b.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_1b.sv
+!i122 4
 R14
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopr.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/flopr.sv|
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_1b.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_1b.sv|
+!i113 1
+R7
+R8
+R9
+vfull_subtractor_nb
+R1
+R12
+!i10b 1
+!s100 g`jMjP0W60G1liE<<@o;I0
+R3
+IoI4dkP;F8b23aWAM;z`241
+R4
+S1
+R0
+R13
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_nb.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_nb.sv
+!i122 3
+R16
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/full_subtractor_nb.sv|
+!i113 1
+R7
+R8
+R9
+vmultiplier_nb
+R1
+R12
+!i10b 1
+!s100 TmikRVN76;Kki?ah5WcL`1
+R3
+IV_Q`Q<QN57dSJ`Wkj9Af92
+R4
+S1
+R0
+R13
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/multiplier_nb.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/multiplier_nb.sv
+!i122 2
+L0 28 44
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/multiplier_nb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/multiplier_nb.sv|
 !i113 1
 R7
 R8
 R9
 vmux2
 R1
-R11
+R10
 !i10b 1
 !s100 55gTclD`]heRRm7zYfRf@1
 R3
-I<h?k5XEPC9UobGTQ>IDbF0
+I1?aCJYac`UR5kIbYLF;6W2
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/mux2.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/mux2.sv
-!i122 13
+w1731558501
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/mux2.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/mux2.sv
+!i122 18
 L0 1 9
 R5
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/mux2.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/mux2.sv|
+R11
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/mux2.sv|
 !i113 1
 R7
 R8
 R9
 vRAM
-R2
+R12
 !i10b 1
 !s100 S?gKDi4Q::eFicc:HSH1z2
 R3
-IAgdU4Yjo@SXXOIK:jPYdN1
+I[1zT;YaIi`@J>8b7FEP]_1
 R4
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/RAM.v
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/RAM.v
+w1731553867
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v
 !i122 1
 L0 40 90
 R5
 r1
 !s85 0
 31
-Z15 !s108 1732172259.000000
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/RAM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/RAM.v|
+R15
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/RAM.v|
 !i113 1
-Z16 o-vlog01compat -work work
-Z17 !s92 -vlog01compat -work work +incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto
+Z17 o-vlog01compat -work work
+Z18 !s92 -vlog01compat -work work +incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto
 R9
 n@r@a@m
 vregfile
 R1
-R11
+R10
 !i10b 1
 !s100 ;MhAkiR`34b11f0n5ob0H2
 R3
-IhX43c2JO9macVoiJXO?Q91
+IgCT2i4R;m<g[UbO2]5gJe1
 R4
 S1
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/regfile.sv
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/regfile.sv
-!i122 14
+w1731558719
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/regfile.sv
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/regfile.sv
+!i122 19
 L0 1 21
 R5
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/regfile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/regfile.sv|
+R11
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/regfile.sv|
 !i113 1
 R7
 R8
 R9
 vROM
-!s110 1732172259
+R12
 !i10b 1
 !s100 T=><E[HSonOg[jT9<e<^O0
 R3
-IA=VJ8cgh@h4FZKi?n7cP11
+Icd_`12_C9AjX:DC[JfEAL3
 R4
 R0
-R10
-8C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ROM.v
-FC:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ROM.v
+w1731554207
+8C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v
+FC:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v
 !i122 0
 L0 40 61
 R5
@@ -418,10 +548,10 @@ r1
 !s85 0
 31
 R15
-!s107 C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ROM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto|C:/Users/Dell/Desktop/gvega_digital_design_lab_2024/Proyecto/ROM.v|
+!s107 C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto|C:/Users/PC/Desktop/gvega_abagliano_jvarela_digital_design_lab_2024/Proyecto/ROM.v|
 !i113 1
-R16
 R17
+R18
 R9
 n@r@o@m
