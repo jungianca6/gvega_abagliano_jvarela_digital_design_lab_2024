@@ -1,0 +1,43 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/RAM2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/ROM2.v}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/clock_divider.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/arm_demo.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/counter.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/comparator.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/interpreter.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/vga_driver.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/condlogic.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/decoder.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/controller.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/arm.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/regfile.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/mux2.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/flopr.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/flopenr.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/extend.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/datapath.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/adder.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/main.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/adderalu.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/alu.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/dmem.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/barrel_shifter.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/mulalu.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/switchPC.sv}
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/imem.sv}
+
+vlog -sv -work work +incdir+C:/Users/julio/OneDrive/Escritorio/PruebaProyecto {C:/Users/julio/OneDrive/Escritorio/PruebaProyecto/main_tb.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  main_tb
+
+add wave *
+view structure
+view signals
+run 25 ms

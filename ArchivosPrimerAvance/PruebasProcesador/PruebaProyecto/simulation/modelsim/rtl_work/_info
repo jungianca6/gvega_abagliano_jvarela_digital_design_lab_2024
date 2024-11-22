@@ -1,0 +1,737 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1732174152
+!i10b 1
+!s100 NM:l`m9PfRg[F]Agjdn6H1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im1IN^4gKJY_ViERXd9HZX3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1686801886
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adder.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adder.sv
+!i122 18
+Z6 L0 1 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1732174152.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adder.sv|
+!i113 1
+Z9 o-sv -work work
+Z10 !s92 -sv -work work +incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto
+Z11 tCvgOpt 0
+vadderalu
+R1
+R2
+!i10b 1
+!s100 D0F;LQ<XiA911FOG1Z37[3
+R3
+IzIY4Lo6fGG6C9oF2h:H=53
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adderalu.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adderalu.sv
+!i122 20
+Z12 L0 1 7
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adderalu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/adderalu.sv|
+!i113 1
+R9
+R10
+R11
+valu
+R1
+Z13 !s110 1732174153
+!i10b 1
+!s100 =GhC5E:CP;KB:`YloO5n91
+R3
+Iz`NL[lN<XICi_f;jM`DNo1
+R4
+S1
+R0
+w1732143401
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/alu.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/alu.sv
+!i122 21
+L0 1 78
+R7
+r1
+!s85 0
+31
+Z14 !s108 1732174153.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/alu.sv|
+!i113 1
+R9
+R10
+R11
+varm
+R1
+R2
+!i10b 1
+!s100 i21TTn3^j>M7Q^;1Pgg<M1
+R3
+IH=z^`lK00Q0KFM?DWSY[L0
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm.sv
+!i122 11
+L0 1 25
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm.sv|
+!i113 1
+R9
+R10
+R11
+varm_demo
+R1
+Z15 !s110 1732174151
+!i10b 1
+!s100 D0S_]QbMa?V[6iK[JP3Xk3
+R3
+IbSLE:S1=dcEJZH[om0@9j3
+R4
+S1
+R0
+w1732161792
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_demo.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_demo.sv
+!i122 3
+L0 1 38
+R7
+r1
+!s85 0
+31
+Z16 !s108 1732174151.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_demo.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_demo.sv|
+!i113 1
+R9
+R10
+R11
+varm_tb
+R1
+R13
+!i10b 1
+!s100 42QE7kWnzS37U^dRb0Ezf0
+R3
+I94TQS6TMBS@Ez;ecd^HMc2
+R4
+S1
+R0
+w1732174126
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_tb.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_tb.sv
+!i122 26
+L0 3 81
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/arm_tb.sv|
+!i113 1
+R9
+R10
+R11
+vbarrel_shifter
+R1
+R13
+!i10b 1
+!s100 OIO:do=D;G><M6?77n1;52
+R3
+IS`beNEU`=cjYlM5<0G[:11
+R4
+S1
+R0
+w1732160246
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/barrel_shifter.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/barrel_shifter.sv
+!i122 23
+L0 1 36
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/barrel_shifter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/barrel_shifter.sv|
+!i113 1
+R9
+R10
+R11
+vclock_divider
+R1
+R15
+!i10b 1
+!s100 CM0RU]==10LUiSd54<PHB0
+R3
+IBm55TQLcU6ADbcP]iz4<50
+R4
+S1
+R0
+w1732161723
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/clock_divider.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/clock_divider.sv
+!i122 2
+L0 1 22
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/clock_divider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/clock_divider.sv|
+!i113 1
+R9
+R10
+R11
+vcomparator
+R1
+R15
+!i10b 1
+!s100 21Xo`Nbe[9GZ@Oz7Zl;dh3
+R3
+I6K>Ji7YKfhk4ji^Ec1a720
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/comparator.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/comparator.sv
+!i122 5
+R6
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/comparator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/comparator.sv|
+!i113 1
+R9
+R10
+R11
+vcondcheck
+R1
+R15
+!i10b 1
+!s100 jE3@Me0Bi]OEoH_84OFAl1
+R3
+I11XW7Q7N1B<c=S8P_cf^X1
+R4
+S1
+R0
+Z17 w1732132060
+Z18 8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/condlogic.sv
+Z19 FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/condlogic.sv
+!i122 8
+L0 26 29
+R7
+r1
+!s85 0
+31
+R16
+Z20 !s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/condlogic.sv|
+Z21 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/condlogic.sv|
+!i113 1
+R9
+R10
+R11
+vcondlogic
+R1
+R15
+!i10b 1
+!s100 5Rhdd2KYlMz:ANiig[<]S3
+R3
+I8V@_5UgT4NaO:N`QUOgX33
+R4
+S1
+R0
+R17
+R18
+R19
+!i122 8
+Z22 L0 1 24
+R7
+r1
+!s85 0
+31
+R16
+R20
+R21
+!i113 1
+R9
+R10
+R11
+vcontroller
+R1
+R2
+!i10b 1
+!s100 _ZQ0R0ZBdYg^82W>UlK>81
+R3
+I1gVM5WBjXOekLYhdNl9PG1
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/controller.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/controller.sv
+!i122 10
+L0 1 23
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/controller.sv|
+!i113 1
+R9
+R10
+R11
+vcounter
+R1
+R15
+!i10b 1
+!s100 A_TQD]L8cXg9h3^;U5A8@1
+R3
+I;:PR>`>:g_9e5h60WDno`3
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/counter.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/counter.sv
+!i122 4
+Z23 L0 1 11
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/counter.sv|
+!i113 1
+R9
+R10
+R11
+vdatapath
+R1
+R2
+!i10b 1
+!s100 ]^b?eg0C@9LFUW:NBQJIg3
+R3
+Ik0HF]9f?oXDW1:eLgm84V0
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/datapath.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/datapath.sv
+!i122 17
+L0 1 39
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/datapath.sv|
+!i113 1
+R9
+R10
+R11
+vdecoder
+R1
+R15
+!i10b 1
+!s100 cT]1fW7Wfi3JnAW`M?V=_3
+R3
+I0h8MNOF=k;b_l3bG5IH>?3
+R4
+S1
+R0
+w1732143606
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/decoder.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/decoder.sv
+!i122 9
+L0 1 60
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/decoder.sv|
+!i113 1
+R9
+R10
+R11
+vdmem
+R1
+R13
+!i10b 1
+!s100 54U6Qd8RS^a?f:E9@O:nG0
+R3
+I8Se96zh?`H@@CKRcDSdEV1
+R4
+S1
+R0
+w1732167629
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/dmem.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/dmem.sv
+!i122 22
+R22
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/dmem.sv|
+!i113 1
+R9
+R10
+R11
+vextend
+R1
+R2
+!i10b 1
+!s100 T_T^ZdaV5P;Z@Q3IZeXmL2
+R3
+IZ^QfiM4<c6ZG8TbR>eJL21
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/extend.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/extend.sv
+!i122 16
+L0 1 15
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/extend.sv|
+!i113 1
+R9
+R10
+R11
+vflopenr
+R1
+R2
+!i10b 1
+!s100 W[z6j9P008hO05^WOHG6b0
+R3
+IS5EaNRS3Yn7KUb:LG3P=S3
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopenr.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopenr.sv
+!i122 15
+Z24 L0 1 9
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopenr.sv|
+!i113 1
+R9
+R10
+R11
+vflopr
+R1
+R2
+!i10b 1
+!s100 P<7EC]j<>J0<GQGmMc0a_1
+R3
+I6ALBWf]g6RoYYjBD07@Tj3
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopr.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopr.sv
+!i122 14
+R24
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/flopr.sv|
+!i113 1
+R9
+R10
+R11
+vimem
+R1
+R13
+!i10b 1
+!s100 @cmcHSbT6Zjbd6[Oj>Chi1
+R3
+In@zSbD;5E1bT:BL?1cI;>0
+R4
+S1
+R0
+w1731547856
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/imem.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/imem.sv
+!i122 25
+R23
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/imem.sv|
+!i113 1
+R9
+R10
+R11
+vinterpreter
+R1
+R15
+!i10b 1
+!s100 WURE]KR>2z8L^4nJE;C@b3
+R3
+ImPiS9kXk<8nS;VW9Ofm5a3
+R4
+S1
+R0
+w1732132626
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/interpreter.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/interpreter.sv
+!i122 6
+L0 1 51
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/interpreter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/interpreter.sv|
+!i113 1
+R9
+R10
+R11
+vmain
+R1
+R2
+!i10b 1
+!s100 joB:@5c=7_O>5I;i=^>zI1
+R3
+IK>8Vfi1a:HLJJLB`Ll7T<3
+R4
+S1
+R0
+w1732162117
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/main.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/main.sv
+!i122 19
+L0 1 95
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/main.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/main.sv|
+!i113 1
+R9
+R10
+R11
+vmulalu
+R1
+R13
+!i10b 1
+!s100 PDH6dOBW=SA`iGeGeg_:d3
+R3
+I^UmobG<R98<6LFUWMg;g_3
+R4
+S1
+R0
+w1732135260
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mulalu.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mulalu.sv
+!i122 24
+R6
+R7
+r1
+!s85 0
+31
+R14
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mulalu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mulalu.sv|
+!i113 1
+R9
+R10
+R11
+vmux2
+R1
+R2
+!i10b 1
+!s100 kS]e@bmAKOQnSD<D8jmX?0
+R3
+I668A5XSI[HONiEcRGcG:n0
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mux2.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mux2.sv
+!i122 13
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/mux2.sv|
+!i113 1
+R9
+R10
+R11
+vRAM2
+Z25 !s110 1732174150
+!i10b 1
+!s100 ob1Y3<5G^FTLH_M3mMYPH1
+R3
+IoCVbA:RIN3]`9Ul>OHbS93
+R4
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/RAM2.v
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/RAM2.v
+!i122 0
+L0 40 90
+R7
+r1
+!s85 0
+31
+Z26 !s108 1732174150.000000
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/RAM2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/RAM2.v|
+!i113 1
+Z27 o-vlog01compat -work work
+Z28 !s92 -vlog01compat -work work +incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto
+R11
+n@r@a@m2
+vregfile
+R1
+R2
+!i10b 1
+!s100 BDnbXQTKE=LI?5d0kBKaB3
+R3
+IAjn99kiJk::@ZVz1e4S1D1
+R4
+S1
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/regfile.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/regfile.sv
+!i122 12
+L0 1 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/regfile.sv|
+!i113 1
+R9
+R10
+R11
+vROM2
+R25
+!i10b 1
+!s100 =c0d9lGZC[GPiLeblAGdO3
+R3
+I<?_]>dM>QW5Q`6SlT5?kl1
+R4
+R0
+R5
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/ROM2.v
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/ROM2.v
+!i122 1
+L0 40 83
+R7
+r1
+!s85 0
+31
+R26
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/ROM2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/ROM2.v|
+!i113 1
+R27
+R28
+R11
+n@r@o@m2
+vvga_driver
+R1
+R15
+!i10b 1
+!s100 F6KB1JKU0OokPoLTQ2fAN3
+R3
+If9XNFzZj1H0g;3a9B]?7h3
+R4
+S1
+R0
+w1732141812
+8D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/vga_driver.sv
+FD:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/vga_driver.sv
+!i122 7
+L0 1 91
+R7
+r1
+!s85 0
+31
+R16
+!s107 D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/vga_driver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto|D:/TEC/2Semestre2024/TallerDD/Proyecto/ProyectoPrueba/sfallas_digital_design_lab_2023-main/PruebaProyecto/vga_driver.sv|
+!i113 1
+R9
+R10
+R11
